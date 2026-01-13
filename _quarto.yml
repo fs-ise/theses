@@ -1,0 +1,77 @@
+project:
+  type: website
+
+website:
+  title: "FS-ISE: Theses"
+  site-url: https://fs-ise.github.io/theses/
+
+  navbar:
+    search: true
+    right:
+      # Optional: keep ONE entry point besides search/github
+      - text: Home
+        href: index.qmd
+      - icon: github
+        href: https://github.com/fs-ise/theses
+        aria-label: GitHub repository
+
+  sidebar:
+    search: true
+    contents:
+      - section: "Getting started"
+        contents:
+          - text: Open topics
+            href: docs/topics.qmd
+          - text: Admission mail
+            href: docs/admission_mail.qmd
+          - text: Exposé
+            href: docs/expose.qmd
+
+      - section: "Writing"
+        contents:
+          - text: Overview
+            href: docs/writing_section.qmd
+          - text: Preparation phase
+            href: docs/writing/preparation_phase.qmd
+          - text: Structure and contents
+            href: docs/writing/structure_and_contents.qmd
+          - text: Research
+            href: docs/writing/research.qmd
+          - text: Writing phase
+            href: docs/writing/writing_phase.qmd
+          - text: Feedback
+            href: docs/writing/feedback.qmd
+          - text: Polishing
+            href: docs/writing/polishing.qmd
+          - text: Criteria
+            href: docs/criteria.qmd
+
+      - section: "Outcomes"
+        contents:
+          - text: Completed theses
+            href: docs/completed.qmd
+          - text: Hall of Fame
+            href: docs/hall_of_fame.qmd
+          - text: Student Feedback
+            href: docs/feedback.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    css: assets/styles.css
+
+filters:
+  - custom-callout
+
+custom-callout:
+  resource:
+    title: "Resource"
+    icon: true
+    icon-symbol: "🔗"
+    color: "#0d6efd"
+  objective:
+    title: "Objective"
+    icon: true
+    icon-symbol: "🎯"
+    color: "#0d6efd"

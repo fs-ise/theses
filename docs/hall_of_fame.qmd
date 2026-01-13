@@ -1,11 +1,6 @@
 ---
-layout: default
-title: Hall of Fame
-has_toc: true
-nav_order: 9
+title: "Hall of Fame"
 ---
-
-# Hall-of-fame
 
 On this page, we celebrate the accomplishments of our students 🎉 🍾 🎈
 
@@ -28,6 +23,6 @@ On this page, we celebrate the accomplishments of our students 🎉 🍾 🎈
 
 ## 💽 Artifacts
 
-- [search-query](https://github.com/CoLRev-Environment/search-query){: target="_blank"} : Katharina Ernst, Peter Eckhardt, Thomas Fleischmann, Anna Geßler, Karl Schnickmann
-- [deep-cenic](https://github.com/julianprester/deep-cenic){: target="_blank"} : Julian Prester
-- [enlit](https://github.com/geritwagner/enlit){: target="_blank"} : Philip Empl
+- [search-query](https://github.com/CoLRev-Environment/search-query){target=_blank} : Katharina Ernst, Peter Eckhardt, Thomas Fleischmann, Anna Geßler, Karl Schnickmann
+- [deep-cenic](https://github.com/julianprester/deep-cenic){target=_blank} : Julian Prester
+- [enlit](https://github.com/geritwagner/enlit){target=_blank} : Philip Empl

@@ -33,7 +33,7 @@ def append_target_blank_to_links(file_path):
                 return link + existing_attrs
         else:
             # If no {...} block exists, add one with target="_blank"
-            return link + '{: target="_blank"}'
+            return link + '{target=_blank}'
 
     # Apply the function to all matches found in the file content
     updated_content = markdown_link_pattern.sub(add_target_blank, content)

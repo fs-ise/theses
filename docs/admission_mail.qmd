@@ -1,13 +1,10 @@
 ---
-layout: default
-nav_exclude: true
+title: "Admission e-mail"
 ---
   
-# Admission e-mail
-
 To: [wiai.pruefungen@uni-bamberg.de](mailto:wiai.pruefungen@uni-bamberg.de)
 
-```
+```Markdown
 Subject: Bachelorarbeit Anmeldung
 
 Sehr geehrte Damen und Herren,

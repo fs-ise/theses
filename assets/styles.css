@@ -1,0 +1,56 @@
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+p {
+  text-align: justify;
+}
+
+.callout-tip {
+  border-left: 4px solid #007acc;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.callout-confidential .callout-icon,
+.callout-self-service .callout-icon,
+.callout-objective .callout-icon,
+.callout-resource .callout-icon {
+  font-style: normal !important;
+}
+
+.center-table {
+  margin: 1.5rem auto;
+}
+
+.logo-grid {
+  border-collapse: separate;
+  border-spacing: 0.5rem;
+  border: 1px solid #ddd;
+}
+
+.logo-grid td {
+  border: 1px solid #ddd;
+  padding: 1rem 0.5rem;
+  min-width: 260px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.btn-green {
+  background: #2ea44f;
+  border-color: #2ea44f;
+  color: #fff !important;
+}
+.btn-green:hover {
+  filter: brightness(0.95);
+  color: #fff !important;
+}
+
+.btn-center {
+  display: block;
+  width: fit-content;
+  margin: 1.5rem auto;
+}

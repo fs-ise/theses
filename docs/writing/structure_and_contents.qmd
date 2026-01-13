@@ -1,0 +1,155 @@
+---
+layout: default
+title: Structure and contents
+has_toc: true
+parent: Writing guide
+nav_order: 1
+---
+
+# Structure and contents
+
+::: objective
+- Abstract
+- Introduction
+- Background
+- Methodology
+- Results
+- Discussion
+- Conclusion
+- Declarations
+- Appendices
+:::
+
+The default structure outlined below may need to be adapted to the thesis at hand.
+Each section has its own scope, as illustrated in the figure below.
+In the introduction, you can contextualize your work with respect to the broader topic.
+The methods and findings focus more narrowly on the evidence and results of your work.
+Afterwards, the discussion should explain how your findings relate to prior research.
+
+![Anatomy of a research paper](https://raw.githubusercontent.com/digital-work-lab/handbook/main/assets/images/anatomy_research_paper_wang.png){target=_blank}
+
+Note: While creating your thesis, keep the [evaluation criteria](../criteria.html) in mind to ensure your thesis meets the required academic standards.
+
+**Abstract**
+
+The abstract serves as a point of entry for the reader, providing an initial overview of the research study, including the motivation for the study, the methodological approach employed, and a summary of the main results.
+In addition, the purpose of the research study should be clearly defined.
+Typically, an abstract consists of around 300 words.
+
+**Introduction**
+
+The introduction should outline the purpose of the study as well as the research question that is sought to be answered.
+By briefly outlining the context of the study in terms of content and time, the reader acquires a quick overview.
+A key aspect of the introduction is the presentation of the motivation for conducting the study.
+This gives the reader a basic understanding of the topic and underpins the relevance and importance of the study.
+The relevance and purpose can further be highlighted by using an appropriate quotation.
+
+The building blocks of Lange and Pfarrer (2017) may be helpful:
+
+- **Common ground**: Establishing common ground involves presenting the current state of the literature and ensuring that the reader agrees with the basic assumptions, boundary conditions, and key concepts.
+  This step is crucial for gaining the reader’s interest and tacit consent, making them more receptive to the forthcoming arguments and discussions.
+- **Complication**: After establishing common ground, introduce a complication that challenges the current understanding or highlights a gap in the literature.
+  This complication could be a problem, puzzle, or twist that makes the reader realize the inadequacy or incompleteness of the existing academic conversation.
+- **Concern**: To make the complication compelling, explain why it matters. This involves demonstrating the significance of the gap or issue identified.
+  The concern step is about showing the practical and theoretical implications of the complication, emphasizing why it is essential to address this gap in the literature.
+- **Course of action**: Describe the approach or methodology that will be used to address the identified complication.
+  This could involve developing new constructs, modeling relationships, exploring processes, or synthesizing existing theories.
+  The course of action should be clearly explained, logically structured, and directly aimed at resolving the complication.
+- **Contribution**: Finally, articulate how the research will contribute to the academic conversation.
+  This entails explaining the novelty and significance of the findings and how they advance understanding in the field.
+  The contribution should also suggest future theoretical exploration and practical implications for management and organizations.
+
+The final paragraph of the introduction gives an outline of the structure of the study, that is, the approaches taken in each step of conducting the research study are briefly described.
+This gives the reader a clear picture of the composition of the study, i.e., what can and cannot be expected of the study.
+
+**Background**
+
+This section (which could also be named Literature Review or Conceptual Framework) sets the theoretical and conceptual context of the study and grounds the leading assumptions in theories.
+This is done by outlining and citing pertinent work. Here, the author can present the acquired background knowledge that is relevant for the following sections of the study.
+This background knowledge also helps in building the conceptual framework of the study.
+
+The literature review should focus on concepts rather than authors and historical development (cf. Webster and Watson, 2002).
+It is also possible to use a conceptual framework to structure the literature synthesis.
+Provide precise definitions of those concepts that are central to your work, emphasize concepts rather than authors, and do not include your own judgment in the background section.
+Use established definitions and concepts and provide a justification when adapting them.
+
+A graphical representation of the framework helps to illustrate complex theoretical constructs as well as the boundaries of the research study.
+The explicit statement of the conceptual framework not only informs the reader, but it also guides the author in conducting the research.
+
+Relevant background literature can be found in journals such as those listed in
+
+- the [AIS Senior Scholars' Basket of Journals](https://aisnet.org/general/custom.asp?page=SeniorScholarBasket){target=_blank}
+- the [VHB Jourqual Ranking](https://www.vhbonline.org/verband/wissenschaftliche-kommissionen/wirtschaftsinformatik/vhb-rating-2024-wirtschaftsinformatik){target=_blank}
+- or conferences such as [ICIS](http://aisel.aisnet.org/icis/){target=_blank} and [ECIS](https://aisel.aisnet.org/ecis){target=_blank}.
+
+Papers can be accessed through the [Bamberger Katalog](https://katalog.ub.uni-bamberg.de/vufind/){target=_blank}, a search on [ResearchGate](https://www.researchgate.net){target=_blank}, a search on Google Scholar, or by contacting the authors.
+For using the Bamberger Katalog, ResearchGate, and some of the Google Scholar papers, you need to be connected to the University of Bamberg VPN.
+
+Guidelines on searching the literature are provided by Webster and Watson (2002).
+
+**Methodology**
+
+The methodology section describes a systematic and goal-oriented approach to answer the research question.
+Hence, the selection of the research method needs to be consistent with the research questions.
+The approach may be, for example, empirical, analytical, comparative, systematic, historical, or hermeneutic.
+The methodological approach needs to be described in detail;
+appropriate reporting standards for the research method should be considered (such as PRISMA for literature reviews);
+it should be possible to understand the methodological procedures based on the thesis.
+For example, it is necessary to provide the formulas of regression models.
+
+**Results**
+
+In this section, the author presents the results of the study. If they are presented by means of figures and/or tables, the results should be clearly legible.
+Furthermore, in the case of figures, it is recommended to use vector graphics as this ensures good readability without the need to pre-specify the font size within the figures.
+An example figure and table can be found in the template contained in this repository.
+
+**Discussion**
+
+In this section, the author provides a discussion of the results and is thus able to draw an informed conclusion.
+More precisely, the discussion is an evaluative summary of the research study in relation to the research question.
+In general, the discussion can be divided into three parts. First, the results should be tied to the research question, thus presenting the reader with a solution or improvement to the identified problem space.
+Here, for example, the author can draw on empirical findings introduced in the Results section to support their argument.
+Next, the author should outline the limitations of the research study by critically examining the research approach used.
+Limitations might comprise, for example, a limited time frame considered in the research study, or the individual refinement of a specific research method due to time constraints.
+Finally, suggestions for future research avenues should be provided.
+These suggestions may align with the limitations, as this allows other researchers to build on the present work by extending or analyzing it.
+In summary, the Discussion section presents the results in relation to the research question as well as restrictions of the study and suggestions for future research in the respective domain.
+
+**Conclusion**
+
+The conclusion contains a summary of the research study.
+In contrast to the Discussion section, in which the main results are presented, here the key contributions of the work are showcased.
+A well-crafted conclusion answers the research question stated in the Introduction. By doing so, the author clarifies to what extent the research study has presented a solution or improvement to the examined problem space.
+
+**Acknowledgments and declarations**
+
+In the acknowledgment section, you may refer to the [guideline for the use of digital tools](../digital_tools.html) for further information.
+Additionally, students are advised to consult the [ethics](https://www.uni-bamberg.de/gremien/senat-kommissionen/kommissionen/ethikrat/){target=_blank} page for relevant guidance (although formal ethics approvals cannot be issued for a thesis).
+
+**Appendices**
+
+The appendices provide supplementary material that supports the content of the thesis but is not essential to the core argument.
+These materials should be referenced in the main text where appropriate.
+
+Appendices can be used to provide:
+
+- Extended tables or figures
+- Detailed methodological procedures
+- Questionnaires or interview guides
+- Supplementary analysis or additional results
+
+In addition, a digital appendix can include elements that support **reproducible research objectives**.
+These may be provided as part of the thesis (Git/GitHub) repository, including:
+
+- **Data** collected or reused for the study
+- **Code** (e.g., data processing and/or analysis scripts)
+- **README file** that explains the structure, usage, and dependencies of the repository
+
+The digital appendix (repository) can also include the written thesis. It is not necessary to create a separate data repository.
+
+**Declaration**
+
+::: callout-note
+Do not forget that the last page of your thesis has to be the statutory declaration ("Eidestattliche Erklärung") of the examination office.
+This declaration is printed on your topic confirmation.
+:::

@@ -1,1 +1,50 @@
-output
+# Quarto build output
+/_site/
+*/_site/
+/*_files/
+/*_cache/
+/_freeze/
+
+
+# Quarto user-specific stuff
+/.quarto/
+
+# R-related
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rproj.user*/
+
+# Python / virtualenv
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node / tooling
+node_modules/
+dist/
+.cache/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+**/*.quarto_ipynb
+.ipython

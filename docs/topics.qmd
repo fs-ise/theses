@@ -1,27 +1,22 @@
 ---
-layout: default
 title: "Open topics"
-has_toc: true
-nav_order: 2
+listing:
+  - id: listing-topics
+    contents: "topics/*.qmd"
+    type: table
+    sort: "title"
+    filter-ui: true
+    sort-ui: false
+    fields: [title, categories, advisor]
+    page-size: 20
 ---
-
-<style>
-  p {
-    text-align: justify;
-  }
-</style>
-
-# Open topics
-{: .no_toc }
 
 The following topics are currently open for Bachelor's and Master's theses.
 
-## Overview
-{: .no_toc .text-delta }
+::: {#listing-topics}
+:::
 
-- TOC
-{:toc}
-
+<!--
 ## Error prevalence in academic search queries: An analysis using an automated validation tool
 
 {: .d-inline-block }
@@ -32,7 +27,7 @@ The following topics are currently open for Bachelor's and Master's theses.
 
 **Thesis Advisor**: Prof. Dr. Gerit Wagner
 
-**Summary**: Literature search queries used to access scientific databases often contain syntactic errors and inconsistencies. Since such errors can adversely affect the effectiveness of reviews, their detection and prevention are critical steps in query formulation, use and reporting. Due to the length and complexity of queries, manual validation is often impractical, which has prompted the development of automated solutions. Building on these advances, this thesis performs a comprehensive evaluation of academic search queries using the query validation tool, [search-query](https://github.com/CoLRev-Environment/search-query){: target="_blank"}. The analysis aims to identify common pitfalls and inconsistencies, addressing both syntactic errors (e.g., unbalanced parentheses) and opportunities for refinement (e.g., removal of redundant components). A dataset of queries taken from [searchRxiv](https://www.cabidigitallibrary.org/journal/searchrxiv){: target="_blank"} will be compiled for the analysis. The dataset will include queries for the popular search platforms Web of Science, PubMed, and EBSCOHost. The evaluation will also serve to assess the functionality of the *search-query* tool and reveal potential areas for improvement in its design.
+**Summary**: Literature search queries used to access scientific databases often contain syntactic errors and inconsistencies. Since such errors can adversely affect the effectiveness of reviews, their detection and prevention are critical steps in query formulation, use and reporting. Due to the length and complexity of queries, manual validation is often impractical, which has prompted the development of automated solutions. Building on these advances, this thesis performs a comprehensive evaluation of academic search queries using the query validation tool, [search-query](https://github.com/CoLRev-Environment/search-query){target=_blank}. The analysis aims to identify common pitfalls and inconsistencies, addressing both syntactic errors (e.g., unbalanced parentheses) and opportunities for refinement (e.g., removal of redundant components). A dataset of queries taken from [searchRxiv](https://www.cabidigitallibrary.org/journal/searchrxiv){target=_blank} will be compiled for the analysis. The dataset will include queries for the popular search platforms Web of Science, PubMed, and EBSCOHost. The evaluation will also serve to assess the functionality of the *search-query* tool and reveal potential areas for improvement in its design.
 
 **Methods**: The thesis combines design science and quantitative approaches, proceeding in three phases: 1) Creating of a test dataset of queries based on searchRxiv. 2) Analyzing the queries using the *search-query* package. 3) Preparing and evaluating the test data and suggesting improvements to the tool's design.
 
@@ -49,7 +44,6 @@ The following topics are currently open for Bachelor's and Master's theses.
   <p>Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007). A design science research methodology for information systems research. <em>Journal of Management Information Systems</em>, 24(3), 45–77.</p>
 </div>
 
-<!--
 
 <div class="page-break"></div>
 
@@ -97,14 +91,14 @@ The following topics are currently open for Bachelor's and Master's theses.
 
 **Thesis Advisor**: Prof. Dr. Gerit Wagner
 
-**Summary**: Public handbooks maintained on platforms like GitHub increasingly blend open-source principles with internal coordination structures of commercial organizations. These hybrid ecosystems—such as those listed in the [digital-work-lab/handbooks](https://github.com/digital-work-lab/handbooks){: target="_blank"} repository—offer a unique opportunity to study how open documentation, platform governance, and work coordination intersect in digital environments. This thesis will conduct a data-driven exploration of these ecosystems by parsing and analyzing handbook repositories. 
+**Summary**: Public handbooks maintained on platforms like GitHub increasingly blend open-source principles with internal coordination structures of commercial organizations. These hybrid ecosystems—such as those listed in the [digital-work-lab/handbooks](https://github.com/digital-work-lab/handbooks){target=_blank} repository—offer a unique opportunity to study how open documentation, platform governance, and work coordination intersect in digital environments. This thesis will conduct a data-driven exploration of these ecosystems by parsing and analyzing handbook repositories. 
 
 **Methods**:
 
 This thesis follows a **design science research (DSR)** approach to develop and evaluate a workflow for analyzing hybrid public handbook ecosystems. The focus will be on:
 
 - Designing and developing a **generic Python package** for parsing, classifying, and analyzing handbook repositories.
-- Demonstrating the tool on the [digital-work-lab/handbooks](https://github.com/digital-work-lab/handbooks){: target="_blank"} dataset.
+- Demonstrating the tool on the [digital-work-lab/handbooks](https://github.com/digital-work-lab/handbooks){target=_blank} dataset.
 - Evaluating accuracy, utility, and usability through expert feedback.
 
 **Expected Outcomes**:
@@ -310,7 +304,7 @@ The thesis will generate insights into:
 
 
 {: .call_for_theses }
-Topis that are part of the **#SEARCH-QUERY** call-for-theses are marked with a label. They should be completed between August 2024 and December 2024. Students participating in this call are invited to review each of the others work after two months, and to contribute their work to the [search-query](https://github.com/CoLRev-Environment/search-query){: target="_blank"} project. The project will be submitted to a journal, such as the [Journal of Open Source Software](https://joss.theoj.org/about){: target="_blank"}, giving students the opportunity to become a co-author on a peer-reviewed paper.
+Topis that are part of the **#SEARCH-QUERY** call-for-theses are marked with a label. They should be completed between August 2024 and December 2024. Students participating in this call are invited to review each of the others work after two months, and to contribute their work to the [search-query](https://github.com/CoLRev-Environment/search-query){target=_blank} project. The project will be submitted to a journal, such as the [Journal of Open Source Software](https://joss.theoj.org/about){target=_blank}, giving students the opportunity to become a co-author on a peer-reviewed paper.
 
 <div class="page-break"></div>
 
@@ -323,13 +317,13 @@ Topis that are part of the **#SEARCH-QUERY** call-for-theses are marked with a l
 
 **Thesis Advisor**: Prof. Dr. Gerit Wagner
 
-**Summary**: This thesis aims to advance the use of Boolean queries (queries involving operators like AND, OR, NOT) in API searches in two areas. First, for a suitable API (e.g., PubMed), a parser will be implemented for URLs representing Boolean queries. This will extend existing functionality of the [search-query](https://github.com/CoLRev-Environment/search-query){: target="_blank"} package and allow users to efficiently run Boolean queries when the API supports it. Second, for APIs that do not support Boolean queries (such as Crossref or DBLP), a novel technique, called *Boolean Emulation for Academic Literature Searches* (BEALS), will be implemented and tested. For this technique, which involves the retrieval of super-sets followed by local execution of Boolean queries, a concept and working prototype are available.
+**Summary**: This thesis aims to advance the use of Boolean queries (queries involving operators like AND, OR, NOT) in API searches in two areas. First, for a suitable API (e.g., PubMed), a parser will be implemented for URLs representing Boolean queries. This will extend existing functionality of the [search-query](https://github.com/CoLRev-Environment/search-query){target=_blank} package and allow users to efficiently run Boolean queries when the API supports it. Second, for APIs that do not support Boolean queries (such as Crossref or DBLP), a novel technique, called *Boolean Emulation for Academic Literature Searches* (BEALS), will be implemented and tested. For this technique, which involves the retrieval of super-sets followed by local execution of Boolean queries, a concept and working prototype are available.
 
 **Methods**: The thesis will adopt a design science approach and proceed in two phases: 1) Parsing query URLs for APIs that already support nested Boolean queries. 2) Developing and implementing the BEALS technique for APIs lacking Boolean operator support, followed by user tests.
 
 **Expected outcomes**: The thesis will provide an extension of the search-query package, demonstrating improved search capabilities for both types of APIs. It will include the design of the BEALS technique, showcasing its ability to emulate Boolean functionalities for simple APIs. These contributions will enhance efficiency of literature searches, ultimately allowing researchers to rely on automated execution instead of manual retrieval from database interfaces.
 
-**Requirements**: Candidates should have completed the [open-source project](https://digital-work-lab.github.io/open-source-project/){: target="_blank"} or have prior experience with Git and Python.
+**Requirements**: Candidates should have completed the [open-source project](https://digital-work-lab.github.io/open-source-project/){target=_blank} or have prior experience with Git and Python.
 
 **References**
 
@@ -351,7 +345,7 @@ Topis that are part of the **#SEARCH-QUERY** call-for-theses are marked with a l
 **Thesis Advisor**: Prof. Dr. Gerit Wagner
 
 **Summary**: This thesis focuses on literature search queries, and aims to evaluate, analyse, and improve them.
-As a first step, a comprehensive dataset from [searchRxiv](https://www.cabidigitallibrary.org/journal/searchrxiv){: target="_blank"} will be used to parse and evaluate queries for selected databases (such as Web of Science, Pubmed, or IEEE).
+As a first step, a comprehensive dataset from [searchRxiv](https://www.cabidigitallibrary.org/journal/searchrxiv){target=_blank} will be used to parse and evaluate queries for selected databases (such as Web of Science, Pubmed, or IEEE).
 This step relies on existing query parsers, may involve refinements of the parser, and ultimately classify each query as valid or erroneous.
 As the second step, a linter will be extended to identify different types of problems and offer instructive messages to users.
 This work will proceed from syntactical errors (e.g., unbalanced parentheses) to simplification techniques (e.g., use of of wildcards).
@@ -361,7 +355,7 @@ We will assist students with the development of a code skeleton (if needed).
 
 **Expected outcomes**: The thesis will verify the functionality of parsers within the search-query package, and develop linters for analyzing and simplifying queries. Based on an analysis of data from searchRxiv, it will further show whether published queries have errors or whether they could be simplified.
 
-**Requirements**: Candidates should have completed the [open-source project](https://digital-work-lab.github.io/open-source-project/){: target="_blank"} or have prior experience with Git and Python.
+**Requirements**: Candidates should have completed the [open-source project](https://digital-work-lab.github.io/open-source-project/){target=_blank} or have prior experience with Git and Python.
 
 **References**
 
@@ -383,7 +377,7 @@ We will assist students with the development of a code skeleton (if needed).
 **Thesis Advisor**: Prof. Dr. Gerit Wagner
 
 **Summary**: This thesis focuses on search query tools, and aims to evaluate how they handle complex queries, and whether there are any limitations.
-Similar to the previous topic, in the first step, a comprehensive dataset from [searchRxiv](https://www.cabidigitallibrary.org/journal/searchrxiv){: target="_blank"} will be used to parse and evaluate queries for selected databases (such as Web of Science, Pubmed, or IEEE).
+Similar to the previous topic, in the first step, a comprehensive dataset from [searchRxiv](https://www.cabidigitallibrary.org/journal/searchrxiv){target=_blank} will be used to parse and evaluate queries for selected databases (such as Web of Science, Pubmed, or IEEE).
 This step relies on existing query parsers, may involve refinements of the parser, and ultimately classify each query as valid or erroneous.
 In the second step, existing search query tools, such as *Polyglot Search* or *Litsonar*, will be evaluated based on this dataset of queries.
 The goal is to scrutinize their ability to parse free-text queries, and the formats available for translation. For each tool, it will be analysed whether complex queries with a valid syntax are parsed correctly and without errors, and whether erroneous queries are rejected.
@@ -393,7 +387,7 @@ Finally, the research will also involve reporting any identified errors to the d
 
 **Expected outcomes**: The thesis will provide a detailed evaluation of the capabilities and limitations of existing search query tools. It will highlight the strengths and weaknesses of each tool, provide insights into the most common issues encountered, and assess the responsiveness of developers in addressing reported errors. This work will contribute to the improvement of search query tools and offer practical recommendations for developers and users.
 
-**Requirements**: Candidates should have completed the [open-source project](https://digital-work-lab.github.io/open-source-project/){: target="_blank"} or have prior experience with Git and Python.
+**Requirements**: Candidates should have completed the [open-source project](https://digital-work-lab.github.io/open-source-project/){target=_blank} or have prior experience with Git and Python.
 
 **References**
 
@@ -423,11 +417,11 @@ Arksey, H., & O'Malley, L. (2005). Scoping studies: towards a methodological fra
 
 Hou, X., Zhao, Y., Liu, Y., Yang, Z., Wang, K., Li, L., ... & Wang, H. (2023). Large language models for software engineering: A systematic literature review. *arXiv preprint* arXiv:2308.10620.
 
-OpenAI (2023) OpenAI Cookbook. Available at [https://cookbook.openai.com/](https://cookbook.openai.com/){: target="_blank"}.
+OpenAI (2023) OpenAI Cookbook. Available at [https://cookbook.openai.com/](https://cookbook.openai.com/){target=_blank}.
 
-OpenAI (2023) Prompt engineering guide. Available at [https://platform.openai.com/docs/guides/prompt-engineering](https://platform.openai.com/docs/guides/prompt-engineering){: target="_blank"}
+OpenAI (2023) Prompt engineering guide. Available at [https://platform.openai.com/docs/guides/prompt-engineering](https://platform.openai.com/docs/guides/prompt-engineering){target=_blank}
 
-Saravia, Elvis (2022) Promp Engineering Guide. Available at [https://www.promptingguide.ai/de](https://www.promptingguide.ai/de){: target="_blank"}.
+Saravia, Elvis (2022) Promp Engineering Guide. Available at [https://www.promptingguide.ai/de](https://www.promptingguide.ai/de){target=_blank}.
 
 White, J., Hays, S., Fu, Q., Spencer-Smith, J., & Schmidt, D. C. (2023). ChatGPT prompt patterns for improving code quality, refactoring, requirements elicitation, and software design. *arXiv preprint* arXiv:2303.07839.
 

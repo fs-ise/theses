@@ -1,12 +1,6 @@
 ---
-layout: default
 title: "Completed theses"
-has_toc: true
-nav_order: 9
 ---
-
-# Completed theses
-{: .no_toc }
 
 - 030 **Julia Isabel Seibold**: awesome: An analysis of popular knowledge curations on GitHub (Bachelor's thesis)
 - 029 **Daniela Albaner**: How cobots are conquering the manufacturing industry: An analysis of management decisions on the use of cobots in the context of Industry 5.0 (Master's thesis)
@@ -27,7 +21,7 @@ nav_order: 9
 - 012 **Luca Ossendorf**: Design of a machine-learning classifier for research papers: Identifying literature reviews (Bachelor's thesis)
 - 011 **Ivan Shevlyakov**: Techno-stressors in work and non-work contexts: A structured literature review  (Bachelor's thesis)
 - 010 **Thi Thanh Thao Tran**: Synthesizing the Integration of HR Analytics Across the Employee Life Cycle: A Scoping Review of Stage-Specific Organizational Applications (Master's thesis)
-- 009 **Katharina Maria Ernst**: Towards more efficient literature searches: Design of an open source query translator (Bachelor's thesis, [link](https://github.com/CoLRev-Environment/search-query){: target="_blank"})
+- 009 **Katharina Maria Ernst**: Towards more efficient literature searches: Design of an open source query translator (Bachelor's thesis, [link](https://github.com/CoLRev-Environment/search-query){target=_blank})
 - 008 **Hisham Merdan**: Towards  more effective backward searches: A novel machine-learning-based approach (Bachlelor's thesis)
 - 007 **Nizar Salem**: Design and evaluation of machine learning classifiers to support backward citation searches (Bachelor's thesis)
 - 006 **Albert Borchardt**: Automated literature pre-screening in systematic reviews: Design and evaluation of machine learning classifiers (Bachelor's thesis)

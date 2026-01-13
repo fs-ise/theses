@@ -1,0 +1,26 @@
+---
+title: "Error prevalence in academic search queries: An analysis using an automated validation tool"
+categories: ["design-science", "programming"]
+keywords: ["academic search queries", "query validation", "systematic reviews", "Web of Science", "PubMed", "EBSCOHost", "searchRxiv", "search-query"]
+advisor: "Prof. Dr. Gerit Wagner"
+status: "Open topic"
+---
+
+**Thesis Advisor**: Prof. Dr. Gerit Wagner
+
+**Summary**: Literature search queries used to access scientific databases often contain syntactic errors and inconsistencies. Since such errors can adversely affect the effectiveness of reviews, their detection and prevention are critical steps in query formulation, use and reporting. Due to the length and complexity of queries, manual validation is often impractical, which has prompted the development of automated solutions. Building on these advances, this thesis performs a comprehensive evaluation of academic search queries using the query validation tool, [search-query](https://github.com/CoLRev-Environment/search-query){target=_blank}. The analysis aims to identify common pitfalls and inconsistencies, addressing both syntactic errors (e.g., unbalanced parentheses) and opportunities for refinement (e.g., removal of redundant components). A dataset of queries taken from [searchRxiv](https://www.cabidigitallibrary.org/journal/searchrxiv){target=_blank} will be compiled for the analysis. The dataset will include queries for the popular search platforms Web of Science, PubMed, and EBSCOHost. The evaluation will also serve to assess the functionality of the *search-query* tool and reveal potential areas for improvement in its design.
+
+**Methods**: The thesis combines design science and quantitative approaches, proceeding in three phases: 1) Creating of a test dataset of queries based on searchRxiv. 2) Analyzing the queries using the *search-query* package. 3) Preparing and evaluating the test data and suggesting improvements to the tool's design.
+
+**Expected Outcomes**: This thesis will provide a comprehensive evaluation of academic search queries used in peer-reviewed research. The analysis will offer statistical insights into the prevalence of different error types and structural characteristics of the queries. A deeper understanding of common patterns can support error prevention and the formulation of more effective search strategies. The evaluation will also verify the functionality of the *search-query* tool and highlight potential shortcomings and areas of improvement to the design.
+
+**Requirements**: Students should have prior experience with Git and Python. Familiarity with basic data analysis techniques is an advantage.
+
+**References**:
+
+<div class="references">
+  <p>Eckhardt, P., Ernst, K., Fleischmann, T., Geßler, A., Schnickmann, K., Thurner, L., and Wagner, G. "search-query: An Open-Source Python Library for Academic Search Queries".</p>
+  <p>Gusenbauer, M., & Haddaway, N. R. (2021). What every researcher should know about searching–clarified concepts, search advice, and an agenda to improve finding in academia. <em>Research Synthesis Methods</em>, 12(2), 136-147.</p>
+  <p>Li, Z., & Rainer, A. (2023). Reproducible Searches in Systematic Reviews: An Evaluation and Guidelines. <em>IEEE Access</em>, 11, 84048–84060. IEEE Access.</p>
+  <p>Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007). A design science research methodology for information systems research. <em>Journal of Management Information Systems</em>, 24(3), 45–77.</p>
+</div>

@@ -1,28 +1,16 @@
 ---
-layout: default
 title: Feedback
-has_toc: true
-nav_order: 8
 ---
 
-# Feedback
+::: {.callout-note title="Your Feedback Matters: Help Us Improve!"}
+We kindly invite you to participate in the upcoming course evaluation.
+Your feedback is voluntary and anonymous.
+There is no risk of disadvantage or negative consequences for you, regardless of the feedback you provide.
+So please feel free to be open and honest in your responses.
+Your participation helps us [improve the quality of our courses](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html){target=_blank} (♻️), and we highly value your opinions.
 
-<style>
-  p {
-    text-align: justify;
-  }
-</style>
-
-{: .info }
-> **Your Feedback Matters: Help Us Improve!**
-> 
-> We kindly invite you to participate in the upcoming course evaluation.
-> Your feedback is voluntary and anonymous.
-> There is no risk of disadvantage or negative consequences for you, regardless of the feedback you provide.
-> So please feel free to be open and honest in your responses.
-> Your participation helps us [improve the quality of our courses](https://digital-work-lab.github.io/handbook/docs/10-lab/10_processes/10.01.goals.html){: target="_blank"} (♻️), and we highly value your opinions.
-> 
-> Thank you for your time and honest feedback!
+Thank you for your time and honest feedback!
+:::
 
 Feedback is important for students and for us as thesis advisors.
 As a student, you may write another thesis or seminar paper. To develop your skills, our goal is to **explain the grading** transparently and to help you understand which parts of your work could be improved and which ones are adequate or excellent.
@@ -30,9 +18,7 @@ For us, feedback sessions are essential to **improve how we advise students** wh
 
 We actively encourage students to participate in feedback sessions. In the process, we also ask students whether they want to provide feedback, whether we can publish it, and if so, whether it should be published anonymously.
 
-{: .text-center}
-[Provide feedback](https://github.com/digital-work-lab/theses/edit/main/docs/feedback.md){: .btn .btn-green target="_blank"}
-{: .text-center}
+[Provide feedback](https://github.com/digital-work-lab/theses/edit/main/docs/feedback.md){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
 
 <!-- 
 ## 35.XXX (Optional: Name)

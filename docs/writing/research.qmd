@@ -1,0 +1,41 @@
+---
+title: Research
+bibliography: ../../assets/references.bib
+csl: ../../assets/apa.csl
+---
+
+## Research contributions
+
+- @AgerfalkKarlsson2020 for artefactual contributions
+- @Leidner2020 on research contributions
+
+## Research methods
+
+| Method             | Criteria and reporting guideline                                                                                                       |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| Literature review  | @PareEtAl2015, @PareWagnerPrester2023, @PageEtAl2021, @TemplierPare2018, @Okoli2015, PRISMA[^1] |
+| Theory development | @Gregor2006                                                                                                                             |
+| Design science     | @HevnerEtAl2004, @PratEtAl2015, @PeffersEtAl2007, @JOSSReviewCriteria                                                       |
+| Machine learning   | @HeilEtAl2021, @KapoorEtAl2023, @StevensEtAl2020, @WalshEtAl2021                                                            |
+| Experiments        | @FrankEtAl2024                                                                                                                       |
+| Qualitative surveys and interviews | @OBrienEtAl2014, @TongEtAl2007                                                                                   |
+
+
+## Support for statistical analyses (BACES)
+
+For students conducting research for their thesis, support from the Bamberger Centrum für Empirische Studien (BACES) is available.
+BACES provides free statistical consultation for students working on seminar papers, thesis projects, and for university members involved in publications.
+This service is particularly useful for students needing assistance with statistical analysis and data interpretation.
+
+The BACES team, which consists of professors, researchers, and student assistants, offers:
+
+- **Free methodological consultation** for students and university members on their research projects (seminar and thesis papers, publications).
+- **Training sessions** on various statistical topics.
+- **Immediate support** on urgent statistical issues every Wednesday between 10 and 11 AM.
+
+For further details on their services and team, you can visit the [BACES website](https://www.uni-bamberg.de/baces/){target=_blank} or directly reach out for statistical consultation via the [BACES consultation page](https://www.uni-bamberg.de/baces/statistische-beratung/){target=_blank}.
+
+Please note that the consultations are provided with the consent of thesis advisors.
+We highly encourage students to take advantage of this valuable resource during their research phase.
+
+[^1]: [https://estech.shinyapps.io/prisma_flowdiagram/](https://estech.shinyapps.io/prisma_flowdiagram/){target=_blank}
