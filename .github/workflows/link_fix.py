@@ -1,127 +1,354 @@
-from pathlib import Path
+from __future__ import annotations
+
+import os
 import re
+from pathlib import Path
+from typing import Iterable
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
-# From top-level dir, run
-# python .github/workflows/link_fix.py
+repo = os.getenv("GITHUB_REPOSITORY")  # e.g., "fs-ise/handbook"
+sha = os.getenv("GITHUB_SHA")  # commit being checked
+server = os.getenv("GITHUB_SERVER_URL", "https://github.com")
 
-# Regular expression to match markdown links that start with http and may or may not have a {...} block
-markdown_link_pattern = re.compile(r'(\[([^\]]+)\]\((http[^\)]+)\))(\{[^}]*\})?')
+# Match inline markdown http(s) links (but NOT images):
+#   [text](http...)
+# optionally followed by an attribute block:
+#   { ... }
+#
+# The (?<!\!) prevents matching image syntax: ![alt](...)
+MARKDOWN_HTTP_LINK_PATTERN = re.compile(
+    r"(?<!\!)\[(?P<text>[^\]]+)\]\((?P<url>http[^\)]+)\)(?P<attrs>\{[^}]*\})?"
+)
 
-def append_target_blank_to_links(file_path):
-    # Read the content of the file
-    content = file_path.read_text(encoding='utf-8')
-    if "marp: true" in content[0:100]:
+# Match ANY inline markdown link (but NOT images):
+#   [text](dest)
+MARKDOWN_LINK_PATTERN = re.compile(r"(?<!\!)\[(?P<text>[^\]]+)\]\((?P<dest>[^)]+)\)")
+
+SKIP_URL_SUBSTRINGS = ("img.shields.io",)
+
+# Treat these as "assets", not pages (skip in internal-link checking;
+# also don't add target=_blank to external asset URLs).
+ASSET_SUFFIXES = (
+    ".png",
+    ".svg",
+    ".jpg",
+    ".jpeg",
+    ".gif",
+    ".webp",
+    ".pdf",
+)
+
+
+def iter_content_files(root: Path) -> Iterable[Path]:
+    """Yield .md and .qmd files (skip root-level files)."""
+    for p in root.rglob("*"):
+        if not p.is_file():
+            continue
+        if p.suffix not in {".md", ".qmd"}:
+            continue
+        if len(p.relative_to(root).parts) == 1:
+            continue
+        yield p
+
+
+def strip_fragment_and_query(url: str) -> str:
+    """Remove #fragment and ?query for suffix checks, keeping the path-ish portion."""
+    return url.split("#", 1)[0].split("?", 1)[0].strip()
+
+
+def is_asset_link(url: str) -> bool:
+    """
+    True if the link target looks like a static asset.
+    Handles query strings like foo.png?raw=1 by stripping ?...
+    """
+    clean = strip_fragment_and_query(url).lower()
+    return clean.endswith(ASSET_SUFFIXES)
+
+
+def should_skip_external(url: str) -> bool:
+    # External "skip": shields + assets
+    return any(s in url for s in SKIP_URL_SUBSTRINGS) or is_asset_link(url)
+
+
+def strip_chatgpt_utm(url: str) -> str:
+    """
+    Remove utm_source=chatgpt.com from URLs while preserving all other query params.
+    Works for absolute URLs and relative links alike.
+    """
+    if "utm_source=chatgpt.com" not in url:
+        return url
+
+    parts = urlsplit(url)
+    query_pairs = parse_qsl(parts.query, keep_blank_values=True)
+
+    filtered = [
+        (k, v)
+        for (k, v) in query_pairs
+        if not (k == "utm_source" and v == "chatgpt.com")
+    ]
+
+    new_query = urlencode(filtered, doseq=True)
+    return urlunsplit((parts.scheme, parts.netloc, parts.path, new_query, parts.fragment))
+
+
+def attrs_already_have_target_blank(attrs: str) -> bool:
+    """
+    True if the attribute block already sets target blank in either form:
+      - target="_blank"
+      - target=_blank
+    """
+    return bool(re.search(r'target\s*=\s*("_blank"|_blank)', attrs))
+
+
+def normalize_to_brace_attrs(existing_attrs: str) -> str:
+    """
+    Convert an attribute block to the plain brace form:
+      "{ ... }"
+    If it's "{: ... }", drop the leading ":" while keeping the content.
+    """
+    inner = existing_attrs.strip()[1:-1].strip()  # remove outer braces
+    if inner.startswith(":"):
+        inner = inner[1:].strip()
+    return inner
+
+
+def append_target_blank_to_http_links(file_path: Path) -> bool:
+    """Add {target=_blank} to http(s) links unless already present (any form)."""
+    content = file_path.read_text(encoding="utf-8")
+
+    def add_target_blank(match: re.Match) -> str:
+        text = match.group("text")
+        url = match.group("url")
+        existing_attrs = match.group("attrs")  # {..} or {: ..} or None
+
+        url = strip_chatgpt_utm(url)
+
+        # Rebuild the [text](url) part with the cleaned URL
+        link = f"[{text}]({url})"
+
+        if should_skip_external(url):
+            # Keep attrs if any, but do not add target=_blank
+            return link + (existing_attrs or "")
+
+        if existing_attrs:
+            if attrs_already_have_target_blank(existing_attrs):
+                # Keep exactly as-is if it already has target blank
+                return link + existing_attrs
+
+            inner = normalize_to_brace_attrs(existing_attrs)
+            if inner:
+                return link + "{ " + inner + " target=_blank }"
+            return link + "{ target=_blank }"
+
+        return link + "{target=_blank}"
+
+    updated = MARKDOWN_HTTP_LINK_PATTERN.sub(add_target_blank, content)
+
+    if updated != content:
+        file_path.write_text(updated, encoding="utf-8")
+        print(f"Updated external links in {file_path}")
+        return True
+
+    print(f"No changes needed in {file_path}")
+    return False
+
+
+def candidates_for_quarto_source(file_path: Path, link: str, repo_root: Path) -> list[Path]:
+    """
+    Given an internal link target, return plausible Quarto source candidates.
+
+    Supports:
+    - pretty URLs (no extension): foo/bar/baz
+    - directory pretty URLs:      foo/bar/baz/
+    - explicit HTML output:       foo/bar/baz.html
+    - relative links and site-root links (/foo/bar)
+
+    For non-directory links, we check:
+      - target.qmd / target.md
+      - target/index.qmd / target/index.md
+    For directory links (ending with '/'), we check:
+      - target/index.qmd / target/index.md
+    """
+    clean = link.split("#", 1)[0].split("?", 1)[0].strip()
+
+    # Strip .html if present (old behavior)
+    if clean.endswith(".html"):
+        clean = clean[:-5]
+
+    # Detect directory link (pretty URL with trailing slash)
+    is_dir = clean.endswith("/")
+    if is_dir:
+        clean = clean.rstrip("/")
+
+    # Resolve Quarto site-root paths
+    if clean.startswith("/"):
+        clean = clean.lstrip("/")
+        base = repo_root / clean
+    else:
+        base = file_path.parent / clean
+
+    if is_dir:
+        return [
+            base / "index.qmd",
+            base / "index.md",
+        ]
+
+    return [
+        Path(str(base) + ".qmd"),
+        Path(str(base) + ".md"),
+        base / "index.qmd",
+        base / "index.md",
+    ]
+
+
+def is_templated_link(dest: str) -> bool:
+    d = dest.strip()
+    return d.startswith(("{{<", "{{%"))
+
+
+def check_internal_links(file_path: Path, repo_root: Path) -> list[tuple[str, list[Path]]]:
+    """
+    For each internal markdown link target, verify at least one plausible source exists.
+    Returns list of (link, candidates) for broken ones.
+    """
+    content = file_path.read_text(encoding="utf-8")
+    broken: list[tuple[str, list[Path]]] = []
+
+    for m in MARKDOWN_LINK_PATTERN.finditer(content):
+        link = strip_chatgpt_utm(m.group("dest").strip())
+
+        if is_templated_link(link):
+            continue
+
+        # Skip external and non-file links
+        if link.startswith(("http://", "https://", "mailto:", "#", "tel:")):
+            continue
+        if link in ["{nc[k]}"]:
+            continue
+
+        # Skip assets (png/jpg/etc.), shields, etc.
+        if any(s in link for s in SKIP_URL_SUBSTRINGS):
+            continue
+        if is_asset_link(link):
+            continue
+
+        # Keep your existing exception
+        if "_news" in link:
+            continue
+
+        cands = candidates_for_quarto_source(file_path, link, repo_root=repo_root)
+        if not any(p.exists() for p in cands):
+            broken.append((link, cands))
+
+    return broken
+
+
+def write_broken_links_report(
+    broken: dict[Path, list[tuple[str, list[Path]]]],
+    repo_root: Path,
+) -> None:
+    report_path = Path("broken_links.md")
+    if not broken:
+        if report_path.exists():
+            report_path.unlink()
+        print("No broken internal links found.")
         return
 
-    # Function to modify the markdown link and add target="_blank"
-    def add_target_blank(match):
-        link = match.group(1)  # Full markdown link [text](url)
-        url = match.group(3)  # Extracted URL from the link
-        existing_attrs = match.group(4)  # Existing {...} attributes block
+    with report_path.open("w", encoding="utf-8") as f:
+        for src_file, items in sorted(broken.items(), key=lambda x: str(x[0])):
+            rel = src_file.relative_to(repo_root).as_posix()
 
-        # Skip the modification if the link contains "img.shields.io" (indicating a badge)
-        if 'img.shields.io' in url or url.endswith('.png') or url.endswith('.svg'):
-            return match.group(0)  # Return the original match without modification
-
-        # If there's already a {...} block, append target="_blank" if not present
-        if existing_attrs:
-            if 'target="_blank"' not in existing_attrs:
-                # Add target="_blank" within the existing {...} block
-                updated_attrs = existing_attrs.rstrip(' }') + ' target="_blank" }'
-                return link + updated_attrs
+            if repo:
+                # Direct link to GitHub's editor
+                edit_url = f"{server}/{repo}/edit/main/{rel}"
+                f.write(f"## In [{rel}]({edit_url})\n\n")
             else:
-                return link + existing_attrs
-        else:
-            # If no {...} block exists, add one with target="_blank"
-            return link + '{target=_blank}'
+                f.write(f"## In `{rel}`\n\n")
 
-    # Apply the function to all matches found in the file content
-    updated_content = markdown_link_pattern.sub(add_target_blank, content)
-    
-    # Write back the updated content if changes were made
-    if updated_content != content:
-        file_path.write_text(updated_content, encoding='utf-8')
-        print(f'Updated links in {file_path}')
-    else:
-        print(f'No changes needed in {file_path}')
+            f.write("The following links are broken:")
+            for link, _cands in items:
+                f.write(f"\n```sh\n{link}\n```\n")
+            f.write("\n")
 
-def link_check():
-    directory = Path.cwd()
-    for file_path in directory.glob('**/*.md'):
 
-        # Ignore first-level markdown files by checking the depth of the path
-        if len(file_path.relative_to(directory).parts) == 1:
+def sort_lycheeignore_file(path: Path) -> bool:
+    """
+    Sort a lychee ignore file alphabetically (removing duplicates).
+
+    - Keeps comment lines (starting with '#') in their original order, at the top.
+    - Keeps a single blank line between comments and the sorted block (if comments exist).
+    - Dedupes and sorts non-empty, non-comment lines case-insensitively.
+    """
+    if not path.exists():
+        return False
+
+    original = path.read_text(encoding="utf-8").splitlines()
+
+    comments: list[str] = []
+    entries: list[str] = []
+
+    for line in original:
+        s = line.strip()
+        if not s:
             continue
-
-        append_target_blank_to_links(file_path)
-
-
-# Regular expression to match internal .html links in markdown files
-# This looks for markdown links [text](relative/path/file.html)
-html_link_pattern = re.compile(r'\[([^\]]+)\]\(([^http][^\)]+\.html)\)')
-baseurl_link_pattern = re.compile(r'\[([^\]]+)\]\(\{\{ ?site\.baseurl ?\}\}([^\)]+\.html)\)')
-
-
-def check_html_links(file_path):
-    base_dir = Path.cwd()
-    # Read the content of the file
-    content = file_path.read_text(encoding='utf-8')
-
-    # Find all matches of regular .html links
-    matches = html_link_pattern.findall(content)
-
-    # List to store missing .md files
-    missing_md_files = []
-
-    # Check normal .html links (relative to current file)
-    for match in matches:
-        html_link = match[1]  # Extracted .html link from the markdown
-
-        # Skip links that are part of the output directory
-        if "output/" in html_link:
-            continue
-
-        # Replace .html with .md
-        md_link = html_link.replace('.html', '.md')
-        
-        if "{{ site.baseurl }}/" in md_link:
-            md_file_path = base_dir / Path(md_link.replace("{{ site.baseurl }}/", ""))
+        if s.startswith("#"):
+            comments.append(line.rstrip())
         else:
-            # Create the corresponding .md file path relative to the current file
-            md_file_path = file_path.parent / md_link
+            entries.append(s)
 
-        # Check if the corresponding .md file exists
-        if not md_file_path.exists():
-            missing_md_files.append(md_file_path)
+    # Dedupe while preserving first-seen casing
+    seen_lower: set[str] = set()
+    deduped: list[str] = []
+    for e in entries:
+        key = e.lower()
+        if key in seen_lower:
+            continue
+        seen_lower.add(key)
+        deduped.append(e)
 
-    return missing_md_files
+    deduped_sorted = sorted(deduped, key=lambda x: x.lower())
 
-def relative_link_check():
-    directory = Path.cwd()  # Current directory
-    all_missing_files = []
-    broken_links_file = Path('broken_links.md')  # File to store broken links
+    out_lines: list[str] = []
+    if comments:
+        out_lines.extend(comments)
+        out_lines.append("")  # separator
 
-    with broken_links_file.open('w', encoding='utf-8') as f:
-        # Iterate over all markdown files recursively
-        for file_path in directory.glob('**/*.md'):
-            # Check for .html links and corresponding .md files
-            missing_files = check_html_links(file_path)
-            if missing_files:
-                all_missing_files.extend(missing_files)
-                f.write(f"## Missing .md files for links in `{file_path}`:\n")
-                print(f"Missing .md files for links in {file_path}:")
-                for missing in missing_files:
-                    f.write(f"- `{missing}`\n")
-                    print(f"  - {missing}")
-                f.write("\n")  # Add a blank line for separation
+    out_lines.extend(deduped_sorted)
+    out_text = "\n".join(out_lines).rstrip() + "\n"
 
-    # Remove broken_links_file if it is empty
-    if broken_links_file.exists() and broken_links_file.stat().st_size == 0:
-        broken_links_file.unlink()
+    before = path.read_text(encoding="utf-8")
+    if before != out_text:
+        path.write_text(out_text, encoding="utf-8")
+        print(f"Sorted {path}")
+        return True
 
-    if not all_missing_files:
-        print("All .html links have corresponding .md files.")
+    print(f"No changes needed in {path}")
+    return False
+
+
+def main() -> None:
+    root = Path.cwd()
+
+    # 1) Add {target=_blank} to external links in .md/.qmd (excluding root-level files)
+    #    and remove ?utm_source=chatgpt.com from those URLs
+    for fp in iter_content_files(root):
+        append_target_blank_to_http_links(fp)
+
+    # 2) Check internal links (pretty URLs, .html, etc.) against plausible Quarto sources
+    #    (and ignore/remove utm_source=chatgpt.com when evaluating)
+    broken: dict[Path, list[tuple[str, list[Path]]]] = {}
+    for fp in iter_content_files(root):
+        b = check_internal_links(fp, repo_root=root)
+        if b:
+            broken[fp] = b
+
+    write_broken_links_report(broken, repo_root=root)
+
+    # 3) Sort lychee ignore file alphabetically (remove duplicates)
+    #    Lychee typically uses ".lycheeignore", but we handle "lycheeignore" too.
+    sort_lycheeignore_file(root / ".lycheeignore")
+    sort_lycheeignore_file(root / "lycheeignore")
+
 
 if __name__ == "__main__":
-    link_check()
-    relative_link_check()
+    main()
