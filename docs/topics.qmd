@@ -355,7 +355,7 @@ We will assist students with the development of a code skeleton (if needed).
 
 **Expected outcomes**: The thesis will verify the functionality of parsers within the search-query package, and develop linters for analyzing and simplifying queries. Based on an analysis of data from searchRxiv, it will further show whether published queries have errors or whether they could be simplified.
 
-**Requirements**: Candidates should have completed the [open-source project](https://fs-lise.github.io/open-source-project/){target=_blank} or have prior experience with Git and Python.
+**Requirements**: Candidates should have completed the [open-source project](https://fs-ise.github.io/open-source-project/){target=_blank} or have prior experience with Git and Python.
 
 **References**
 
