@@ -607,7 +607,7 @@
     "href": "docs/writing/preparation_phase.html#setup",
     "title": "Preparation phase",
     "section": "Setup",
-    "text": "Setup\nTo start your thesis on the right track, ensure the following setup steps are completed:\n\nCreate a repository based on our template\nThe analysis templates section\nBackups\nConsider requesting a Grammarly license (send an email to studiendekanat.wiai@uni-bamberg.de)\nReference manager (tools like Zotero)\nCreate a schedule and work plan\nEvaluation criteria\n\nIt is good practice to write the thesis in a Git-versioned repository, add notes from the meetings to the README.md file, and give your thesis advisor access to the repository.\n\n\n\n\n\n\nNote\n\n\n\nRemember to create regular backups of your work, e.g., by creating Git versions and pushing them to a remote repository, and/or copying files to a USB stick.",
+    "text": "Setup\nTo start your thesis on the right track, ensure the following setup steps are completed:\n\nCreate a repository based on our template\nThe analysis templates section\nBackups\nConsider requesting a Grammarly license\nReference manager (tools like Zotero)\nCreate a schedule and work plan\nEvaluation criteria\n\nIt is good practice to write the thesis in a Git-versioned repository, add notes from the meetings to the README.md file, and give your thesis advisor access to the repository.\n\n\n\n\n\n\nNote\n\n\n\nRemember to create regular backups of your work, e.g., by creating Git versions and pushing them to a remote repository, and/or copying files to a USB stick.",
     "crumbs": [
       "Home",
       "Writing",
