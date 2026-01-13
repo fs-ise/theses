@@ -15,7 +15,7 @@ On this page, we celebrate the accomplishments of our students 🎉 🍾 🎈
 ## 📒 Publications
 
 <div class="references">
-  <p><strong>Eckhardt, P., Ernst, K., Fleischmann, T., Geßler, A., Schnickmann, K., Thurner, L.</strong>, and Wagner, G. (2025). "search-query: An Open-Source Python Library for Academic Search Queries". In <a href="https://github.com/openjournals/joss-reviews/issues/8558">pre-review at the <em>Journal of Open Source Software</em></a>.</p>
+  <p><strong>Eckhardt, P., Ernst, K., Fleischmann, T., Geßler, A., Schnickmann, K., Thurner, L.</strong>, and Wagner, G. (2025). "search-query: An Open-Source Python Library for Academic Search Queries". Under <a href="https://github.com/openjournals/joss-reviews/issues/8775">review at the <em>Journal of Open Source Software</em></a>.</p>
   <p><strong>Prester, J.</strong>, Wagner, G., Hassan, N. R., and Schryen, G. (2021). “Classifying the Ideational Impact of Information Systems Review Articles: A Content-Enriched Deep Learning Approach”. <em>Decision Support Systems</em> (DSS), 140, 113432.</p>
   <p><strong>Schuster, R.</strong>, Wagner, G., and Schryen, G. (2018). “Information Systems Design Science Research and Cumulative Knowledge Development: An Exploratory Study,” in <em>Proceedings of the 39th International Conference on Information Systems (ICIS 2018)</em>, San Francisco, California, USA</p>
   <p>Wagner, G., <strong>Empl, P.</strong>, and Schryen, G. (2020). “Designing a Novel Strategy for Reading and Skimming Literature Corpora,” in <em>Proceedings of the 28tℎ European Conference on Information Systems (ECIS 2020)</em>, Marrakech, Morocco.</p>
