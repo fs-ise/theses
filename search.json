@@ -333,9 +333,9 @@
   {
     "objectID": "docs/expose.html",
     "href": "docs/expose.html",
-    "title": "Exposé",
+    "title": "FS-ISE: Theses",
     "section": "",
-    "text": "An exposé is a preliminary outline or proposal of your thesis project, required for both Bachelor’s and Master’s theses. It serves as a detailed plan that guides your research and writing process, ensuring that you have a clear roadmap for your thesis. An exposé is usually drafted before the official registration of your thesis topic, allowing you to refine your ideas and receive feedback from your advisor or committee. After registration, the exposé will serve as the foundation that you will expand into the full thesis document.",
+    "text": "work-l— title: “Exposé” —\nAn exposé is a preliminary outline or proposal of your thesis project, required for both Bachelor’s and Master’s theses. It serves as a detailed plan that guides your research and writing process, ensuring that you have a clear roadmap for your thesis. An exposé is usually drafted before the official registration of your thesis topic, allowing you to refine your ideas and receive feedback from your advisor or committee. After registration, the exposé will serve as the foundation that you will expand into the full thesis document.",
     "crumbs": [
       "Home",
       "Getting started",
@@ -345,7 +345,7 @@
   {
     "objectID": "docs/expose.html#purpose",
     "href": "docs/expose.html#purpose",
-    "title": "Exposé",
+    "title": "FS-ISE: Theses",
     "section": "Purpose",
     "text": "Purpose\nThe primary purposes of an exposé are:\n\nClarify your research plan: It helps you articulate your research question, objectives, and methodology clearly.\nReceive constructive feedback: Your advisor can provide early feedback, ensuring that your project is feasible and academically rigorous.\nDemonstrate feasibility: It shows that your proposed research is manageable within the given time frame and resources.\nFormalize your ideas: Writing an exposé helps in structuring and organizing your initial ideas into a coherent plan.",
     "crumbs": [
@@ -357,7 +357,7 @@
   {
     "objectID": "docs/expose.html#timing",
     "href": "docs/expose.html#timing",
-    "title": "Exposé",
+    "title": "FS-ISE: Theses",
     "section": "Timing",
     "text": "Timing\nYou should begin working on your exposé well before the official registration of your thesis. This allows ample time for multiple drafts and revisions based on feedback from your advisor. Ideally, start your exposé as soon as you have a rough idea of your research topic.",
     "crumbs": [
@@ -369,7 +369,7 @@
   {
     "objectID": "docs/expose.html#expected-contents",
     "href": "docs/expose.html#expected-contents",
-    "title": "Exposé",
+    "title": "FS-ISE: Theses",
     "section": "Expected contents",
     "text": "Expected contents\nA high-quality exposé typically includes the following sections:\n\nTitle page\n\nTitle of your thesis\nYour name and student ID\nAdvisor’s name\n\nIntroduction\n\nBrief background of the research topic\nSignificance of the study\nSpecific aims and objectives of your research, typically in the form of a research question\n\nLiterature review\n\nOverview of existing research relevant to your topic\nIdentification of gaps in the literature that your research will address\nTheories or models that will guide your research (if applicable)\n\nMethodology\n\nDescription of the research design and methods\nData collection and analysis plan\nJustification for chosen methods\nKey methods papers\n\nExpected results\n\nPotential findings and their implications\n\nTimeline\n\nTimeline outlining each phase of your research and writing process\n\nReferences\n\nList of scholarly sources cited in your exposé\n\n\nThe following is an example timeline. The schedule can be structured according to weeks or months.\n\n\n\n\n\n\n\n\nTime period\nPhase\nTasks\n\n\n\n\nNovember 2016\nLiterature review\nReview of current literature, discussion of the thesis exposé\n\n\nDecember 2016\nDevelopment of theoretical model\nDevelopment of a theoretical research model based on the review of the literature\n\n\nJanuary – February 2017\nImplementation phase\nImplement the prototype\n\n\nFebruary 2017\nEvaluation phase\nEvaluate the prototype against the manually coded dataset\n\n\nMarch 2017\nImplementation refinement\nImprove the prototype based on the results of the evaluation\n\n\nApril 2017\nAnalysis\nApplication of the prototype to the complete dataset\n\n\nMay 2017\nWrite-up\nWrite-up and final feedback",
     "crumbs": [
@@ -381,7 +381,7 @@
   {
     "objectID": "docs/expose.html#recommendations",
     "href": "docs/expose.html#recommendations",
-    "title": "Exposé",
+    "title": "FS-ISE: Theses",
     "section": "Recommendations",
     "text": "Recommendations\n\nSolicit feedback: Actively seek feedback on open questions from your advisor. Prepare and think through alternative approaches to your research. Use bullet points for parts that are likely to change or are up for discussion.\nBe clear and concise: Ensure that each section is well-organized and succinctly written. Avoid unnecessary jargon and complex sentences.\nDemonstrate relevance: Clearly articulate why your research is important and how it contributes to the field.\nShow depth of knowledge: Your literature review should demonstrate a thorough understanding of the current state of research on your topic.\nDetail your methods: Be specific about your research design and methods. Explain why these methods are the most suitable for your study.\nPlan realistically: Your timeline should be realistic and show that you have carefully considered the time required for each stage of your research.\nManage risks: Anticipate risks and response plans, e.g., how to address low survey response rates, and when to create a backup.\nProofread: Ensure that your exposé is free from grammatical and typographical errors. A well-written exposé reflects your attention to detail and commitment to your research.\n\nNote: You can use the template provided, which outlines the expected structure and format of your exposé. Typically, an exposé is expected to be 5-10 pages in length.\n\n\n\n\n\n\nNoteExample structure\n\n\n\nHere is a structure example from a completed thesis. You can use this template to structure any of the chapters of your thesis. This will help you with your writing process. In addition, it is a great document to share with your advisor and discuss before writing a whole text. Here is the Structure Example.",
     "crumbs": [
