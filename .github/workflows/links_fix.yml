@@ -42,7 +42,7 @@ jobs:
         # if: github.event_name != 'pull_request' && steps.lychee.outputs.exit_code != 0
         uses: peter-evans/create-issue-from-file@v5
         with:
-          issue-number: 4
+          issue-number: 142
           title: "Report: broken links (external)"
           content-filepath: ./lychee/out.md
           labels: report, automated issue, help-needed
@@ -80,7 +80,7 @@ jobs:
         if: github.event_name != 'pull_request' && env.found == 'true'
         uses: peter-evans/create-issue-from-file@v5
         with:
-          issue-number: 5
+          issue-number: 143
           title: "Report: broken links (internal)"
           content-filepath: ./broken_links.md
           labels: report, automated issue, help-needed

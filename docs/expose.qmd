@@ -1,4 +1,4 @@
----
+work-l---
 title: "Exposé"
 ---
 
@@ -84,7 +84,7 @@ The following is an example timeline. The schedule can be structured according t
 - **Proofread**: Ensure that your exposé is free from grammatical and typographical errors.
   A well-written exposé reflects your attention to detail and commitment to your research.
 
-**Note**: You can use the [template](https://digital-work-lab.github.io/theses/#3-thesis-writing-and-feedback-sessions){target=_blank} provided, which outlines the expected structure and format of your exposé.
+**Note**: You can use the [template](https://github.com/fs-ise/thesis-template){target=_blank} provided, which outlines the expected structure and format of your exposé.
 Typically, an exposé is expected to be 5-10 pages in length.
 
 ::: {.callout-note title="Example structure" }

@@ -323,7 +323,7 @@ Topis that are part of the **#SEARCH-QUERY** call-for-theses are marked with a l
 
 **Expected outcomes**: The thesis will provide an extension of the search-query package, demonstrating improved search capabilities for both types of APIs. It will include the design of the BEALS technique, showcasing its ability to emulate Boolean functionalities for simple APIs. These contributions will enhance efficiency of literature searches, ultimately allowing researchers to rely on automated execution instead of manual retrieval from database interfaces.
 
-**Requirements**: Candidates should have completed the [open-source project](https://digital-work-lab.github.io/open-source-project/){target=_blank} or have prior experience with Git and Python.
+**Requirements**: Candidates should have completed the [open-source project](https://fs-ise.github.io/open-source-project/){target=_blank} or have prior experience with Git and Python.
 
 **References**
 
