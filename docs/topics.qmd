@@ -91,14 +91,14 @@ The following topics are currently open for Bachelor's and Master's theses.
 
 **Thesis Advisor**: Prof. Dr. Gerit Wagner
 
-**Summary**: Public handbooks maintained on platforms like GitHub increasingly blend open-source principles with internal coordination structures of commercial organizations. These hybrid ecosystems—such as those listed in the [digital-work-lab/handbooks](https://github.com/digital-work-lab/handbooks){target=_blank} repository—offer a unique opportunity to study how open documentation, platform governance, and work coordination intersect in digital environments. This thesis will conduct a data-driven exploration of these ecosystems by parsing and analyzing handbook repositories. 
+**Summary**: Public handbooks maintained on platforms like GitHub increasingly blend open-source principles with internal coordination structures of commercial organizations. These hybrid ecosystems—such as those listed in the [fs-ise/handbooks](https://github.com/fs-ise/handbooks){target=_blank} repository—offer a unique opportunity to study how open documentation, platform governance, and work coordination intersect in digital environments. This thesis will conduct a data-driven exploration of these ecosystems by parsing and analyzing handbook repositories. 
 
 **Methods**:
 
 This thesis follows a **design science research (DSR)** approach to develop and evaluate a workflow for analyzing hybrid public handbook ecosystems. The focus will be on:
 
 - Designing and developing a **generic Python package** for parsing, classifying, and analyzing handbook repositories.
-- Demonstrating the tool on the [digital-work-lab/handbooks](https://github.com/digital-work-lab/handbooks){target=_blank} dataset.
+- Demonstrating the tool on the [fs-ise/handbooks](https://github.com/fs-ise/handbooks){target=_blank} dataset.
 - Evaluating accuracy, utility, and usability through expert feedback.
 
 **Expected Outcomes**:
@@ -355,7 +355,7 @@ We will assist students with the development of a code skeleton (if needed).
 
 **Expected outcomes**: The thesis will verify the functionality of parsers within the search-query package, and develop linters for analyzing and simplifying queries. Based on an analysis of data from searchRxiv, it will further show whether published queries have errors or whether they could be simplified.
 
-**Requirements**: Candidates should have completed the [open-source project](https://digital-work-lab.github.io/open-source-project/){target=_blank} or have prior experience with Git and Python.
+**Requirements**: Candidates should have completed the [open-source project](https://fs-lise.github.io/open-source-project/){target=_blank} or have prior experience with Git and Python.
 
 **References**
 
@@ -387,7 +387,7 @@ Finally, the research will also involve reporting any identified errors to the d
 
 **Expected outcomes**: The thesis will provide a detailed evaluation of the capabilities and limitations of existing search query tools. It will highlight the strengths and weaknesses of each tool, provide insights into the most common issues encountered, and assess the responsiveness of developers in addressing reported errors. This work will contribute to the improvement of search query tools and offer practical recommendations for developers and users.
 
-**Requirements**: Candidates should have completed the [open-source project](https://digital-work-lab.github.io/open-source-project/){target=_blank} or have prior experience with Git and Python.
+**Requirements**: Candidates should have completed the [open-source project](https://fs-ise.github.io/open-source-project/){target=_blank} or have prior experience with Git and Python.
 
 **References**
 

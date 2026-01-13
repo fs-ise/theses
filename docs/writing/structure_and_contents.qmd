@@ -26,7 +26,7 @@ In the introduction, you can contextualize your work with respect to the broader
 The methods and findings focus more narrowly on the evidence and results of your work.
 Afterwards, the discussion should explain how your findings relate to prior research.
 
-![Anatomy of a research paper](https://raw.githubusercontent.com/digital-work-lab/handbook/main/assets/images/anatomy_research_paper_wang.png){target=_blank}
+![Anatomy of a research paper](https://raw.githubusercontent.com/fs-ise/theses/main/assets/anatomy_research_paper_wang.png){target=_blank}
 
 Note: While creating your thesis, keep the [evaluation criteria](../criteria.html) in mind to ensure your thesis meets the required academic standards.
 
