@@ -41,7 +41,7 @@ Practical advice and recommendations are included to ensure clarity, consistency
   - Structuring your thesis
   - Creating an outline
 
-[Learn about the preparation phase](writing/preparation_phase){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
+[Learn about the preparation phase](writing/preparation_phase.html){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
 
 ## Structure and contents
 
@@ -57,7 +57,7 @@ Each part has a clear purpose, and using an active voice is recommended.
   - Discussion
   - Conclusion
 
-[Learn about structure and contents](writing/structure_and_contents){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
+[Learn about structure and contents](writing/structure_and_contents.html){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
 
 ## Research
 
@@ -66,7 +66,7 @@ It involves gathering relevant data, reviewing existing literature, and identify
 This section provides guidance on how to conduct thorough research, select appropriate sources, and organize findings effectively.
 Successful research forms the foundation for your thesis and ensures that your work is grounded in existing scholarly discussions.
 
-[Learn about research](writing/research){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
+[Learn about research](writing/research.html){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
 
 ## Writing phase
 
@@ -78,13 +78,13 @@ Following these recommendations will help organize your thesis in a professional
   - Recommended writing sequence
   - Illustrations
 
-[Learn about the writing phase](writing/writing_phase){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
+[Learn about the writing phase](writing/writing_phase.html){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
 
 ## Feedback
 
 You can schedule feedback sessions to discuss your current progress, next steps, and challenges.
 
-[Learn about feedback](writing/feedback){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
+[Learn about feedback](writing/feedback.html){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
 
 ## Polishing phase
 
@@ -97,4 +97,4 @@ It details important steps to refine content, align visuals, follow language sta
   - Citation guidelines
   - Evaluation criteria
 
-[Learn about the polishing phase](writing/polishing){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
+[Learn about the polishing phase](writing/polishing.html){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
