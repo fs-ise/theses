@@ -1,0 +1,12 @@
+services:
+  quarto:
+    build: .
+    user: "${UID}:${GID}"
+    working_dir: /project
+    environment:
+      - HOME=/project
+    volumes:
+      - ./:/project
+    ports:
+      - "4200:4200"
+    command: ["quarto","preview","--host","0.0.0.0","--port","4200"]
