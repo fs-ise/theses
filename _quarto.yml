@@ -11,9 +11,10 @@ website:
       # Optional: keep ONE entry point besides search/github
       - text: Home
         href: index.qmd
-      - icon: github
+      - text: '{{< iconify octicon:mark-github-16 title="GitHub" label="GitHub" >}}'
         href: https://github.com/fs-ise/theses
-        aria-label: GitHub repository
+      - text: '{{< iconify solar:clipboard-add-outline title="GitHub" label="GitHub" >}}'
+        href: https://github.com/fs-ise/theses/issues
 
   sidebar:
     search: true
