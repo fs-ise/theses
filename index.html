@@ -73,17 +73,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-diagram/mermaid-init.js"></script>
 <link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 <style>
-div.callout-resource.callout {
-  border-left-color: #0d6efd;
-}
-div.callout-resource.callout-style-default > .callout-header {
-  background-color: rgba(13, 110, 253, 0.13);
-}
-div.callout-resource .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-resource.callout-style-default .callout-icon::before, div.callout-resource.callout-titled .callout-icon::before {
-  content: '🔗';
-  background-image: none;
-}
 div.callout-objective.callout {
   border-left-color: #0d6efd;
 }
@@ -93,6 +82,17 @@ div.callout-objective.callout-style-default > .callout-header {
 div.callout-objective .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-objective.callout-style-default .callout-icon::before, div.callout-objective.callout-titled .callout-icon::before {
   content: '🎯';
+  background-image: none;
+}
+div.callout-resource.callout {
+  border-left-color: #0d6efd;
+}
+div.callout-resource.callout-style-default > .callout-header {
+  background-color: rgba(13, 110, 253, 0.13);
+}
+div.callout-resource .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-resource.callout-style-default .callout-icon::before, div.callout-resource.callout-titled .callout-icon::before {
+  content: '🔗';
   background-image: none;
 }
 </style>
@@ -364,7 +364,7 @@ div.callout-objective.callout-style-default .callout-icon::before, div.callout-o
 
     subgraph Process[" "]
         Feedback -. consult .-&gt; Init
-        Feedback(["&lt;a href='docs/feedback.html'&gt;Feedback&lt;/a&gt;, &lt;a href='https://github.com/digital-work-lab/theses/commits/main/'&gt;improvement&lt;/a&gt;,&lt;br&gt;&lt;a href='docs/completed.html'&gt;completed theses&lt;/a&gt;, &lt;a href='docs/hall_of_fame.html'&gt;hall-of-fame&lt;/a&gt;"]) -.- Grading
+        Feedback(["&lt;a href='docs/feedback.html'&gt;Feedback&lt;/a&gt;, &lt;a href='https://github.com/fs-ise/theses/commits/main/'&gt;improvement&lt;/a&gt;,&lt;br&gt;&lt;a href='docs/completed.html'&gt;completed theses&lt;/a&gt;, &lt;a href='docs/hall_of_fame.html'&gt;hall-of-fame&lt;/a&gt;"]) -.- Grading
         OpenTopics(["&lt;a href='docs/topics.html'&gt;Open topics&lt;/a&gt;"]) -.- |consult| Init
         Init["&lt;a href='#topic-proposal'&gt;1. Topic proposal&lt;/a&gt;"] ==&gt; Admission["&lt;a href='#formal-admission'&gt;2. Formal admission&lt;/a&gt;"]
         Admission ==&gt; Writing["&lt;a href='#thesis-writing-and-feedback-sessions'&gt;3. Thesis writing&lt;/a&gt;"]
@@ -401,7 +401,7 @@ div.callout-objective.callout-style-default .callout-icon::before, div.callout-o
 <p>Given the high demand for thesis supervision, we cannot accommodate all proposals. To ensure a fair and transparent process, decisions are made on a bi-monthly basis based on current capacities, alignment with our <a href="https://fs-ise.github.io/handbook/research/statement.html">research areas</a>, and the quality of the proposed topic. Additionally, we consider whether students are at an advanced stage in their curriculum and need to finish their degree within a specific timeframe. We review proposals on predefined dates (Feb-01, Apr-01, Jun-01, Aug-01, Oct-01, Dec-01) and decide whether to <em>accept</em>, <em>decline</em>, or invite a <em>resubmission</em> with feedback provided to help refine the proposal if necessary.</p>
 <!-- 
 For detailed criteria, refer to our research goals and processes.
-- bi-monthly decision (Feb-01, Apr-01, Jun-01, Aug-01, Oct-01, Dec-01) - in line with capacities (link), criteria (fit with our research areas: digital work, distributed organizing, literature reviews - https://digital-work-lab.github.io/handbook/docs/20-research/20_processes/20.01.goals.html), outcomes: Accept, Decline, Reapply ()
+- bi-monthly decision (Feb-01, Apr-01, Jun-01, Aug-01, Oct-01, Dec-01) - in line with capacities (link), criteria (fit with our research areas: digital work, distributed organizing, literature reviews - https://fs-ise.github.io/handbook/research/statement.html), outcomes: Accept, Decline, Reapply ()
 -->
 <!-- 
 <details class="details-container">
@@ -433,7 +433,7 @@ For detailed criteria, refer to our research goals and processes.
 </ul>
 <p>The examination office may ask you to request <strong>approval from the examination committee</strong> (Prüfungsausschuss) to write a thesis in the area of <em>Information Systems</em>. This is the case when older regulations (Studien- und Fachprüfungsordnung) apply (i.e., when master’s studies were started before 2018), or for students of Informatics and Applied Informatics (e.g., International Software Systems Science).</p>
 <p>You <strong>receive the topic confirmation</strong> as a (protected) Word document (.docx) by email together with processing/submission instructions as well as an inspection statement. The next step is to make an appointment with the thesis advisor to determine the topic and sign the topic confirmation. Please upload the Word document to your thesis repository before the meeting.</p>
-<p>You and your thesis advisor schedule a meeting to determine the topic and <strong>sign the topic confirmation</strong>. If the topic was determined online or remotely, you can print and sign the confirmation and send it to our <a href="https://www.uni-bamberg.de/digital-work/team/prof-dr-gerit-wagner/" target="_blank">postal address</a>. It is important that we receive <strong>two paper versions with original signatures</strong>:</p>
+<p>You and your thesis advisor schedule a meeting to determine the topic and <strong>sign the topic confirmation</strong>. If the topic was determined online or remotely, you can print and sign the confirmation and send it to our postal address. It is important that we receive <strong>two paper versions with original signatures</strong>:</p>
 <ul>
 <li>1 original with two signatures (student and supervisor) <strong>for the student</strong>.</li>
 <li>1 original with two signatures (student and supervisor) <strong>for archiving at the chair</strong>.</li>
@@ -492,10 +492,10 @@ Note
 <h2 class="anchored" data-anchor-id="thesis-presentation">5. Thesis presentation</h2>
 <p>Presentations are required for master’s theses.</p>
 <ul>
-<li>A template is available <a href="assets/UB-Folienmaster.pptx">here</a> and <a href="https://github.com/digital-work-lab/slides_template" target="_blank">here</a>.</li>
+<li>A template is available <a href="assets/UB-Folienmaster.pptx">here</a> and <a href="https://github.com/fs-ise/slides_template" target="_blank">here</a>.</li>
 <li>Evaluation criteria are stated <a href="docs/criteria.html#presentation">here</a>.</li>
 <li>Presentations are typically on campus and in person. Please contact us if you need to present online.</li>
-<li>You decide whether the presentation should be scheduled before or after submitting the thesis. You can suggest a date for the presentation, and the thesis advisor selects a second examiner. Please schedule the presentation early and take into account our <a href="https://digital-work-lab.github.io/handbook/docs/02.calendar.html" target="_blank">availability</a>.</li>
+<li>You decide whether the presentation should be scheduled before or after submitting the thesis. You can suggest a date for the presentation, and the thesis advisor selects a second examiner. Please schedule the presentation early and take into account our <a href="https://fs-ise.github.io/handbook/calendar.html" target="_blank">availability</a>.</li>
 </ul>
 </section>
 <section id="grading-and-feedback-session" class="level2">
