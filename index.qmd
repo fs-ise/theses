@@ -56,7 +56,7 @@ flowchart LR
 
     subgraph Process[" "]
         Feedback -. consult .-> Init
-        Feedback(["<a href='docs/feedback.html'>Feedback</a>, <a href='https://github.com/digital-work-lab/theses/commits/main/'>improvement</a>,<br><a href='docs/completed.html'>completed theses</a>, <a href='docs/hall_of_fame.html'>hall-of-fame</a>"]) -.- Grading
+        Feedback(["<a href='docs/feedback.html'>Feedback</a>, <a href='https://github.com/fs-ise/theses/commits/main/'>improvement</a>,<br><a href='docs/completed.html'>completed theses</a>, <a href='docs/hall_of_fame.html'>hall-of-fame</a>"]) -.- Grading
         OpenTopics(["<a href='docs/topics.html'>Open topics</a>"]) -.- |consult| Init
         Init["<a href='#topic-proposal'>1. Topic proposal</a>"] ==> Admission["<a href='#formal-admission'>2. Formal admission</a>"]
         Admission ==> Writing["<a href='#thesis-writing-and-feedback-sessions'>3. Thesis writing</a>"]
@@ -93,7 +93,7 @@ We review proposals on predefined dates (Feb-01, Apr-01, Jun-01, Aug-01, Oct-01,
 
 <!-- 
 For detailed criteria, refer to our research goals and processes.
-- bi-monthly decision (Feb-01, Apr-01, Jun-01, Aug-01, Oct-01, Dec-01) - in line with capacities (link), criteria (fit with our research areas: digital work, distributed organizing, literature reviews - https://digital-work-lab.github.io/handbook/docs/20-research/20_processes/20.01.goals.html), outcomes: Accept, Decline, Reapply ()
+- bi-monthly decision (Feb-01, Apr-01, Jun-01, Aug-01, Oct-01, Dec-01) - in line with capacities (link), criteria (fit with our research areas: digital work, distributed organizing, literature reviews - https://fs-ise.github.io/handbook/research/statement.html), outcomes: Accept, Decline, Reapply ()
 -->
 
 <!-- 
@@ -136,7 +136,7 @@ The next step is to make an appointment with the thesis advisor to determine the
 Please upload the Word document to your thesis repository before the meeting.
 
 You and your thesis advisor schedule a meeting to determine the topic and **sign the topic confirmation**.
-If the topic was determined online or remotely, you can print and sign the confirmation and send it to our [postal address](https://www.uni-bamberg.de/digital-work/team/prof-dr-gerit-wagner/){target=_blank}.
+If the topic was determined online or remotely, you can print and sign the confirmation and send it to our postal address.
 It is important that we receive **two paper versions with original signatures**:
 
 - 1 original with two signatures (student and supervisor) **for the student**.
@@ -184,10 +184,10 @@ From December 1st, 2025, the binding and timely submission of bachelor's and mas
 
 Presentations are required for master's theses.
 
-- A template is available [here](assets/UB-Folienmaster.pptx) and [here](https://github.com/digital-work-lab/slides_template){target=_blank}.
+- A template is available [here](assets/UB-Folienmaster.pptx) and [here](https://github.com/fs-ise/slides_template){target=_blank}.
 - Evaluation criteria are stated [here](docs/criteria.html#presentation).
 - Presentations are typically on campus and in person. Please contact us if you need to present online.
-- You decide whether the presentation should be scheduled before or after submitting the thesis. You can suggest a date for the presentation, and the thesis advisor selects a second examiner. Please schedule the presentation early and take into account our [availability](https://digital-work-lab.github.io/handbook/docs/02.calendar.html){target=_blank}.
+- You decide whether the presentation should be scheduled before or after submitting the thesis. You can suggest a date for the presentation, and the thesis advisor selects a second examiner. Please schedule the presentation early and take into account our [availability](https://fs-ise.github.io/handbook/calendar.html){target=_blank}.
 
 ## 6. Grading and feedback session
 
