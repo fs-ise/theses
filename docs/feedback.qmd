@@ -18,7 +18,7 @@ For us, feedback sessions are essential to **improve how we advise students** wh
 
 We actively encourage students to participate in feedback sessions. In the process, we also ask students whether they want to provide feedback, whether we can publish it, and if so, whether it should be published anonymously.
 
-[Provide feedback](https://github.com/fs-ise/theses/edit/main/docs/feedback.md){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
+[Provide feedback](https://github.com/fs-ise/theses/edit/main/docs/feedback.qmd){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
 
 <!-- 
 ## 35.XXX (Optional: Name)
