@@ -2,6 +2,9 @@
 title: "Completed theses"
 ---
 
+- 033 **Mingxin Jiang**: The Performance of Duplicate Identification Algorithms on Low-quality Datasets: Error Analysis and Optimization (Bachelor's thesis)
+- 032 **Ammar Al Balkhi**: Designing a GitHub-Native Delegation Bot for Collaborative Workflows: A Design Science Study (Bachelor's thesis)
+- 031 **Muhammad Uzair Janjua**: Factors influencing career decisions of young IT professionals in the digital ag: A survey study (Master's thesis)
 - 030 **Julia Isabel Seibold**: awesome: An analysis of popular knowledge curations on GitHub (Bachelor's thesis)
 - 029 **Daniela Albaner**: How cobots are conquering the manufacturing industry: An analysis of management decisions on the use of cobots in the context of Industry 5.0 (Master's thesis)
 - 028 **Jessica Klarmann**: Skill Signal Portfolios of IT Freelancers on Online Labor Markets: A Clustering Analysis of Hard and Soft Skills (Bachelor's thesis)
