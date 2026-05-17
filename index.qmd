@@ -61,25 +61,28 @@ flowchart LR
         Init["<a href='#topic-proposal'>1. Topic proposal</a>"] ==> Admission["<a href='#formal-admission'>2. Formal admission</a>"]
         Admission ==> Writing["<a href='#thesis-writing-and-feedback-sessions'>3. Thesis writing</a>"]
         Writing ==> Submission["<a href='#submission-of-the-thesis'>4. Submission</a>"]
-        Submission ==> Grading
-        Writing -. Master's students .-> Presentation["<a href='#thesis-presentation'>5. Presentation</a>"]
-        Presentation -.-> Grading["<a href='#grading-and-feedback-session'>6. Grading and feedback</a>"]
+        Submission ==> Grading["<a href='#grading-and-feedback-session'>5. Grading</a>"]
         Criteria(["<a href='docs/criteria.html'>Evaluation criteria</a>"]) -.- Writing
-        Criteria -.- Presentation
         Criteria -.- Grading
         Init .-> Decline@{ shape: dbl-circ, label: "Declined" }
     end
     style Init stroke:#333,stroke-width:3px
     style Admission stroke:#333,stroke-width:3px
     style Writing stroke:#333,stroke-width:3px
-    style Presentation stroke:#333,stroke-width:3px
     style Submission stroke:#333,stroke-width:3px
     style Grading stroke:#333,stroke-width:3px
     style Process fill:white,stroke:#333,stroke-width:3px
 ```
 :::
 
+<!--
+        Writing -. Master's students .-> Presentation["<a href='#thesis-presentation'>5. Presentation</a>"]
+        Presentation -.-> Grading["<a href='#grading-and-feedback-session'>6. Grading and feedback</a>"]
+        Criteria -.- Presentation
+    style Presentation stroke:#333,stroke-width:3px
 - A detailed overview of the administrative process is available [here](https://fs-ise.github.io/handbook/teaching/theses.html){target=_blank}.
+-->
+
 - A changelog for this document is available [here](https://github.com/fs-ise/theses/commits/main/index.md){target=_blank}.
 
 ## 1. Topic proposal
@@ -106,9 +109,12 @@ For detailed criteria, refer to our research goals and processes.
     {{ availability_content | markdownify }}
   </div>
 </details>
+
+To start the process, create a repository from the [thesis template repository](https://github.com/fs-ise/thesis-template), give [geritwagner](https://github.com/geritwagner) (read) access, and 
+
 -->
 
-To start the process, create a repository from the [thesis template repository](https://github.com/fs-ise/thesis-template), give [geritwagner](https://github.com/geritwagner) (read) access, and schedule a meeting to discuss the topic:
+To start the process, schedule a meeting to discuss the topic:
 
 [Schedule a meeting](https://calendly.com/gerit-wagner/30min){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
 
@@ -120,6 +126,9 @@ To prepare for the next step, it is recommended to start developing an [exposé]
 
 ## 2. Formal admission
 
+The admission is completed in [SuSy](https://susy.frankfurt-school.de/){target=_blank}.
+
+<!--
 You send the **application for admission** to the thesis to the *examination office* via their student email address.
 You can use [this email template](docs/admission_mail.html).
 
@@ -146,12 +155,18 @@ It is important that we receive **two paper versions with original signatures**:
 To complete the admission, please add the topic and date in the Word document and upload it to your repository (or share it via email).
 :::
 
+--> 
+
 ## 3. Thesis writing and feedback sessions
 
-Bachelor's theses are usually due in 4 months, while master's theses are due in 6 months.
+Bachelor's theses are usually due in 2 months, while master's theses are due in 3 months.
+
+<!--
 The official requirements can be found in the regulations linked below.
+
 It is not necessary to submit the thesis in the semester in which it was started (unless it would take longer than the maximum duration of study).
 For students of *Applied Informatics*, *Software Systems Science*, and *Computing in the Humanities*, a practical part is required for bachelor's and master's theses.
+-->
 
 You are expected to complete the exposé before writing the thesis.
 A thesis must be written in English.
@@ -178,22 +193,32 @@ flowchart
 
 ## 4. Submission of the thesis
 
-From December 1st, 2025, the binding and timely submission of bachelor's and master's theses will take place digitally via the form server [here](https://form.uni-bamberg.de/form/alias/1/einreichung-ba-ma-arbeit/). Digital submission replaces the submission of printed copies, as was previously the case.
+The submission is completed in [SuSy](https://susy.frankfurt-school.de/){target=_blank}.
 
-## 5. Thesis presentation
+<!--
+  From December 1st, 2025, the binding and timely submission of bachelor's and master's theses will take place digitally via the form server [here](https://form.uni-bamberg.de/form/alias/1/einreichung-ba-ma-arbeit/).
+  Digital submission replaces the submission of printed copies, as was previously the case.
+-->
 
-Presentations are required for master's theses.
+<!--
+  ## 5. Thesis presentation
 
-- A template is available [here](assets/UB-Folienmaster.pptx) and [here](https://github.com/fs-ise/slides_template){target=_blank}.
-- Evaluation criteria are stated [here](docs/criteria.html#presentation).
-- Presentations are typically on campus and in person. Please contact us if you need to present online.
-- You decide whether the presentation should be scheduled before or after submitting the thesis. You can suggest a date for the presentation, and the thesis advisor selects a second examiner. Please schedule the presentation early and take into account our [availability](https://fs-ise.github.io/handbook/calendar.html){target=_blank}.
+  Presentations are required for master's theses.
 
-## 6. Grading and feedback session
+  - A template is available [here](assets/UB-Folienmaster.pptx) and [here](https://github.com/fs-ise/slides_template){target=_blank}.
+  - Evaluation criteria are stated [here](docs/criteria.html#presentation).
+  - Presentations are typically on campus and in person. Please contact us if you need to present online.
+  - You decide whether the presentation should be scheduled before or after submitting the thesis. You can suggest a date for the presentation, and the thesis advisor selects a second examiner. Please schedule the presentation early and take into account our [availability](https://fs-ise.github.io/handbook/calendar.html){target=_blank}.
+-->
+
+## 5. Grading and feedback session
 
 The thesis advisor (professor) grades the thesis based on the predefined [criteria](docs/criteria.html). 
+You can check the grade in SuSy.
+
+<!--
 The examination office enters the grades.
-You can check the grade via FlexNow.
+-->
 
 Afterward, we provide feedback on the thesis and explain the grading.
 A summary is stored on our [feedback page](docs/feedback.html) if you agree.
@@ -202,5 +227,9 @@ A summary is stored on our [feedback page](docs/feedback.html) if you agree.
 
 Next steps...
 
-- 🥂 🎉 🎓 Remember to register for the [graduation ceremony](https://www.uni-bamberg.de/en/wiai/studium/graduation-ceremony/){target=_blank}
+- 🥂 🎉 🎓 Save the date for the graduation ceremony!
 - ✉️ We are happy to support you with a [recommendation letter](https://fs-ise.github.io/handbook/teaching/recommendations.html){target=_blank} — especially if you earned a good grade. Please reach out early!
+
+<!--
+- 🥂 🎉 🎓 Remember to register for the [graduation ceremony](https://www.uni-bamberg.de/en/wiai/studium/graduation-ceremony/){target=_blank}
+-->

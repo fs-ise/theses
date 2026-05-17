@@ -23,8 +23,6 @@ website:
         contents:
           - text: Open topics
             href: docs/topics.qmd
-          - text: Admission mail
-            href: docs/admission_mail.qmd
           - text: Exposé
             href: docs/expose.qmd
 

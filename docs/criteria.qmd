@@ -68,6 +68,8 @@ Especially for top grades (1.0–1.7), simply implementing suggestions is not su
 Instead, students are expected to maintain ownership of their work by applying independent judgment and, where appropriate, going beyond or critically reflecting on feedback from thesis advisors.
 :::
 
+<!--
+
 ## Presentation
 
 A presentation is required for Master's theses. A presentation takes 15-20 minutes with 10 minutes of discussion.
@@ -83,14 +85,13 @@ It is evaluated based on the following criteria:
 In line with the applicable regulations, the presentation receives a weight of 33% for students of Information Systems.
 For students from other departments and degree programs (such as [IBWL](https://www.uni-bamberg.de/abt-studium/aufgaben/pruefungs-studienordnungen/masterstudiengaenge/internationale-betriebswirtschaftslehre/){target=_blank}), the presentation may not be graded.
 
-<!-- 
-https://www.uni-bamberg.de/psi/teaching/psi-teaching-posters/
-https://www.dmm.bwl.uni-muenchen.de/download/info/dmm_formalia_2022_de.docx
--->
+
+    https://www.uni-bamberg.de/psi/teaching/psi-teaching-posters/
+    https://www.dmm.bwl.uni-muenchen.de/download/info/dmm_formalia_2022_de.docx
 
 ## Applicable regulations
 
-<!-- 
+
 - Bachelor Business Information Systems
 - Bachelor International Information Systems Management
 - Bachelor Angewandte Informatik
@@ -100,6 +101,7 @@ https://www.dmm.bwl.uni-muenchen.de/download/info/dmm_formalia_2022_de.docx
 - Master Angewandte Informatik
 - Master Software Systems Science
 - Master Computing in the Humanities
- -->
 
 - [Prüfungs- und Studienordnungen](https://www.uni-bamberg.de/abt-studium/aufgaben/pruefungs-studienordnungen/){target=_blank}, insbes. Modulhandbücher
+
+-->
