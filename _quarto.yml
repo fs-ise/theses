@@ -54,6 +54,11 @@ website:
           - text: Student Feedback
             href: docs/feedback.qmd
 
+
+bibliography: references.bib
+csl: assets/apa.csl
+
+
 format:
   html:
     theme: cosmo

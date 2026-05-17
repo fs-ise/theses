@@ -1,7 +1,5 @@
 ---
 title: Research
-bibliography: ../../assets/references.bib
-csl: ../../assets/apa.csl
 ---
 
 ## Research contributions

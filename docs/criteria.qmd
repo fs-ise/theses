@@ -1,7 +1,5 @@
 ---
 title: "Criteria for evaluation"
-bibliography: ../assets/references.bib
-csl: ../assets/apa.csl
 nocite: |
   @JOSSReviewCriteria
 ---
