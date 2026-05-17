@@ -8,7 +8,7 @@
 [![Spelling Check](https://github.com/fs-ise/theses/actions/workflows/spelling.yml/badge.svg)](https://github.com/fs-ise/theses/actions/workflows/spelling.yml)
 ![Links Fix](https://github.com/fs-ise/theses/actions/workflows/links_fix.yml/badge.svg)
 ![Documentation Status](https://img.shields.io/github/actions/workflow/status/fs-ise/theses/quarto-publish.yml?label=documentation)
-[![DOI](https://zenodo.org/badge/754505102.svg)](https://doi.org/10.5281/zenodo.13893017)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.13893017-blue)](https://doi.org/10.5281/zenodo.13893017)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
 
 </div>
