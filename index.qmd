@@ -116,7 +116,7 @@ To start the process, create a repository from the [thesis template repository](
 
 To start the process, schedule a meeting to discuss the topic:
 
-[Schedule a meeting](https://calendly.com/gerit-wagner/30min){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
+[Schedule a meeting]({{< var instructor.bookings_url >}}){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
 
 To prepare for the next step, it is recommended to start developing an [exposé](docs/expose.html).
 
@@ -223,7 +223,7 @@ The examination office enters the grades.
 Afterward, we provide feedback on the thesis and explain the grading.
 A summary is stored on our [feedback page](docs/feedback.html) if you agree.
 
-[Schedule feedback session](https://calendly.com/gerit-wagner/30min){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
+[Schedule feedback session]({{< var instructor.bookings_url >}}){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
 
 Next steps...
 

@@ -5,9 +5,9 @@ title: Feedback
 We offer regular **feedback sessions** (every one to two weeks) to discuss open questions and the next steps:
 
 - Feedback sessions can be in person or online.
-- They can be scheduled via Calendly:
+- They can be scheduled here:
 
-[Schedule feedback session](https://calendly.com/gerit-wagner/30min){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
+[Schedule feedback session]({{< var instructor.bookings_url >}}){.btn .btn-lg .btn-success .btn-center target="_blank" rel="noopener"}
 
 To receive feedback on the written document, please:
 
