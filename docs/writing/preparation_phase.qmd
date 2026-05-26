@@ -21,15 +21,17 @@ Note: This should roughly be completed within the first week of the thesis.
 
 To start your thesis on the right track, ensure the following setup steps are completed:
 
-- Create a [repository](https://github.com/new?template_name=thesis-template&template_owner=fs-ise){target=_blank} based on our template or use the [Word template](https://github.com/fs-ise/theses/raw/refs/heads/main/assets/template.docx){target=_blank}
+- Use the [Quarto](https://github.com/new?template_name=thesis-template&template_owner=fs-ise){target=_blank} or [Word](https://github.com/fs-ise/theses/raw/refs/heads/main/assets/template.docx){target=_blank} template
 - The [analysis templates section](https://fs-ise.github.io/handbook/research/analysis_templates.html){target=_blank}
-- Backups
-- Consider requesting a Grammarly license
-- Reference manager (tools like Zotero)
+- Set up a reference manager (like Zotero)
 - Create a schedule and work plan
-- [Evaluation criteria](../criteria.html)
+- Read the [evaluation criteria](../criteria.html)
+
+<!--
+Consider requesting a Grammarly license
 
 It is good practice to write the thesis in a Git-versioned repository, add notes from the meetings to the README.md file, and give your thesis advisor access to the repository.
+-->
 
 ::: callout-note
 Remember to create **regular backups** of your work, e.g., by creating Git versions and pushing them to a remote repository, and/or copying files to a USB stick.
