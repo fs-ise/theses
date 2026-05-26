@@ -21,7 +21,7 @@ Note: This should roughly be completed within the first week of the thesis.
 
 To start your thesis on the right track, ensure the following setup steps are completed:
 
-- Create a [repository](https://github.com/new?template_name=thesis-template&template_owner=fs-ise){target=_blank} based on our template<!-- or [Word](https://github.com/fs-ise/theses/raw/refs/heads/main/assets/template.docx){target=_blank} -->
+- Create a [repository](https://github.com/new?template_name=thesis-template&template_owner=fs-ise){target=_blank} based on our template or use the [Word template](https://github.com/fs-ise/theses/raw/refs/heads/main/assets/template.docx){target=_blank}
 - The [analysis templates section](https://fs-ise.github.io/handbook/research/analysis_templates.html){target=_blank}
 - Backups
 - Consider requesting a Grammarly license
