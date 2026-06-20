@@ -1,0 +1,26 @@
+---
+title: "Open, Agentic, and Boundary-Spanning Work"
+categories: ["design-science", "programming"]
+keywords: ["agentic AI", "boundary-spanning work", "open source", "open work"]
+advisor: "Prof. Dr. Gerit Wagner"
+status: "Open topic"
+---
+
+**Thesis Advisor**: Prof. Dr. Gerit Wagner
+
+**Summary**: In this topic area, we explore how work is reshaped by AI agents, open digital infrastructures, and collaboration across organizational boundaries. The focus lies on agentic systems embedded in real work contexts (e.g., Git-based workflows, organizational handbooks, platform repositories, and personal knowledge systems) and how they support, coordinate, or govern knowledge work. Possible topics include contextual work-support agents, AI-enabled governance and quality control mechanisms, corporate–community collaboration in open repositories, and the role of digital infrastructures in enabling new forms of organizing. The unifying theme is how AI and open systems reconfigure coordination, accountability, and collaboration within and across organizations.
+
+**Methods**: Literature reviews, design science research, or case studies.
+
+<!--
+  **Expected Outcomes**: This thesis will provide a comprehensive evaluation of academic search queries used in peer-reviewed research. The analysis will offer statistical insights into the prevalence of different error types and structural characteristics of the queries. A deeper understanding of common patterns can support error prevention and the formulation of more effective search strategies. The evaluation will also verify the functionality of the *search-query* tool and highlight potential shortcomings and areas of improvement to the design.
+
+  **Requirements**: Students should have prior experience with Git and Python. Familiarity with basic data analysis techniques is an advantage.
+
+  **References**:
+
+  <div class="references">
+    <p>Clark J, Barton B, Albarqouni L, et al. Generative artificial intelligence use in evidence synthesis: A systematic review. Research Synthesis Methods. 2025;16(4):601-619. doi:10.1017/rsm.2025.16</p>
+    <p>Wagner, G., Lukyanenko, R., & Paré, G. (2022). Artificial intelligence and the conduct of literature reviews. Journal of Information Technology, 37(2), 209-226.</p>
+  </div>
+-->

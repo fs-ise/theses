@@ -1,0 +1,26 @@
+---
+title: "AI-Supported Knowledge Synthesis"
+categories: ["design-science", "programming"]
+keywords: ["knowledge synthesis", "literature reviews", "artificial intelligence"]
+advisor: "Prof. Dr. Gerit Wagner"
+status: "Open topic"
+---
+
+**Thesis Advisor**: Prof. Dr. Gerit Wagner
+
+**Summary**: In this topic area, we investigate how AI can support knowledge synthesis across academic and professional contexts. The focus is on improving transparency, rigor, traceability, and sensemaking in AI-assisted synthesis processes. Topics may include the design and evaluation of prompts for structured synthesis, classification of AI use in knowledge work outputs, benchmarking AI-supported synthesis workflows, and the development of infrastructures that make AI contributions auditable and reusable. This area explicitly includes literature reviews as well as knowledge synthesis in digital gardens, second-brain systems, and other personal or organizational knowledge repositories. The overarching aim is to understand and shape how AI supports the production, integration, and validation of knowledge.
+
+**Methods**: Literature reviews, design science research, or case studies.
+
+<!--
+  **Expected Outcomes**: This thesis will provide a comprehensive evaluation of academic search queries used in peer-reviewed research. The analysis will offer statistical insights into the prevalence of different error types and structural characteristics of the queries. A deeper understanding of common patterns can support error prevention and the formulation of more effective search strategies. The evaluation will also verify the functionality of the *search-query* tool and highlight potential shortcomings and areas of improvement to the design.
+
+  **Requirements**: Students should have prior experience with Git and Python. Familiarity with basic data analysis techniques is an advantage.
+-->
+
+**References**:
+
+<div class="references">
+  <p>Clark J, Barton B, Albarqouni L, et al. Generative artificial intelligence use in evidence synthesis: A systematic review. Research Synthesis Methods. 2025;16(4):601-619. doi:10.1017/rsm.2025.16</p>
+  <p>Wagner, G., Lukyanenko, R., & Paré, G. (2022). Artificial intelligence and the conduct of literature reviews. Journal of Information Technology, 37(2), 209-226.</p>
+</div>
