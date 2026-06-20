@@ -42,18 +42,349 @@
     "text": "5. Grading and feedback session\nThe thesis advisor (professor) grades the thesis based on the predefined criteria. You can check the grade in SuSy.\n\nAfterward, we provide feedback on the thesis and explain the grading. A summary is stored on our feedback page if you agree.\nSchedule feedback session\nNext steps…\n\n🥂 🎉 🎓 Save the date for the graduation ceremony!\n✉️ We are happy to support you with a recommendation letter — especially if you earned a good grade. Please reach out early!"
   },
   {
-    "objectID": "docs/topics/search-query-erorr-prevalence.html",
-    "href": "docs/topics/search-query-erorr-prevalence.html",
-    "title": "Error prevalence in academic search queries: An analysis using an automated validation tool",
+    "objectID": "docs/topics/open-agentic-boundary-spanning-work.html",
+    "href": "docs/topics/open-agentic-boundary-spanning-work.html",
+    "title": "Open, Agentic, and Boundary-Spanning Work",
     "section": "",
-    "text": "Thesis Advisor: Prof. Dr. Gerit Wagner\nSummary: Literature search queries used to access scientific databases often contain syntactic errors and inconsistencies. Since such errors can adversely affect the effectiveness of reviews, their detection and prevention are critical steps in query formulation, use and reporting. Due to the length and complexity of queries, manual validation is often impractical, which has prompted the development of automated solutions. Building on these advances, this thesis performs a comprehensive evaluation of academic search queries using the query validation tool, search-query. The analysis aims to identify common pitfalls and inconsistencies, addressing both syntactic errors (e.g., unbalanced parentheses) and opportunities for refinement (e.g., removal of redundant components). A dataset of queries taken from searchRxiv will be compiled for the analysis. The dataset will include queries for the popular search platforms Web of Science, PubMed, and EBSCOHost. The evaluation will also serve to assess the functionality of the search-query tool and reveal potential areas for improvement in its design.\nMethods: The thesis combines design science and quantitative approaches, proceeding in three phases: 1) Creating of a test dataset of queries based on searchRxiv. 2) Analyzing the queries using the search-query package. 3) Preparing and evaluating the test data and suggesting improvements to the tool’s design.\nExpected Outcomes: This thesis will provide a comprehensive evaluation of academic search queries used in peer-reviewed research. The analysis will offer statistical insights into the prevalence of different error types and structural characteristics of the queries. A deeper understanding of common patterns can support error prevention and the formulation of more effective search strategies. The evaluation will also verify the functionality of the search-query tool and highlight potential shortcomings and areas of improvement to the design.\nRequirements: Students should have prior experience with Git and Python. Familiarity with basic data analysis techniques is an advantage.\nReferences:\n\n\nEckhardt, P., Ernst, K., Fleischmann, T., Geßler, A., Schnickmann, K., Thurner, L., and Wagner, G. “search-query: An Open-Source Python Library for Academic Search Queries”.\n\n\nGusenbauer, M., & Haddaway, N. R. (2021). What every researcher should know about searching–clarified concepts, search advice, and an agenda to improve finding in academia. Research Synthesis Methods, 12(2), 136-147.\n\n\nLi, Z., & Rainer, A. (2023). Reproducible Searches in Systematic Reviews: An Evaluation and Guidelines. IEEE Access, 11, 84048–84060. IEEE Access.\n\n\nPeffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007). A design science research methodology for information systems research. Journal of Management Information Systems, 24(3), 45–77."
+    "text": "Thesis Advisor: Prof. Dr. Gerit Wagner\nSummary: In this topic area, we explore how work is reshaped by AI agents, open digital infrastructures, and collaboration across organizational boundaries. The focus lies on agentic systems embedded in real work contexts (e.g., Git-based workflows, organizational handbooks, platform repositories, and personal knowledge systems) and how they support, coordinate, or govern knowledge work. Possible topics include contextual work-support agents, AI-enabled governance and quality control mechanisms, corporate–community collaboration in open repositories, and the role of digital infrastructures in enabling new forms of organizing. The unifying theme is how AI and open systems reconfigure coordination, accountability, and collaboration within and across organizations.\nMethods: Literature reviews, design science research, or case studies."
+  },
+  {
+    "objectID": "docs/completed.html",
+    "href": "docs/completed.html",
+    "title": "Completed theses",
+    "section": "",
+    "text": "033 Mingxin Jiang: The Performance of Duplicate Identification Algorithms on Low-quality Datasets: Error Analysis and Optimization (Bachelor’s thesis)\n032 Ammar Al Balkhi: Designing a GitHub-Native Delegation Bot for Collaborative Workflows: A Design Science Study (Bachelor’s thesis)\n031 Muhammad Uzair Janjua: Factors influencing career decisions of young IT professionals in the digital ag: A survey study (Master’s thesis)\n030 Julia Isabel Seibold: awesome: An analysis of popular knowledge curations on GitHub (Bachelor’s thesis)\n029 Daniela Albaner: How cobots are conquering the manufacturing industry: An analysis of management decisions on the use of cobots in the context of Industry 5.0 (Master’s thesis)\n028 Jessica Klarmann: Skill Signal Portfolios of IT Freelancers on Online Labor Markets: A Clustering Analysis of Hard and Soft Skills (Bachelor’s thesis)\n027 Peter Eckhardt: Advances in literature searches: Evaluation, analysis, and improvement of Web of Science queries (Bachelor’s thesis)\n026 Karl Schnickmann: Validating and Parsing Academic Search Queries: A Design Science Approach (Bachelor’s thesis)\n025 Anna Geßler: Design of an Emulator for API-based Academic Literature Searches (Bachelor’s thesis)\n024 Thomas Fleischmann: Advances in literature search queries: Validation and translation of search strings for EBSCO host (Bachelor’s thesis)\n023 Tharshiga Gunapalan: Ethical challenges and regulatory responses in gig work: An analysis of emergent policy agendas (Maser’s thesis)\n022 Celina Schwarz: Ethical challenges and regulatory responses in gig work: An analysis of emergent policy agendas (Bachelor’s thesis)\n021 Michael Bitz: Online labor markets: Key constructs, items and nomological network (Master’s thesis)\n020 Laureen Thurner: Understanding the process of organizing participatory knowledge resources: An exploratory study in the context of academic lab handbooks (Bachelor’s thesis)\n019 Robert Theis: Analyzing the yield of literature search queries: An open source design science approach (Bachelor’s thesis)\n018 Aaron Hißting: Generative artificial intelligence and archetype prompts in software development: A scoping review (Bachelor’s thesis)\n017 Witalij Kindsvater: The Impact of Remote Work on Individual Productivity: A Literature Review of Pre-, Peri-, and Post-Pandemic Research (Bachelor’s thesis)\n014 Philipp Thomas Raab: The effects of generative artificial intelligence on software development tasks: A qualitative systematic review (Bachelor’s thesis)\n013 Moritz van den Hövel: The state of artificial intelligence in personal information management – A scoping review (Bachelor’s thesis)\n012 Luca Ossendorf: Design of a machine-learning classifier for research papers: Identifying literature reviews (Bachelor’s thesis)\n011 Ivan Shevlyakov: Techno-stressors in work and non-work contexts: A structured literature review (Bachelor’s thesis)\n010 Thi Thanh Thao Tran: Synthesizing the Integration of HR Analytics Across the Employee Life Cycle: A Scoping Review of Stage-Specific Organizational Applications (Master’s thesis)\n009 Katharina Maria Ernst: Towards more efficient literature searches: Design of an open source query translator (Bachelor’s thesis, link)\n008 Hisham Merdan: Towards more effective backward searches: A novel machine-learning-based approach (Bachlelor’s thesis)\n007 Nizar Salem: Design and evaluation of machine learning classifiers to support backward citation searches (Bachelor’s thesis)\n006 Albert Borchardt: Automated literature pre-screening in systematic reviews: Design and evaluation of machine learning classifiers (Bachelor’s thesis)\n004 Do Thuy Duong Nguyen: Societal impact of telecommuting: A review of prior works (Master’s thesis)\n003 Antonia Pausch: Remote work and mental health: A qualitative systematic review (Bachelor’s thesis)\n002 Salim Kahn: Artificial Intelligence and Changes in Associated Skill Requirements Across Industry Sectors (Bachelor’s thesis)\n001 Marina Herold: The Transformation of Organizational Culture in the Age of Remote Work: A Literature Review (Bachelor’s thesis)\nPhilip Empl: Addressing the Inefficiency of Searching Backward: A Novel Tool to Support Authors of Literature Reviews (Bachelor’s thesis)\nRichard Schuster: How Do We Build on Information Systems Design Science Research? Steps Towards Cumulative Knowledge Development (Bachelor’s thesis)\nJulian Prester: Uncovering the Epistemological Impact of IS Literature Reviews: A Natural Language Processing Based Approach (Master’s thesis)",
+    "crumbs": [
+      "Home",
+      "Outcomes",
+      "Completed theses"
+    ]
+  },
+  {
+    "objectID": "docs/admission_mail.html",
+    "href": "docs/admission_mail.html",
+    "title": "Admission e-mail",
+    "section": "",
+    "text": "To: wiai.pruefungen@uni-bamberg.de\nSubject: Bachelorarbeit Anmeldung\n\nSehr geehrte Damen und Herren,\n\nhiermit stelle ich einen Antrag zur Anmeldung meiner Bachelorarbeit.\n\nAktuelle Anschrift:\n...\n\nAnschrift nach Abschluss des Studiums:\n...\n\nMatrikelnummer: XXXX\n\nStudiengang: Bachelor Wirtschaftsinformatik\n\nE-Mail-Adresse: ...\n\nBetreuer: Herr Prof. Dr. Gerit Wagner\nLehrstuhl: Digital Work\n\nMit freundlichen Grüßen\n\n..."
+  },
+  {
+    "objectID": "docs/writing/research.html",
+    "href": "docs/writing/research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Ågerfalk & Karlsson (2020) for artefactual contributions\nLeidner (2020) on research contributions",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Research"
+    ]
+  },
+  {
+    "objectID": "docs/writing/research.html#research-contributions",
+    "href": "docs/writing/research.html#research-contributions",
+    "title": "Research",
+    "section": "",
+    "text": "Ågerfalk & Karlsson (2020) for artefactual contributions\nLeidner (2020) on research contributions",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Research"
+    ]
+  },
+  {
+    "objectID": "docs/writing/research.html#research-methods",
+    "href": "docs/writing/research.html#research-methods",
+    "title": "Research",
+    "section": "Research methods",
+    "text": "Research methods\n\n\n\nMethod\nCriteria and reporting guideline\n\n\n\n\nLiterature review\nParé et al. (2015), Paré et al. (2024), Page et al. (2021), Templier & Paré (2018), Okoli (2015), PRISMA1\n\n\nTheory development\nGregor (2006)\n\n\nDesign science\nHevner et al. (2004), Prat et al. (2015), Peffers et al. (2007), Journal of Open Source Software (n.d.)\n\n\nMachine learning\nHeil et al. (2021), Kapoor et al. (2023), Stevens et al. (2020), Walsh et al. (2021)\n\n\nExperiments\nFrank et al. (2024)\n\n\nQualitative surveys and interviews\nO’Brien et al. (2014), Tong et al. (2007)",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Research"
+    ]
+  },
+  {
+    "objectID": "docs/writing/research.html#support-for-statistical-analyses-baces",
+    "href": "docs/writing/research.html#support-for-statistical-analyses-baces",
+    "title": "Research",
+    "section": "Support for statistical analyses (BACES)",
+    "text": "Support for statistical analyses (BACES)\nFor students conducting research for their thesis, support from the Bamberger Centrum für Empirische Studien (BACES) is available. BACES provides free statistical consultation for students working on seminar papers, thesis projects, and for university members involved in publications. This service is particularly useful for students needing assistance with statistical analysis and data interpretation.\nThe BACES team, which consists of professors, researchers, and student assistants, offers:\n\nFree methodological consultation for students and university members on their research projects (seminar and thesis papers, publications).\nTraining sessions on various statistical topics.\nImmediate support on urgent statistical issues every Wednesday between 10 and 11 AM.\n\nFor further details on their services and team, you can visit the BACES website or directly reach out for statistical consultation via the BACES consultation page.\nPlease note that the consultations are provided with the consent of thesis advisors. We highly encourage students to take advantage of this valuable resource during their research phase.",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Research"
+    ]
+  },
+  {
+    "objectID": "docs/writing/research.html#footnotes",
+    "href": "docs/writing/research.html#footnotes",
+    "title": "Research",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhttps://estech.shinyapps.io/prisma_flowdiagram/↩︎",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Research"
+    ]
+  },
+  {
+    "objectID": "docs/writing/writing_phase.html",
+    "href": "docs/writing/writing_phase.html",
+    "title": "Writing phase",
+    "section": "",
+    "text": "ObjectiveObjective\n\n\n\n\nFive golden rules\nWriting process\nUsing active voice\nTopic sentences\nTense usage in academic writing\nCitation guidelines\nWhen are illustrations needed?\nBringing your thesis to life\nWriting should be accessible and free of unnecessary complexity to ensure readers easily grasp your ideas.",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Writing phase"
+    ]
+  },
+  {
+    "objectID": "docs/writing/writing_phase.html#five-golden-rules",
+    "href": "docs/writing/writing_phase.html#five-golden-rules",
+    "title": "Writing phase",
+    "section": "Five golden rules",
+    "text": "Five golden rules\n\nRule 1: Start with a strong outline\n\nExplains the importance of outlining before starting.\nOutline as the backbone of your thesis.\nProvides tips for breaking down your thesis into sections.\n\nRule 2: Maintain consistency\n\nConsistency in tone: formal, clear, and academic.\nFormatting rules: follow a single style guide for margins, headings, and citations.\nSuggests tools like Zotero to help manage citations efficiently.\n\nRule 3: Prioritize clarity\n\nGuides on using short, direct sentences and avoiding unnecessary jargon.\nAdvises defining technical terms for readers unfamiliar with the topic.\n\nRule 4: Revise extensively\n\nRecommends a multi-step revision process, focusing on structure first, then content, and finally grammar.\nEncourages seeking feedback from your supervisor.\n\nRule 5: Use illustrations wisely\n\nDiscusses the purpose of visuals and when to include them (e.g., data-heavy sections, complex processes).\nWarns against overloading the thesis with unnecessary graphics.",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Writing phase"
+    ]
+  },
+  {
+    "objectID": "docs/writing/writing_phase.html#writing-process",
+    "href": "docs/writing/writing_phase.html#writing-process",
+    "title": "Writing phase",
+    "section": "Writing process",
+    "text": "Writing process\n\nFrom the outline to the manuscript\nExpanding bullet points into structured paragraphs is key to maintaining coherence. Topic sentences should guide the reader through each paragraph, keeping the discussion focused. Integrating references smoothly is also important to maintain the logical flow of ideas.\n\n\nRecommended writing sequence\nStarting with the Methods Section is recommended, as it is factual and descriptive, laying the foundation for the Results Section, where data is presented without interpretation. The Discussion Section follows, analyzing the results in the context of research objectives. The Introduction and Literature Review should be written later to align with study findings and to provide proper context. Finally, the Conclusion summarizes key insights without introducing new ideas.",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Writing phase"
+    ]
+  },
+  {
+    "objectID": "docs/writing/writing_phase.html#using-active-voice",
+    "href": "docs/writing/writing_phase.html#using-active-voice",
+    "title": "Writing phase",
+    "section": "Using active voice",
+    "text": "Using active voice\nIt is recommended to use active voice (“I” or “we”) instead of passive voice (commonly used in German).",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Writing phase"
+    ]
+  },
+  {
+    "objectID": "docs/writing/writing_phase.html#topic-sentences",
+    "href": "docs/writing/writing_phase.html#topic-sentences",
+    "title": "Writing phase",
+    "section": "Topic sentences",
+    "text": "Topic sentences\nTopic sentences provide clarity and structure, making it easier for readers to follow the argument. They are commonly found in high-quality academic writing. Good examples of topic sentences can be found in top-tier journal papers like the one by Davis (1989):\n\nPerceived usefulness and perceived ease of use\nWhat causes people to accept or reject information technology? Among the many variables that may influence system use, previous research suggests two determinants that are especially important. First, people tend to use or not use an application to the extent they believe it will help them perform their job better. We refer to this first variable as perceived usefulness. Second, even if potential users believe that a given application is useful, they may, at the same time, believe that the system is too hard to use and that the performance benefits of usage are outweighed by the effort of using the application. That is, in addition to usefulness, usage is theorized to be influenced by perceived ease of use.\nPerceived usefulness is defined here as “the degree to which a person believes that using a particular system would enhance his or her job performance.” This follows from the definition of the word useful: “capable of being used advantageously.” Within an organizational context, people are generally reinforced for good performance by raises, promotions, bonuses, and other rewards (Pfeffer, 1982; Schein, 1980; Vroom, 1964). A system high in perceived usefulness, in turn, is one for which a user believes in the existence of a positive use-performance relationship.\nPerceived ease of use, in contrast, refers to “the degree to which a person believes that using a particular system would be free of effort.” This follows from the definition of “ease”: “freedom from difficulty or great effort.” Effort is a finite resource that a person may allocate to the various activities for which he or she is responsible (Radner and Rothschild, 1975). All else being equal, we claim, an application perceived to be easier to use than another is more likely to be accepted by users.",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Writing phase"
+    ]
+  },
+  {
+    "objectID": "docs/writing/writing_phase.html#tense-usage-in-academic-writing",
+    "href": "docs/writing/writing_phase.html#tense-usage-in-academic-writing",
+    "title": "Writing phase",
+    "section": "Tense usage in academic writing",
+    "text": "Tense usage in academic writing\nThe present tense is used for general truths, accepted knowledge, and describing the content of the paper. For example, “This study investigates…” or “Figure 1 shows…” The past tense is used to describe specific methods, report findings, and reference prior research, as in “Smith et al. (2020) found…”",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Writing phase"
+    ]
+  },
+  {
+    "objectID": "docs/writing/writing_phase.html#citation-guidelines",
+    "href": "docs/writing/writing_phase.html#citation-guidelines",
+    "title": "Writing phase",
+    "section": "Citation guidelines",
+    "text": "Citation guidelines\nProper citation ensures recognition of original work and adherence to academic integrity. In information systems and computer science, indirect citation is preferred, focusing on theories and findings rather than exact wording. APA format is commonly used.\nIn-text citations can be either parenthetical, such as “Fitness trackers were found to have mixed effects on sedentary behavior (Smith et al., 2006),” or narrative, as in “Smith et al. (2006) analyzed the effectiveness of fitness trackers.” Word-for-word quotations require quotation marks and page numbers, e.g., “A substantial degree of inaccuracy in measuring sleep quality” was found (Smith et al., 2006, p. 111). Reference managers like Zotero facilitate proper citation formatting.",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Writing phase"
+    ]
+  },
+  {
+    "objectID": "docs/writing/writing_phase.html#when-are-illustrations-needed",
+    "href": "docs/writing/writing_phase.html#when-are-illustrations-needed",
+    "title": "Writing phase",
+    "section": "When are illustrations needed?",
+    "text": "When are illustrations needed?\nIllustrations should be used to enhance understanding and clarify key points. Charts, graphs, or tables are useful for presenting numerical data, while flowcharts or diagrams can help explain methodologies and workflows. Concept maps are particularly effective for illustrating theoretical frameworks. To ensure effectiveness, visuals should be clear, professionally designed, and properly labeled. Avoid including large blocks of code or overly complex diagrams; instead, focus on illustrating architecture and key mechanisms concisely.",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Writing phase"
+    ]
+  },
+  {
+    "objectID": "docs/writing/polishing.html",
+    "href": "docs/writing/polishing.html",
+    "title": "Polishing phase",
+    "section": "",
+    "text": "ObjectiveObjective\n\n\n\n\nRevising extensively\nFinalizing illustrations\nLanguage guidelines\nCheck citation guidelines\nEvaluation criteria\nBefore submitting your thesis, we encourage students to go through the pre-submission checklist:\nAdditionally, at least one week before submission, ensure that your thesis meets the following criteria.",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Polishing"
+    ]
+  },
+  {
+    "objectID": "docs/writing/polishing.html#polishing-your-work-for-submission",
+    "href": "docs/writing/polishing.html#polishing-your-work-for-submission",
+    "title": "Polishing phase",
+    "section": "Polishing your work for submission",
+    "text": "Polishing your work for submission\n\nRevising extensively\nA thorough revision process enhances the clarity and quality of your thesis. Start by ensuring that sections flow logically, then refine the content to improve coherence and depth of information. Finally, check grammar, spelling, and style consistency to ensure polished language.\nSeeking feedback from peers or supervisors can help identify areas for improvement.\n\n\nFinalizing illustrations\nVisual elements should complement the text and maintain a consistent design style. Ensure all visuals are necessary and avoid redundant descriptions. Instead of full code listings, use diagrams for system architectures or pseudo-code to present technical concepts effectively.",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Polishing"
+    ]
+  },
+  {
+    "objectID": "docs/writing/polishing.html#language-guidelines",
+    "href": "docs/writing/polishing.html#language-guidelines",
+    "title": "Polishing phase",
+    "section": "Language guidelines",
+    "text": "Language guidelines\nUse the present tense for general truths, accepted knowledge, and descriptions of the paper’s content and findings (e.g., “Figure 1 shows…”). The past tense is appropriate for describing specific methods, experiments, results, and prior research.",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Polishing"
+    ]
+  },
+  {
+    "objectID": "docs/writing/polishing.html#check-citation-guidelines",
+    "href": "docs/writing/polishing.html#check-citation-guidelines",
+    "title": "Polishing phase",
+    "section": "Check citation guidelines",
+    "text": "Check citation guidelines\nCiting correctly ensures academic integrity. Consider when to cite directly or indirectly and adhere to APA formatting guidelines for references. See the following example: In-text citations can be either parenthetical, such as “Fitness trackers were found to have mixed effects on sedentary behavior (Smith et al., 2006),” or narrative, as in “Smith et al. (2006) analyzed the effectiveness of fitness trackers.” Word-for-word quotations require quotation marks and page numbers, e.g., “A substantial degree of inaccuracy in measuring sleep quality” was found (Smith et al., 2006, p. 111). Reference managers like Zotero facilitate proper citation formatting.",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Polishing"
+    ]
+  },
+  {
+    "objectID": "docs/writing/polishing.html#evaluation-criteria",
+    "href": "docs/writing/polishing.html#evaluation-criteria",
+    "title": "Polishing phase",
+    "section": "Evaluation criteria",
+    "text": "Evaluation criteria\nWhile creating your thesis, keep the evaluation criteria in mind to ensure your thesis meets the required academic standards.",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Polishing"
+    ]
+  },
+  {
+    "objectID": "docs/criteria.html",
+    "href": "docs/criteria.html",
+    "title": "Criteria for evaluation",
+    "section": "",
+    "text": "Bachelor’s and Master’s theses are evaluated according to the same criteria. Once the formal requirements are met, the main criteria related to the process, the contribution, and the discussion are used to grade a thesis.\nA changelog is available for this document.",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Criteria"
+    ]
+  },
+  {
+    "objectID": "docs/criteria.html#formal-requirements",
+    "href": "docs/criteria.html#formal-requirements",
+    "title": "Criteria for evaluation",
+    "section": "Formal requirements",
+    "text": "Formal requirements\n\nA Bachelor’s thesis should cover 30-50 pages (roughly 8,000 - 16,000 words), while a Master’s thesis should cover 40-70 pages (roughly 12,000 - 28,000 words). Design-oriented, analytical, and quantitative theses are typically shorter than qualitative and literature-based ones. For a Master’s thesis, a presentation is required, and a more substantial contribution is expected in line with the higher number of ECTS credits earned.\nWritten in proper academic English, with a clear structure (paragraphs) and line of argument.\nFollows citation practices, using APA format, and refers primarily to peer-reviewed academic papers.\nIncludes a title page, table of contents, abstract, common sections (e.g., IMRAD), a reference section, and appendices if applicable (a list of figures or tables is not required).\nMakes appropriate use of tables and figures, citing each table or figure in the text.\nProvides clear definitions for key terms.",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Criteria"
+    ]
+  },
+  {
+    "objectID": "docs/criteria.html#main-criteria",
+    "href": "docs/criteria.html#main-criteria",
+    "title": "Criteria for evaluation",
+    "section": "Main criteria",
+    "text": "Main criteria\nThe process is evaluated according to the following criteria:\n\nSystematicity in managing time, resources, and challenges. Start early to have enough time for each task, ensure that resources such as labs, equipment, participants, partners, or thesis advisors are available at the right time, and reduce potential risks by anticipating them and identifying potential alternatives.\nProactiveness in developing the topic (research question, theory, method, etc.) and incorporating feedback. To receive feedback, you can share (parts of) the thesis with us. We encourage you to challenge our feedback and suggest better alternatives.\nProficiency in leveraging prior research, i.e., identifying relevant papers, achieving an appropriate understanding, assessing contributions critically, and organizing prior work in a persuasive way to clarify how the thesis builds on prior work and how it goes beyond prior work.\n\nThe contribution is evaluated based on several dimensions (based on Leidner, 2020):\n\nExplicitness and significance of research objective or question: Explain how your work builds on prior research, identify related contributions, and clarify the research gap you address. Readers should understand why your research promises interesting insights and who would benefit from it. The editorial of Lange & Pfarrer (2017) provides useful suggestions to accomplish this.\nUniqueness in framing prior research: In summarizing prior research, it is essential to organize existing contributions from the perspective of your work. Prior research, in itself, does not follow a predefined order. It is your responsibility to make sense of the literature and to adopt an organizing frame that helps readers understand how prior research relates to your contribution.\nSystematicity of method: Evaluation criteria and reporting guidelines depend on the method applied. A selection is provided below. In addition to reporting the methodological steps, data and code should be made available with the thesis according to standards of reproducible research. Corresponding methods papers can be found here, and requirements should be discussed with the thesis advisor.\nOriginality of theory: Applies if your contribution involves a theoretical contribution, e.g., in the form of propositions, constructs, or models. Clarify how it differs from related theory and explain why it offers a plausible and more compelling perspective or explanation.\nInterpretation and novelty of findings: The findings should be interpreted appropriately, using a neutral tone, and avoiding overstating or understating their significance. Clearly distinguish findings that confirm prior research or common expectations. Effectively communicate the findings that are novel, interesting, or counterintuitive.\n\nRecommended criteria and reporting guidelines for selected research methods (the equator network provides a comprehensive overview). Additional guidelines can be provided upon request.\n\nThe contribution should be discussed with reference to\n\nThe (methodological) limitations\nThe implications for future research (research gaps)\nThe implications for practice (Ågerfalk & Karlsson, 2020).\n\n\n\n\n\n\n\nNoteNote on student ownership and feedback\n\n\n\nStudents are expected to critically engage with feedback provided by thesis advisors while accomplishing the contribution on their own. Especially for top grades (1.0–1.7), simply implementing suggestions is not sufficient. Instead, students are expected to maintain ownership of their work by applying independent judgment and, where appropriate, going beyond or critically reflecting on feedback from thesis advisors.",
+    "crumbs": [
+      "Home",
+      "Writing",
+      "Criteria"
+    ]
+  },
+  {
+    "objectID": "docs/feedback.html",
+    "href": "docs/feedback.html",
+    "title": "Feedback",
+    "section": "",
+    "text": "NoteYour Feedback Matters: Help Us Improve!\n\n\n\nWe kindly invite you to participate in the upcoming course evaluation. Your feedback is voluntary and anonymous. There is no risk of disadvantage or negative consequences for you, regardless of the feedback you provide. So please feel free to be open and honest in your responses. Your participation helps us improve the quality of our courses (♻️), and we highly value your opinions.\nThank you for your time and honest feedback!\n\n\nFeedback is important for students and for us as thesis advisors. As a student, you may write another thesis or seminar paper. To develop your skills, our goal is to explain the grading transparently and to help you understand which parts of your work could be improved and which ones are adequate or excellent. For us, feedback sessions are essential to improve how we advise students who write a thesis, and they can be helpful for new candidates.\nWe actively encourage students to participate in feedback sessions. In the process, we also ask students whether they want to provide feedback, whether we can publish it, and if so, whether it should be published anonymously.\nProvide feedback\n\n\nMeine Abschlussarbeit am Lehrstuhl Digital Work war eine durchweg positive Erfahrung. Schon zu Beginn gab es mehrere spannende Themen zur Auswahl, sodass ich ein Thema finden konnte, das mich wirklich interessiert. Die flexible Terminbuchung über Calendly war für mich ein riesiger Pluspunkt. Ich konnte unkompliziert Termine vereinbaren und habe immer schnell Antworten auf meine Fragen bekommen. Jede Frage wurde ernst genommen und ausführlich beantwortet. Der gesamte Betreuungsprozess war klar strukturiert, was mir enorm geholfen hat. Alle wichtigen Informationen zu den einzelnen Schritten, den Anforderungen und den Bewertungskriterien waren transparent auf der Webseite des Lehrstuhls dargestellt. Dadurch wusste ich immer genau, worauf es ankommt und was als Nächstes zu tun ist. Besonders hilfreich war auch, dass Prof. Dr. Wagner mir gezielt passende wissenschaftliche Literatur zugeschickt hat. Das hat nicht nur mein Schreiben erleichtert, sondern auch mein Verständnis für das Thema vertieft. Insgesamt war die Betreuung durch Prof. Dr. Wagner hervorragend. Die klare Struktur, die schnelle und hilfreiche Kommunikation sowie die wertvollen inhaltlichen Impulse haben meine Arbeit enorm bereichert. Ich kann den Lehrstuhl Digital Work uneingeschränkt empfehlen und würde jederzeit wieder eine Arbeit dort schreiben! Bewertung: 5/5\n\nIch kann das Verfassen einer Abschlussarbeit am Lehrstuhl Digital Work bei Prof. Wagner vollstens empfehlen. Mein Thema war sehr spannend und an das Projekt, das ich im vorherigen Semester an dem Lehrstul belegt hatte, angeknüpft. Dank der bereitgestellten Startliteratur und einer kurzen Einführung im Rahmen eines Kick-off-Meetings durch Prof. Wagner fiel mir der Einstieg in das Thema leicht. Der Arbeitsprozess und hilfreiche Tipps zu den einzelnen Schritten sowie die Evaluationskriterien wurden klar geschildert und waren online verfügbar. Besonders geschätzt habe ich das häufige und konstruktive Feedback von Prof. Wagner. Das Buchen von Zeitslots über Calendly machte die Terminfindung unkompliziert – Prof. Wagner war immer zuverlässig erreichbar und hat sich viel Zeit für meine Fragen genommen. Zudem hatte Prof. Wagner einen Review-Prozess mit drei anderen Studierenden mit ähnlichen Themen organisiert, durch welchen ich zusätzlich wertvolles Feedback erhalten konnte. Insgesamt war die Betreuung hervorragend.\nBewertung: 5/5\n\nDie Betreuung meiner Bachelorarbeit durch Herrn Prof. Wagner war durchweg positiv. Die Arbeit konnte vollständig remote verfasst werden, wobei regelmäßige und hilfreiche Online-Meetings den Austausch ermöglichten. Die Themenfindung verlief relativ unkompliziert, da bereits einige offene Themen zur Auswahl standen. In einem kurzen Bewerbungsgespräch und dem anschließenden Kick-off-Meeting erhielt ich wertvolle Einblicke sowie erste Literaturhinweise zum Thema, sowie der Methodik, die den Einstieg erleichterten. Fragen und Feedback konnten unkompliziert über Calendly-Termine geklärt werden. Dabei wurde auf Probleme schnell und kompetent eingegangen, und eigene Ideen konnten eingebracht und diskutiert werden. Die Bewertungskriterien waren transparent und wurden auch im finalen Feedback-Gespräch nachvollziehbar angewendet und erklärt.\nFazit: Ich kann die Betreuung bei Herrn Prof. Wagner uneingeschränkt weiterempfehlen.\nBewertung: 5/5\n\nMeine Abschlussarbeit am Lehrstuhl von Herrn Wagner zu schreiben war sehr angenehm. Termine für Feedbackgespräche können per Online-Tool ganz einfach ausgemacht werden, Herr Wagner ist auch sehr oft verfügbar, selbst kurzfristige Terminabsagen waren kein Problem. Die vielen Feedbackgespräche haben mir die Gelegenheit gegeben, viele (auch mal weniger sinnvolle) Fragen zu stellen, die Herr Wagner immer sehr freundlich und respektvoll beantwortete - die Kommunikation fand generell komplett auf Augenhöhe statt. Dieses Feedback war in der anfänglichen, schwierigen Phase besonders wertvoll, in der noch Fokus und Methodik der Arbeit festgelegt werden mussten. Herr Wagner hatte außerdem immer eine Menge hilfreicher und relevanter Paper zur Hand, die mir sehr geholfen haben. Die Bewertung meiner Arbeit war fair, transparent und nachvollziehbar und wurde mir von Herrn Wagner im abschließenden Gespräch ausführlich erklärt. Alles in allem kann ich jeder und jedem nur wärmstens empfehlen, Abschlussarbeiten bei Herrn Wagner zu schreiben.\nBewertung: 5/5\n\nDie Betreuung meiner Bachelorarbeit durch Professor Wagner war von Anfang an ausgezeichnet. Er zeigte sich unterstützend und offen bei der Themenfindung und meinem Interessensgebiet, was mir den Einstieg in die Arbeit erleichterte.\nBesonders hilfreich waren die regelmäßigen Feedback-Gespräche, die sowohl am Anfang beim Brainstorming für mögliche Vorgehensweisen als auch während des gesamten Prozesses stattfanden. Professor Wagner nahm sich immer die Zeit, meine Vorschläge anzuhören, und gab konstruktives Feedback, sei es zur Umsetzbarkeit meiner Ideen oder zu Punkten, die ich weiter vertiefen sollte.\nAuch die von ihm bereitgestellten Unterlagen zur Methodik waren äußerst nützlich und halfen mir, die Arbeit fundiert und strukturiert aufzubauen. Zudem empfahl er mir bei Bedarf relevante wissenschaftliche Papers, die meinen Forschungsprozess bereicherten.\nIm Großen und Ganzen fand ich die Betreuung durch Professor Wagner sehr gut. Ich hätte nicht gedacht, dass ich so viel Freude am Erstellungsprozess meiner Bachelorarbeit haben würde, aber genau das war der Fall. Deshalb kann ich es jedem nur empfehlen, die Seminar- oder Abschlussarbeit bei ihm zu schreiben.\nBewertung: 5/5\n\nDas Verfassen meiner Bachelorarbeit am Lehrstuhl Digital Work war sehr angenehm. Prof. Wagner hat mich von Anfang an, vom Prozess der Themenfindung bis hin zum tatsächlichen Schreiben der Arbeit, aktiv unterstützt und gut beraten. Betreuungstermine zu vereinbaren, war mithilfe des Tools Calendly sehr einfach und transparent. Durch das Tool wusste man immer, wann Prof. Wagner für Termine verfügbar war, und konnte so die eigenen Termine zeitlich gut vorausplanen, ohne wie üblich durch einen langwierigen E-Mail-Verkehr einen gemeinsamen Termin mit dem Professor finden zu müssen. Hervorzuheben ist auch, dass Herr Wagner in dringenden Fällen Termine angeboten hat, selbst wenn keine mehr in Calendly verfügbar waren. Zu den Terminen war Herr Wagner immer bestens mit dem aktuellen Stand der Arbeit vertraut und konnte hilfreiche Tipps und Anregungen geben (z. B. Papers, die für die Arbeit nützlich sein könnten). Auf meine Fragen wurde sehr verständlich und genau eingegangen, sodass ich immer genau wusste, was als Nächstes zu tun ist. Insgesamt konnte ich durch die Bachelorarbeit mein Wissen im Bereich generativer KI vertiefen und hatte auch Spaß am Erstellungsprozess der Arbeit (was ich vorher nicht für möglich gehalten hätte). Ich kann es somit jedem nur empfehlen, die Seminar- oder Abschlussarbeit bei Prof. Wagner zu schreiben.\nBewertung: 5/5\n\nDas Schreiben meiner Bachelorarbeit bei Prof. Wagner hat mir insgesamt sehr gut gefallen. Ich hatte im Semester davor schon das Digital Work Projekt belegt und mich dann für eine Bachelorarbeit im Bereich des colrev Projekts interessiert. Obwohl ich wenig Ahnung hatte, worüber genau ich eigentlich schreiben wollte konnte Prof. Wagner mich schnell für mein Thema begeistern. Besonders hilfreich fand ich die Erreichbarkeit und die angenehme Atmosphäre bei der Betreuung. Über ein bereitgestelltes Tool konnte man ganz einfach online Termine ausmachen ohne dabei direkt ewig viele Emails zur Terminfindung hin und herschicken zu müssen. Generell konnte ich mich mit allen meinen (sicherlich auch manchmal unnötigen oder weniger schlauen) Fragen an Prof. Wagner wenden und wurde immer wertschätzend und geduldig behandelt, das ist sicherlich nicht selbstverständlich. Ein anderer Aspekt der mir gut gefallen hat war der praktische Teil meiner Arbeit. Durch den Programmierteil hatte man immer wieder neue Herausforderungen und eine willkommene Abwechslung vom reinen Literatur lesen und wiedergeben. Besonders freut mich, dass mein erarbeitetes Tool einen tatsächlichen Nutzen hat und in der Lehre weiterverwendet werden soll! Das hilft auf jeden Fall beim Schreiben der Arbeit motiviert zu bleiben. Insgesamt kann ich es uneingeschränkt weiterempfehlen beim Lehrstuhl Digital Work und Herrn Prof. Wagner eine Bachelorarbeit zu schreiben. Ich hätte es mir nicht besser vorstellen können.\nBewertung: 5/5\n\nEs war eine äußerst bereichernde Erfahrung, meine Bachelorarbeit am Lehrstuhl Digital Work unter der fachkundigen Anleitung von Prof. Dr. Wagner zu verfassen. Herr Wagner begleitete die gesamte Entwicklung meines Projekts und stand stets zur Verfügung, um wertvolle Ratschläge und Optimierungsvorschläge zu geben. Sein Engagement und seine Bereitschaft, bei der Weiterentwicklung meiner Arbeit zu unterstützen, haben meine Forschung und mein Verständnis des Themas wesentlich verbessert.\nBesonders hilfreich war die umfangreiche Literatur, die sowohl aufsteigende als auch relevante Literatur umfasste, die mir seit Beginn meiner Arbeit zur Verfügung gestellt wurde. Diese umfassende Quellenbasis hat es mir ermöglicht, mein Thema gründlich zu vertiefen und einen fundierten theoretischen Hintergrund für meine Untersuchung zu schaffen.\nInsgesamt war es eine Freude, meine Abschlussarbeit am Lehrstuhl Digital Work zu verfassen. Die Unterstützung und die Ressourcen, die mir zur Verfügung gestellt wurden, haben meine akademische Erfahrung bereichert und meine Fähigkeiten weiterentwickelt. Ich bin dankbar für die Gelegenheit, unter der Anleitung von Prof. Dr. Wagner zu arbeiten und freue mich darauf, das Gelernte in meiner zukünftigen akademischen und beruflichen Laufbahn anzuwenden.\nBewertung: 4.9/5\n\nDas Schreiben meiner Bachelorarbeit bei Prof. Dr. Wagner am Digital Work Lehrstuhl war insgesamt wirklich super. Gleich zu Beginn konnte ich zwischen verschiedenen Themen auswählen und mir ein für mich spannendes aussuchen. Was mir dann am besten gefallen hat war, dass mir sowohl bei der weiteren Entwicklung des Themas als auch während des Schreibprozesses viel Freiheit gelassen wurde in welche Richtung ich die Bachelorarbeit inhaltlich lenken möchte bzw. auch aktiv von Prof. Dr. Wagner dabei unterstützt und ermutig wurde. Gleichzeitig habe ich bei Fragen oder Unklarheiten schnell entweder per Mail oder per Termin Feedback bekommen können und auch immer wieder interessanten Input (z.B. aufschlussreiche Paper) von Prof. Dr. Wagner erhalten. Für mich persönlich war es auch wichtig, dass ich viel lernen konnte (vor allem über Machine Learning), die Möglichkeit hatte praktisch zu programmieren und auch das Gefühl hatte, dass meine Arbeit und Ergebnisse nicht nur für die Schublade sind, sondern wirklich einen Nutzen haben. Deswegen habe ich alles im allen nichts auszusetzen und kann Prof. Dr. Wagner und den Digital Work Lehrstuhl allen bedenkenlos weiterempfehlen, die bei super Betreuung und spannenden Thematiken viel lernen und mitnehmen möchten.\nBewertung: 5/5\n\nThe supervision of my bachelor’s thesis by Prof. Wagner at the Chair of Digital Work was overall very positive. Particularly helpful were the clear structure of the process, the transparent grading criteria, and the regular feedback sessions. Questions were always taken seriously and answered in detail, which gave me a lot of confidence during the work process. The constructive feedback not only improved the quality of my work but also significantly deepened my understanding of academic work. Overall, I felt very well supported and professionally supervised throughout the entire duration.\nRating: 5/5\n\nMeine Erfahrung mit meiner Bachelorarbeit am Lehrstuhl Digital Work war sehr positiv. Zunächst basierte das Thema der Arbeit auf dem Projekt, das ich im vorherigen Semester abgeschlossen hatte. Dadurch fiel mir der Einstieg deutlich leichter und der anfängliche Aufwand, mich in das relevante Themenfeld einzuarbeiten, wurde reduziert.\nProf. Dr. Wagner hat mich von Beginn an sehr unterstützt und mir eine große Menge an relevanten wissenschaftlichen Ressourcen zur Verfügung gestellt. Darüber hinaus war der gesamte Forschungsprozess außergewöhnlich transparent und klar strukturiert: Auf der Webseite des Lehrstuhls wurden die einzelnen Schritte der Abschlussarbeit übersichtlich beschrieben, praxisnahe Hinweise gegeben sowie erwartete Ziele und Kriterien klar benannt. Alle Informationen waren jederzeit online abrufbar. Das hat mir sehr geholfen, den roten Faden zu behalten und die nächsten Schritte selbstbewusst zu planen.\nEin weiterer großer Vorteil war die unkomplizierte Terminvereinbarung über Calendly. Es gab nahezu wöchentlich verfügbare Zeitfenster, sodass ich zeitnah Antworten auf Fragen erhalten konnte. Diese zuverlässige Kommunikationsmöglichkeit und der schnelle, effiziente Austausch waren für meinen Fortschritt entscheidend.\nInsgesamt bin ich Prof. Dr. Wagner sehr dankbar für die Betreuung meiner Bachelorarbeit. Es war das erste Mal, dass ich ein Forschungsprojekt in dieser Größenordnung eigenständig durchgeführt habe. Dabei konnte ich wertvolle wissenschaftliche Kompetenzen aufbauen, insbesondere im wissenschaftlichen Schreiben sowie in der Planung und Umsetzung von Experimenten. Diese Erfahrung wird mir für meinen weiteren akademischen und beruflichen Weg sehr helfen und hat mein Verständnis sowie mein Interesse im Bereich Data Analytics deutlich erweitert.\nBewertung: 5/5",
+    "crumbs": [
+      "Home",
+      "Outcomes",
+      "Student Feedback"
+    ]
+  },
+  {
+    "objectID": "docs/hall_of_fame.html",
+    "href": "docs/hall_of_fame.html",
+    "title": "Hall of Fame",
+    "section": "",
+    "text": "On this page, we celebrate the accomplishments of our students 🎉 🍾 🎈",
+    "crumbs": [
+      "Home",
+      "Outcomes",
+      "Hall of Fame"
+    ]
+  },
+  {
+    "objectID": "docs/hall_of_fame.html#awards",
+    "href": "docs/hall_of_fame.html#awards",
+    "title": "Hall of Fame",
+    "section": "🏆 Awards",
+    "text": "🏆 Awards\n\nBest Theory Paper Award, Richard Schuster, Gerit Wagner, and Guido Schryen. Received at the 39th International Conference on Information Systems (2018), San Francisco, California/USA, 2018.\nChrista Lindner Prize 2018: Richard Schuster.\nChrista Lindner Prize 2017: Julian Prester.",
+    "crumbs": [
+      "Home",
+      "Outcomes",
+      "Hall of Fame"
+    ]
+  },
+  {
+    "objectID": "docs/hall_of_fame.html#publications",
+    "href": "docs/hall_of_fame.html#publications",
+    "title": "Hall of Fame",
+    "section": "📒 Publications",
+    "text": "📒 Publications\n\n\nEckhardt, P., Ernst, K., Fleischmann, T., Geßler, A., Schnickmann, K., Thurner, L., and Wagner, G. (2025). “search-query: An open source Python library for academic search queries”. Journal of Open Source Software, 11(118), 8775.\n\n\nPrester, J., Wagner, G., Hassan, N. R., and Schryen, G. (2021). “Classifying the Ideational Impact of Information Systems Review Articles: A Content-Enriched Deep Learning Approach”. Decision Support Systems (DSS), 140, 113432.\n\n\nSchuster, R., Wagner, G., and Schryen, G. (2018). “Information Systems Design Science Research and Cumulative Knowledge Development: An Exploratory Study,” in Proceedings of the 39th International Conference on Information Systems (ICIS 2018), San Francisco, California, USA\n\n\nWagner, G., Empl, P., and Schryen, G. (2020). “Designing a Novel Strategy for Reading and Skimming Literature Corpora,” in Proceedings of the 28tℎ European Conference on Information Systems (ECIS 2020), Marrakech, Morocco.",
+    "crumbs": [
+      "Home",
+      "Outcomes",
+      "Hall of Fame"
+    ]
+  },
+  {
+    "objectID": "docs/hall_of_fame.html#artifacts",
+    "href": "docs/hall_of_fame.html#artifacts",
+    "title": "Hall of Fame",
+    "section": "💽 Artifacts",
+    "text": "💽 Artifacts\n\nsearch-query : Katharina Ernst, Peter Eckhardt, Thomas Fleischmann, Anna Geßler, Karl Schnickmann\ndeep-cenic : Julian Prester\nenlit : Philip Empl",
+    "crumbs": [
+      "Home",
+      "Outcomes",
+      "Hall of Fame"
+    ]
   },
   {
     "objectID": "docs/topics.html",
     "href": "docs/topics.html",
     "title": "Open topics",
     "section": "",
-    "text": "The following topics are currently open for Bachelor’s and Master’s theses.\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nCategories\n\n\n\nadvisor\n\n\n\n\n\n\n\n\nError prevalence in academic search queries: An analysis using an automated validation tool\n\n\ndesign-science, programming\n\n\nProf. Dr. Gerit Wagner\n\n\n\n\n\n\nNo matching items",
+    "text": "The following topics are currently open for Bachelor’s and Master’s theses.\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nCategories\n\n\n\nadvisor\n\n\n\n\n\n\n\n\nAI-Supported Knowledge Synthesis\n\n\ndesign-science, programming\n\n\nProf. Dr. Gerit Wagner\n\n\n\n\n\n\nError prevalence in academic search queries: An analysis using an automated validation tool\n\n\ndesign-science, programming\n\n\nProf. Dr. Gerit Wagner\n\n\n\n\n\n\nOpen, Agentic, and Boundary-Spanning Work\n\n\ndesign-science, programming\n\n\nProf. Dr. Gerit Wagner\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "Getting started",
@@ -121,18 +452,6 @@
     ]
   },
   {
-    "objectID": "docs/writing/feedback.html",
-    "href": "docs/writing/feedback.html",
-    "title": "Feedback",
-    "section": "",
-    "text": "We offer regular feedback sessions (every one to two weeks) to discuss open questions and the next steps:\n\nFeedback sessions can be in person or online.\nThey can be scheduled here:\n\nSchedule feedback session\nTo receive feedback on the written document, please:\n\nShare it 1-2 days before the meeting.\nIndicate which sections should be read.\nUse a file format suitable for adding comments (PDF or DOCX).\nUse a suitable filename (e.g., 2023-12-01-Thesis-Name.pdf).\n\nWe expect you to communicate on an equal level:\n\nIn emails, write “Hallo Herr Wagner” (instead of “Sehr geehrter Herr Prof. Dr. Wagner”).\nIf you disagree with a particular suggestion, challenge it and explain why you would do it differently.\nInstead of apologizing, say thank you.\n\nAfter the meeting:\n\nTake notes and share them with your thesis advisor (to prevent misunderstandings).\n\n\n\n\n\n\n\nNote\n\n\n\nKeep in mind: There is no perfect thesis and not even a perfect draft. It is always a process of discussing the current version, getting feedback, and refining it.",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Feedback"
-    ]
-  },
-  {
     "objectID": "docs/writing/preparation_phase.html",
     "href": "docs/writing/preparation_phase.html",
     "title": "Preparation phase",
@@ -181,111 +500,27 @@
     ]
   },
   {
-    "objectID": "docs/writing/polishing.html",
-    "href": "docs/writing/polishing.html",
-    "title": "Polishing phase",
+    "objectID": "docs/writing/feedback.html",
+    "href": "docs/writing/feedback.html",
+    "title": "Feedback",
     "section": "",
-    "text": "ObjectiveObjective\n\n\n\n\nRevising extensively\nFinalizing illustrations\nLanguage guidelines\nCheck citation guidelines\nEvaluation criteria\nBefore submitting your thesis, we encourage students to go through the pre-submission checklist:\nAdditionally, at least one week before submission, ensure that your thesis meets the following criteria.",
+    "text": "We offer regular feedback sessions (every one to two weeks) to discuss open questions and the next steps:\n\nFeedback sessions can be in person or online.\nThey can be scheduled here:\n\nSchedule feedback session\nTo receive feedback on the written document, please:\n\nShare it 1-2 days before the meeting.\nIndicate which sections should be read.\nUse a file format suitable for adding comments (PDF or DOCX).\nUse a suitable filename (e.g., 2023-12-01-Thesis-Name.pdf).\n\nWe expect you to communicate on an equal level:\n\nIn emails, write “Hallo Herr Wagner” (instead of “Sehr geehrter Herr Prof. Dr. Wagner”).\nIf you disagree with a particular suggestion, challenge it and explain why you would do it differently.\nInstead of apologizing, say thank you.\n\nAfter the meeting:\n\nTake notes and share them with your thesis advisor (to prevent misunderstandings).\n\n\n\n\n\n\n\nNote\n\n\n\nKeep in mind: There is no perfect thesis and not even a perfect draft. It is always a process of discussing the current version, getting feedback, and refining it.",
     "crumbs": [
       "Home",
       "Writing",
-      "Polishing"
+      "Feedback"
     ]
   },
   {
-    "objectID": "docs/writing/polishing.html#polishing-your-work-for-submission",
-    "href": "docs/writing/polishing.html#polishing-your-work-for-submission",
-    "title": "Polishing phase",
-    "section": "Polishing your work for submission",
-    "text": "Polishing your work for submission\n\nRevising extensively\nA thorough revision process enhances the clarity and quality of your thesis. Start by ensuring that sections flow logically, then refine the content to improve coherence and depth of information. Finally, check grammar, spelling, and style consistency to ensure polished language.\nSeeking feedback from peers or supervisors can help identify areas for improvement.\n\n\nFinalizing illustrations\nVisual elements should complement the text and maintain a consistent design style. Ensure all visuals are necessary and avoid redundant descriptions. Instead of full code listings, use diagrams for system architectures or pseudo-code to present technical concepts effectively.",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Polishing"
-    ]
-  },
-  {
-    "objectID": "docs/writing/polishing.html#language-guidelines",
-    "href": "docs/writing/polishing.html#language-guidelines",
-    "title": "Polishing phase",
-    "section": "Language guidelines",
-    "text": "Language guidelines\nUse the present tense for general truths, accepted knowledge, and descriptions of the paper’s content and findings (e.g., “Figure 1 shows…”). The past tense is appropriate for describing specific methods, experiments, results, and prior research.",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Polishing"
-    ]
-  },
-  {
-    "objectID": "docs/writing/polishing.html#check-citation-guidelines",
-    "href": "docs/writing/polishing.html#check-citation-guidelines",
-    "title": "Polishing phase",
-    "section": "Check citation guidelines",
-    "text": "Check citation guidelines\nCiting correctly ensures academic integrity. Consider when to cite directly or indirectly and adhere to APA formatting guidelines for references. See the following example: In-text citations can be either parenthetical, such as “Fitness trackers were found to have mixed effects on sedentary behavior (Smith et al., 2006),” or narrative, as in “Smith et al. (2006) analyzed the effectiveness of fitness trackers.” Word-for-word quotations require quotation marks and page numbers, e.g., “A substantial degree of inaccuracy in measuring sleep quality” was found (Smith et al., 2006, p. 111). Reference managers like Zotero facilitate proper citation formatting.",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Polishing"
-    ]
-  },
-  {
-    "objectID": "docs/writing/polishing.html#evaluation-criteria",
-    "href": "docs/writing/polishing.html#evaluation-criteria",
-    "title": "Polishing phase",
-    "section": "Evaluation criteria",
-    "text": "Evaluation criteria\nWhile creating your thesis, keep the evaluation criteria in mind to ensure your thesis meets the required academic standards.",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Polishing"
-    ]
-  },
-  {
-    "objectID": "docs/hall_of_fame.html",
-    "href": "docs/hall_of_fame.html",
-    "title": "Hall of Fame",
+    "objectID": "docs/writing/structure_and_contents.html",
+    "href": "docs/writing/structure_and_contents.html",
+    "title": "Structure and contents",
     "section": "",
-    "text": "On this page, we celebrate the accomplishments of our students 🎉 🍾 🎈",
+    "text": "Structure and contents\n\n\n\n\n\n\nObjectiveObjective\n\n\n\n\nAbstract\nIntroduction\nBackground\nMethodology\nResults\nDiscussion\nConclusion\nDeclarations\nAppendices\n\n\n\nThe default structure outlined below may need to be adapted to the thesis at hand. Each section has its own scope, as illustrated in the figure below. In the introduction, you can contextualize your work with respect to the broader topic. The methods and findings focus more narrowly on the evidence and results of your work. Afterwards, the discussion should explain how your findings relate to prior research.\n\n\n\nAnatomy of a research paper (Figure by Blair Wang)\n\n\nNote: While creating your thesis, keep the evaluation criteria in mind to ensure your thesis meets the required academic standards.\nAbstract\nThe abstract serves as a point of entry for the reader, providing an initial overview of the research study, including the motivation for the study, the methodological approach employed, and a summary of the main results. In addition, the purpose of the research study should be clearly defined. Typically, an abstract consists of around 300 words.\nIntroduction\nThe introduction should outline the purpose of the study as well as the research question that is sought to be answered. By briefly outlining the context of the study in terms of content and time, the reader acquires a quick overview. A key aspect of the introduction is the presentation of the motivation for conducting the study. This gives the reader a basic understanding of the topic and underpins the relevance and importance of the study. The relevance and purpose can further be highlighted by using an appropriate quotation.\nThe building blocks of Lange and Pfarrer (2017) may be helpful:\n\nCommon ground: Establishing common ground involves presenting the current state of the literature and ensuring that the reader agrees with the basic assumptions, boundary conditions, and key concepts. This step is crucial for gaining the reader’s interest and tacit consent, making them more receptive to the forthcoming arguments and discussions.\nComplication: After establishing common ground, introduce a complication that challenges the current understanding or highlights a gap in the literature. This complication could be a problem, puzzle, or twist that makes the reader realize the inadequacy or incompleteness of the existing academic conversation.\nConcern: To make the complication compelling, explain why it matters. This involves demonstrating the significance of the gap or issue identified. The concern step is about showing the practical and theoretical implications of the complication, emphasizing why it is essential to address this gap in the literature.\nCourse of action: Describe the approach or methodology that will be used to address the identified complication. This could involve developing new constructs, modeling relationships, exploring processes, or synthesizing existing theories. The course of action should be clearly explained, logically structured, and directly aimed at resolving the complication.\nContribution: Finally, articulate how the research will contribute to the academic conversation. This entails explaining the novelty and significance of the findings and how they advance understanding in the field. The contribution should also suggest future theoretical exploration and practical implications for management and organizations.\n\nThe final paragraph of the introduction gives an outline of the structure of the study, that is, the approaches taken in each step of conducting the research study are briefly described. This gives the reader a clear picture of the composition of the study, i.e., what can and cannot be expected of the study.\nBackground\nThis section (which could also be named Literature Review or Conceptual Framework) sets the theoretical and conceptual context of the study and grounds the leading assumptions in theories. This is done by outlining and citing pertinent work. Here, the author can present the acquired background knowledge that is relevant for the following sections of the study. This background knowledge also helps in building the conceptual framework of the study.\nThe literature review should focus on concepts rather than authors and historical development (cf. Webster and Watson, 2002). It is also possible to use a conceptual framework to structure the literature synthesis. Provide precise definitions of those concepts that are central to your work, emphasize concepts rather than authors, and do not include your own judgment in the background section. Use established definitions and concepts and provide a justification when adapting them.\nA graphical representation of the framework helps to illustrate complex theoretical constructs as well as the boundaries of the research study. The explicit statement of the conceptual framework not only informs the reader, but it also guides the author in conducting the research.\nRelevant background literature can be found in journals such as those listed in\n\nthe AIS Senior Scholars’ Basket of Journals\nthe VHB Jourqual Ranking\nor conferences such as ICIS and ECIS.\n\nPapers can be accessed through the Bamberger Katalog, a search on ResearchGate, a search on Google Scholar, or by contacting the authors. For using the Bamberger Katalog, ResearchGate, and some of the Google Scholar papers, you need to be connected to the University of Bamberg VPN.\nGuidelines on searching the literature are provided by Webster and Watson (2002).\nMethodology\nThe methodology section describes a systematic and goal-oriented approach to answer the research question. Hence, the selection of the research method needs to be consistent with the research questions. The approach may be, for example, empirical, analytical, comparative, systematic, historical, or hermeneutic. The methodological approach needs to be described in detail; appropriate reporting standards for the research method should be considered (such as PRISMA for literature reviews); it should be possible to understand the methodological procedures based on the thesis. For example, it is necessary to provide the formulas of regression models.\nResults\nIn this section, the author presents the results of the study. If they are presented by means of figures and/or tables, the results should be clearly legible. Furthermore, in the case of figures, it is recommended to use vector graphics as this ensures good readability without the need to pre-specify the font size within the figures. An example figure and table can be found in the template contained in this repository.\nDiscussion\nIn this section, the author provides a discussion of the results and is thus able to draw an informed conclusion. More precisely, the discussion is an evaluative summary of the research study in relation to the research question. In general, the discussion can be divided into three parts. First, the results should be tied to the research question, thus presenting the reader with a solution or improvement to the identified problem space. Here, for example, the author can draw on empirical findings introduced in the Results section to support their argument. Next, the author should outline the limitations of the research study by critically examining the research approach used. Limitations might comprise, for example, a limited time frame considered in the research study, or the individual refinement of a specific research method due to time constraints. Finally, suggestions for future research avenues should be provided. These suggestions may align with the limitations, as this allows other researchers to build on the present work by extending or analyzing it. In summary, the Discussion section presents the results in relation to the research question as well as restrictions of the study and suggestions for future research in the respective domain.\nConclusion\nThe conclusion contains a summary of the research study. In contrast to the Discussion section, in which the main results are presented, here the key contributions of the work are showcased. A well-crafted conclusion answers the research question stated in the Introduction. By doing so, the author clarifies to what extent the research study has presented a solution or improvement to the examined problem space.\nAcknowledgments and declarations\nIn the acknowledgment section, you may refer to the guideline for the use of digital tools for further information. Additionally, students are advised to consult the ethics page for relevant guidance (although formal ethics approvals cannot be issued for a thesis).\nAppendices\nThe appendices provide supplementary material that supports the content of the thesis but is not essential to the core argument. These materials should be referenced in the main text where appropriate.\nAppendices can be used to provide:\n\nExtended tables or figures\nDetailed methodological procedures\nQuestionnaires or interview guides\nSupplementary analysis or additional results\n\nIn addition, a digital appendix can include elements that support reproducible research objectives. These may be provided as part of the thesis (Git/GitHub) repository, including:\n\nData collected or reused for the study\nCode (e.g., data processing and/or analysis scripts)\nREADME file that explains the structure, usage, and dependencies of the repository\n\nThe digital appendix (repository) can also include the written thesis. It is not necessary to create a separate data repository.\nDeclaration\n\n\n\n\n\n\nNote\n\n\n\nDo not forget that the last page of your thesis has to be the statutory declaration (“Eidestattliche Erklärung”) of the examination office. This declaration is printed on your topic confirmation.",
     "crumbs": [
       "Home",
-      "Outcomes",
-      "Hall of Fame"
-    ]
-  },
-  {
-    "objectID": "docs/hall_of_fame.html#awards",
-    "href": "docs/hall_of_fame.html#awards",
-    "title": "Hall of Fame",
-    "section": "🏆 Awards",
-    "text": "🏆 Awards\n\nBest Theory Paper Award, Richard Schuster, Gerit Wagner, and Guido Schryen. Received at the 39th International Conference on Information Systems (2018), San Francisco, California/USA, 2018.\nChrista Lindner Prize 2018: Richard Schuster.\nChrista Lindner Prize 2017: Julian Prester.",
-    "crumbs": [
-      "Home",
-      "Outcomes",
-      "Hall of Fame"
-    ]
-  },
-  {
-    "objectID": "docs/hall_of_fame.html#publications",
-    "href": "docs/hall_of_fame.html#publications",
-    "title": "Hall of Fame",
-    "section": "📒 Publications",
-    "text": "📒 Publications\n\n\nEckhardt, P., Ernst, K., Fleischmann, T., Geßler, A., Schnickmann, K., Thurner, L., and Wagner, G. (2025). “search-query: An open source Python library for academic search queries”. Journal of Open Source Software, 11(118), 8775.\n\n\nPrester, J., Wagner, G., Hassan, N. R., and Schryen, G. (2021). “Classifying the Ideational Impact of Information Systems Review Articles: A Content-Enriched Deep Learning Approach”. Decision Support Systems (DSS), 140, 113432.\n\n\nSchuster, R., Wagner, G., and Schryen, G. (2018). “Information Systems Design Science Research and Cumulative Knowledge Development: An Exploratory Study,” in Proceedings of the 39th International Conference on Information Systems (ICIS 2018), San Francisco, California, USA\n\n\nWagner, G., Empl, P., and Schryen, G. (2020). “Designing a Novel Strategy for Reading and Skimming Literature Corpora,” in Proceedings of the 28tℎ European Conference on Information Systems (ECIS 2020), Marrakech, Morocco.",
-    "crumbs": [
-      "Home",
-      "Outcomes",
-      "Hall of Fame"
-    ]
-  },
-  {
-    "objectID": "docs/hall_of_fame.html#artifacts",
-    "href": "docs/hall_of_fame.html#artifacts",
-    "title": "Hall of Fame",
-    "section": "💽 Artifacts",
-    "text": "💽 Artifacts\n\nsearch-query : Katharina Ernst, Peter Eckhardt, Thomas Fleischmann, Anna Geßler, Karl Schnickmann\ndeep-cenic : Julian Prester\nenlit : Philip Empl",
-    "crumbs": [
-      "Home",
-      "Outcomes",
-      "Hall of Fame"
+      "Writing",
+      "Structure and contents"
     ]
   },
   {
@@ -392,238 +627,17 @@
     ]
   },
   {
-    "objectID": "docs/completed.html",
-    "href": "docs/completed.html",
-    "title": "Completed theses",
+    "objectID": "docs/topics/search-query-erorr-prevalence.html",
+    "href": "docs/topics/search-query-erorr-prevalence.html",
+    "title": "Error prevalence in academic search queries: An analysis using an automated validation tool",
     "section": "",
-    "text": "033 Mingxin Jiang: The Performance of Duplicate Identification Algorithms on Low-quality Datasets: Error Analysis and Optimization (Bachelor’s thesis)\n032 Ammar Al Balkhi: Designing a GitHub-Native Delegation Bot for Collaborative Workflows: A Design Science Study (Bachelor’s thesis)\n031 Muhammad Uzair Janjua: Factors influencing career decisions of young IT professionals in the digital ag: A survey study (Master’s thesis)\n030 Julia Isabel Seibold: awesome: An analysis of popular knowledge curations on GitHub (Bachelor’s thesis)\n029 Daniela Albaner: How cobots are conquering the manufacturing industry: An analysis of management decisions on the use of cobots in the context of Industry 5.0 (Master’s thesis)\n028 Jessica Klarmann: Skill Signal Portfolios of IT Freelancers on Online Labor Markets: A Clustering Analysis of Hard and Soft Skills (Bachelor’s thesis)\n027 Peter Eckhardt: Advances in literature searches: Evaluation, analysis, and improvement of Web of Science queries (Bachelor’s thesis)\n026 Karl Schnickmann: Validating and Parsing Academic Search Queries: A Design Science Approach (Bachelor’s thesis)\n025 Anna Geßler: Design of an Emulator for API-based Academic Literature Searches (Bachelor’s thesis)\n024 Thomas Fleischmann: Advances in literature search queries: Validation and translation of search strings for EBSCO host (Bachelor’s thesis)\n023 Tharshiga Gunapalan: Ethical challenges and regulatory responses in gig work: An analysis of emergent policy agendas (Maser’s thesis)\n022 Celina Schwarz: Ethical challenges and regulatory responses in gig work: An analysis of emergent policy agendas (Bachelor’s thesis)\n021 Michael Bitz: Online labor markets: Key constructs, items and nomological network (Master’s thesis)\n020 Laureen Thurner: Understanding the process of organizing participatory knowledge resources: An exploratory study in the context of academic lab handbooks (Bachelor’s thesis)\n019 Robert Theis: Analyzing the yield of literature search queries: An open source design science approach (Bachelor’s thesis)\n018 Aaron Hißting: Generative artificial intelligence and archetype prompts in software development: A scoping review (Bachelor’s thesis)\n017 Witalij Kindsvater: The Impact of Remote Work on Individual Productivity: A Literature Review of Pre-, Peri-, and Post-Pandemic Research (Bachelor’s thesis)\n014 Philipp Thomas Raab: The effects of generative artificial intelligence on software development tasks: A qualitative systematic review (Bachelor’s thesis)\n013 Moritz van den Hövel: The state of artificial intelligence in personal information management – A scoping review (Bachelor’s thesis)\n012 Luca Ossendorf: Design of a machine-learning classifier for research papers: Identifying literature reviews (Bachelor’s thesis)\n011 Ivan Shevlyakov: Techno-stressors in work and non-work contexts: A structured literature review (Bachelor’s thesis)\n010 Thi Thanh Thao Tran: Synthesizing the Integration of HR Analytics Across the Employee Life Cycle: A Scoping Review of Stage-Specific Organizational Applications (Master’s thesis)\n009 Katharina Maria Ernst: Towards more efficient literature searches: Design of an open source query translator (Bachelor’s thesis, link)\n008 Hisham Merdan: Towards more effective backward searches: A novel machine-learning-based approach (Bachlelor’s thesis)\n007 Nizar Salem: Design and evaluation of machine learning classifiers to support backward citation searches (Bachelor’s thesis)\n006 Albert Borchardt: Automated literature pre-screening in systematic reviews: Design and evaluation of machine learning classifiers (Bachelor’s thesis)\n004 Do Thuy Duong Nguyen: Societal impact of telecommuting: A review of prior works (Master’s thesis)\n003 Antonia Pausch: Remote work and mental health: A qualitative systematic review (Bachelor’s thesis)\n002 Salim Kahn: Artificial Intelligence and Changes in Associated Skill Requirements Across Industry Sectors (Bachelor’s thesis)\n001 Marina Herold: The Transformation of Organizational Culture in the Age of Remote Work: A Literature Review (Bachelor’s thesis)\nPhilip Empl: Addressing the Inefficiency of Searching Backward: A Novel Tool to Support Authors of Literature Reviews (Bachelor’s thesis)\nRichard Schuster: How Do We Build on Information Systems Design Science Research? Steps Towards Cumulative Knowledge Development (Bachelor’s thesis)\nJulian Prester: Uncovering the Epistemological Impact of IS Literature Reviews: A Natural Language Processing Based Approach (Master’s thesis)",
-    "crumbs": [
-      "Home",
-      "Outcomes",
-      "Completed theses"
-    ]
+    "text": "Thesis Advisor: Prof. Dr. Gerit Wagner\nSummary: Literature search queries used to access scientific databases often contain syntactic errors and inconsistencies. Since such errors can adversely affect the effectiveness of reviews, their detection and prevention are critical steps in query formulation, use and reporting. Due to the length and complexity of queries, manual validation is often impractical, which has prompted the development of automated solutions. Building on these advances, this thesis performs a comprehensive evaluation of academic search queries using the query validation tool, search-query. The analysis aims to identify common pitfalls and inconsistencies, addressing both syntactic errors (e.g., unbalanced parentheses) and opportunities for refinement (e.g., removal of redundant components). A dataset of queries taken from searchRxiv will be compiled for the analysis. The dataset will include queries for the popular search platforms Web of Science, PubMed, and EBSCOHost. The evaluation will also serve to assess the functionality of the search-query tool and reveal potential areas for improvement in its design.\nMethods: The thesis combines design science and quantitative approaches, proceeding in three phases: 1) Creating of a test dataset of queries based on searchRxiv. 2) Analyzing the queries using the search-query package. 3) Preparing and evaluating the test data and suggesting improvements to the tool’s design.\nExpected Outcomes: This thesis will provide a comprehensive evaluation of academic search queries used in peer-reviewed research. The analysis will offer statistical insights into the prevalence of different error types and structural characteristics of the queries. A deeper understanding of common patterns can support error prevention and the formulation of more effective search strategies. The evaluation will also verify the functionality of the search-query tool and highlight potential shortcomings and areas of improvement to the design.\nRequirements: Students should have prior experience with Git and Python. Familiarity with basic data analysis techniques is an advantage.\nReferences:\n\n\nEckhardt, P., Ernst, K., Fleischmann, T., Geßler, A., Schnickmann, K., Thurner, L., and Wagner, G. “search-query: An Open-Source Python Library for Academic Search Queries”.\n\n\nGusenbauer, M., & Haddaway, N. R. (2021). What every researcher should know about searching–clarified concepts, search advice, and an agenda to improve finding in academia. Research Synthesis Methods, 12(2), 136-147.\n\n\nLi, Z., & Rainer, A. (2023). Reproducible Searches in Systematic Reviews: An Evaluation and Guidelines. IEEE Access, 11, 84048–84060. IEEE Access.\n\n\nPeffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007). A design science research methodology for information systems research. Journal of Management Information Systems, 24(3), 45–77."
   },
   {
-    "objectID": "docs/writing/writing_phase.html",
-    "href": "docs/writing/writing_phase.html",
-    "title": "Writing phase",
+    "objectID": "docs/topics/ai-supported-knowledge-synthesis.html",
+    "href": "docs/topics/ai-supported-knowledge-synthesis.html",
+    "title": "AI-Supported Knowledge Synthesis",
     "section": "",
-    "text": "ObjectiveObjective\n\n\n\n\nFive golden rules\nWriting process\nUsing active voice\nTopic sentences\nTense usage in academic writing\nCitation guidelines\nWhen are illustrations needed?\nBringing your thesis to life\nWriting should be accessible and free of unnecessary complexity to ensure readers easily grasp your ideas.",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Writing phase"
-    ]
-  },
-  {
-    "objectID": "docs/writing/writing_phase.html#five-golden-rules",
-    "href": "docs/writing/writing_phase.html#five-golden-rules",
-    "title": "Writing phase",
-    "section": "Five golden rules",
-    "text": "Five golden rules\n\nRule 1: Start with a strong outline\n\nExplains the importance of outlining before starting.\nOutline as the backbone of your thesis.\nProvides tips for breaking down your thesis into sections.\n\nRule 2: Maintain consistency\n\nConsistency in tone: formal, clear, and academic.\nFormatting rules: follow a single style guide for margins, headings, and citations.\nSuggests tools like Zotero to help manage citations efficiently.\n\nRule 3: Prioritize clarity\n\nGuides on using short, direct sentences and avoiding unnecessary jargon.\nAdvises defining technical terms for readers unfamiliar with the topic.\n\nRule 4: Revise extensively\n\nRecommends a multi-step revision process, focusing on structure first, then content, and finally grammar.\nEncourages seeking feedback from your supervisor.\n\nRule 5: Use illustrations wisely\n\nDiscusses the purpose of visuals and when to include them (e.g., data-heavy sections, complex processes).\nWarns against overloading the thesis with unnecessary graphics.",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Writing phase"
-    ]
-  },
-  {
-    "objectID": "docs/writing/writing_phase.html#writing-process",
-    "href": "docs/writing/writing_phase.html#writing-process",
-    "title": "Writing phase",
-    "section": "Writing process",
-    "text": "Writing process\n\nFrom the outline to the manuscript\nExpanding bullet points into structured paragraphs is key to maintaining coherence. Topic sentences should guide the reader through each paragraph, keeping the discussion focused. Integrating references smoothly is also important to maintain the logical flow of ideas.\n\n\nRecommended writing sequence\nStarting with the Methods Section is recommended, as it is factual and descriptive, laying the foundation for the Results Section, where data is presented without interpretation. The Discussion Section follows, analyzing the results in the context of research objectives. The Introduction and Literature Review should be written later to align with study findings and to provide proper context. Finally, the Conclusion summarizes key insights without introducing new ideas.",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Writing phase"
-    ]
-  },
-  {
-    "objectID": "docs/writing/writing_phase.html#using-active-voice",
-    "href": "docs/writing/writing_phase.html#using-active-voice",
-    "title": "Writing phase",
-    "section": "Using active voice",
-    "text": "Using active voice\nIt is recommended to use active voice (“I” or “we”) instead of passive voice (commonly used in German).",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Writing phase"
-    ]
-  },
-  {
-    "objectID": "docs/writing/writing_phase.html#topic-sentences",
-    "href": "docs/writing/writing_phase.html#topic-sentences",
-    "title": "Writing phase",
-    "section": "Topic sentences",
-    "text": "Topic sentences\nTopic sentences provide clarity and structure, making it easier for readers to follow the argument. They are commonly found in high-quality academic writing. Good examples of topic sentences can be found in top-tier journal papers like the one by Davis (1989):\n\nPerceived usefulness and perceived ease of use\nWhat causes people to accept or reject information technology? Among the many variables that may influence system use, previous research suggests two determinants that are especially important. First, people tend to use or not use an application to the extent they believe it will help them perform their job better. We refer to this first variable as perceived usefulness. Second, even if potential users believe that a given application is useful, they may, at the same time, believe that the system is too hard to use and that the performance benefits of usage are outweighed by the effort of using the application. That is, in addition to usefulness, usage is theorized to be influenced by perceived ease of use.\nPerceived usefulness is defined here as “the degree to which a person believes that using a particular system would enhance his or her job performance.” This follows from the definition of the word useful: “capable of being used advantageously.” Within an organizational context, people are generally reinforced for good performance by raises, promotions, bonuses, and other rewards (Pfeffer, 1982; Schein, 1980; Vroom, 1964). A system high in perceived usefulness, in turn, is one for which a user believes in the existence of a positive use-performance relationship.\nPerceived ease of use, in contrast, refers to “the degree to which a person believes that using a particular system would be free of effort.” This follows from the definition of “ease”: “freedom from difficulty or great effort.” Effort is a finite resource that a person may allocate to the various activities for which he or she is responsible (Radner and Rothschild, 1975). All else being equal, we claim, an application perceived to be easier to use than another is more likely to be accepted by users.",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Writing phase"
-    ]
-  },
-  {
-    "objectID": "docs/writing/writing_phase.html#tense-usage-in-academic-writing",
-    "href": "docs/writing/writing_phase.html#tense-usage-in-academic-writing",
-    "title": "Writing phase",
-    "section": "Tense usage in academic writing",
-    "text": "Tense usage in academic writing\nThe present tense is used for general truths, accepted knowledge, and describing the content of the paper. For example, “This study investigates…” or “Figure 1 shows…” The past tense is used to describe specific methods, report findings, and reference prior research, as in “Smith et al. (2020) found…”",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Writing phase"
-    ]
-  },
-  {
-    "objectID": "docs/writing/writing_phase.html#citation-guidelines",
-    "href": "docs/writing/writing_phase.html#citation-guidelines",
-    "title": "Writing phase",
-    "section": "Citation guidelines",
-    "text": "Citation guidelines\nProper citation ensures recognition of original work and adherence to academic integrity. In information systems and computer science, indirect citation is preferred, focusing on theories and findings rather than exact wording. APA format is commonly used.\nIn-text citations can be either parenthetical, such as “Fitness trackers were found to have mixed effects on sedentary behavior (Smith et al., 2006),” or narrative, as in “Smith et al. (2006) analyzed the effectiveness of fitness trackers.” Word-for-word quotations require quotation marks and page numbers, e.g., “A substantial degree of inaccuracy in measuring sleep quality” was found (Smith et al., 2006, p. 111). Reference managers like Zotero facilitate proper citation formatting.",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Writing phase"
-    ]
-  },
-  {
-    "objectID": "docs/writing/writing_phase.html#when-are-illustrations-needed",
-    "href": "docs/writing/writing_phase.html#when-are-illustrations-needed",
-    "title": "Writing phase",
-    "section": "When are illustrations needed?",
-    "text": "When are illustrations needed?\nIllustrations should be used to enhance understanding and clarify key points. Charts, graphs, or tables are useful for presenting numerical data, while flowcharts or diagrams can help explain methodologies and workflows. Concept maps are particularly effective for illustrating theoretical frameworks. To ensure effectiveness, visuals should be clear, professionally designed, and properly labeled. Avoid including large blocks of code or overly complex diagrams; instead, focus on illustrating architecture and key mechanisms concisely.",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Writing phase"
-    ]
-  },
-  {
-    "objectID": "docs/writing/structure_and_contents.html",
-    "href": "docs/writing/structure_and_contents.html",
-    "title": "Structure and contents",
-    "section": "",
-    "text": "Structure and contents\n\n\n\n\n\n\nObjectiveObjective\n\n\n\n\nAbstract\nIntroduction\nBackground\nMethodology\nResults\nDiscussion\nConclusion\nDeclarations\nAppendices\n\n\n\nThe default structure outlined below may need to be adapted to the thesis at hand. Each section has its own scope, as illustrated in the figure below. In the introduction, you can contextualize your work with respect to the broader topic. The methods and findings focus more narrowly on the evidence and results of your work. Afterwards, the discussion should explain how your findings relate to prior research.\n\n\n\nAnatomy of a research paper (Figure by Blair Wang)\n\n\nNote: While creating your thesis, keep the evaluation criteria in mind to ensure your thesis meets the required academic standards.\nAbstract\nThe abstract serves as a point of entry for the reader, providing an initial overview of the research study, including the motivation for the study, the methodological approach employed, and a summary of the main results. In addition, the purpose of the research study should be clearly defined. Typically, an abstract consists of around 300 words.\nIntroduction\nThe introduction should outline the purpose of the study as well as the research question that is sought to be answered. By briefly outlining the context of the study in terms of content and time, the reader acquires a quick overview. A key aspect of the introduction is the presentation of the motivation for conducting the study. This gives the reader a basic understanding of the topic and underpins the relevance and importance of the study. The relevance and purpose can further be highlighted by using an appropriate quotation.\nThe building blocks of Lange and Pfarrer (2017) may be helpful:\n\nCommon ground: Establishing common ground involves presenting the current state of the literature and ensuring that the reader agrees with the basic assumptions, boundary conditions, and key concepts. This step is crucial for gaining the reader’s interest and tacit consent, making them more receptive to the forthcoming arguments and discussions.\nComplication: After establishing common ground, introduce a complication that challenges the current understanding or highlights a gap in the literature. This complication could be a problem, puzzle, or twist that makes the reader realize the inadequacy or incompleteness of the existing academic conversation.\nConcern: To make the complication compelling, explain why it matters. This involves demonstrating the significance of the gap or issue identified. The concern step is about showing the practical and theoretical implications of the complication, emphasizing why it is essential to address this gap in the literature.\nCourse of action: Describe the approach or methodology that will be used to address the identified complication. This could involve developing new constructs, modeling relationships, exploring processes, or synthesizing existing theories. The course of action should be clearly explained, logically structured, and directly aimed at resolving the complication.\nContribution: Finally, articulate how the research will contribute to the academic conversation. This entails explaining the novelty and significance of the findings and how they advance understanding in the field. The contribution should also suggest future theoretical exploration and practical implications for management and organizations.\n\nThe final paragraph of the introduction gives an outline of the structure of the study, that is, the approaches taken in each step of conducting the research study are briefly described. This gives the reader a clear picture of the composition of the study, i.e., what can and cannot be expected of the study.\nBackground\nThis section (which could also be named Literature Review or Conceptual Framework) sets the theoretical and conceptual context of the study and grounds the leading assumptions in theories. This is done by outlining and citing pertinent work. Here, the author can present the acquired background knowledge that is relevant for the following sections of the study. This background knowledge also helps in building the conceptual framework of the study.\nThe literature review should focus on concepts rather than authors and historical development (cf. Webster and Watson, 2002). It is also possible to use a conceptual framework to structure the literature synthesis. Provide precise definitions of those concepts that are central to your work, emphasize concepts rather than authors, and do not include your own judgment in the background section. Use established definitions and concepts and provide a justification when adapting them.\nA graphical representation of the framework helps to illustrate complex theoretical constructs as well as the boundaries of the research study. The explicit statement of the conceptual framework not only informs the reader, but it also guides the author in conducting the research.\nRelevant background literature can be found in journals such as those listed in\n\nthe AIS Senior Scholars’ Basket of Journals\nthe VHB Jourqual Ranking\nor conferences such as ICIS and ECIS.\n\nPapers can be accessed through the Bamberger Katalog, a search on ResearchGate, a search on Google Scholar, or by contacting the authors. For using the Bamberger Katalog, ResearchGate, and some of the Google Scholar papers, you need to be connected to the University of Bamberg VPN.\nGuidelines on searching the literature are provided by Webster and Watson (2002).\nMethodology\nThe methodology section describes a systematic and goal-oriented approach to answer the research question. Hence, the selection of the research method needs to be consistent with the research questions. The approach may be, for example, empirical, analytical, comparative, systematic, historical, or hermeneutic. The methodological approach needs to be described in detail; appropriate reporting standards for the research method should be considered (such as PRISMA for literature reviews); it should be possible to understand the methodological procedures based on the thesis. For example, it is necessary to provide the formulas of regression models.\nResults\nIn this section, the author presents the results of the study. If they are presented by means of figures and/or tables, the results should be clearly legible. Furthermore, in the case of figures, it is recommended to use vector graphics as this ensures good readability without the need to pre-specify the font size within the figures. An example figure and table can be found in the template contained in this repository.\nDiscussion\nIn this section, the author provides a discussion of the results and is thus able to draw an informed conclusion. More precisely, the discussion is an evaluative summary of the research study in relation to the research question. In general, the discussion can be divided into three parts. First, the results should be tied to the research question, thus presenting the reader with a solution or improvement to the identified problem space. Here, for example, the author can draw on empirical findings introduced in the Results section to support their argument. Next, the author should outline the limitations of the research study by critically examining the research approach used. Limitations might comprise, for example, a limited time frame considered in the research study, or the individual refinement of a specific research method due to time constraints. Finally, suggestions for future research avenues should be provided. These suggestions may align with the limitations, as this allows other researchers to build on the present work by extending or analyzing it. In summary, the Discussion section presents the results in relation to the research question as well as restrictions of the study and suggestions for future research in the respective domain.\nConclusion\nThe conclusion contains a summary of the research study. In contrast to the Discussion section, in which the main results are presented, here the key contributions of the work are showcased. A well-crafted conclusion answers the research question stated in the Introduction. By doing so, the author clarifies to what extent the research study has presented a solution or improvement to the examined problem space.\nAcknowledgments and declarations\nIn the acknowledgment section, you may refer to the guideline for the use of digital tools for further information. Additionally, students are advised to consult the ethics page for relevant guidance (although formal ethics approvals cannot be issued for a thesis).\nAppendices\nThe appendices provide supplementary material that supports the content of the thesis but is not essential to the core argument. These materials should be referenced in the main text where appropriate.\nAppendices can be used to provide:\n\nExtended tables or figures\nDetailed methodological procedures\nQuestionnaires or interview guides\nSupplementary analysis or additional results\n\nIn addition, a digital appendix can include elements that support reproducible research objectives. These may be provided as part of the thesis (Git/GitHub) repository, including:\n\nData collected or reused for the study\nCode (e.g., data processing and/or analysis scripts)\nREADME file that explains the structure, usage, and dependencies of the repository\n\nThe digital appendix (repository) can also include the written thesis. It is not necessary to create a separate data repository.\nDeclaration\n\n\n\n\n\n\nNote\n\n\n\nDo not forget that the last page of your thesis has to be the statutory declaration (“Eidestattliche Erklärung”) of the examination office. This declaration is printed on your topic confirmation.",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Structure and contents"
-    ]
-  },
-  {
-    "objectID": "docs/writing/research.html",
-    "href": "docs/writing/research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Ågerfalk & Karlsson (2020) for artefactual contributions\nLeidner (2020) on research contributions",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Research"
-    ]
-  },
-  {
-    "objectID": "docs/writing/research.html#research-contributions",
-    "href": "docs/writing/research.html#research-contributions",
-    "title": "Research",
-    "section": "",
-    "text": "Ågerfalk & Karlsson (2020) for artefactual contributions\nLeidner (2020) on research contributions",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Research"
-    ]
-  },
-  {
-    "objectID": "docs/writing/research.html#research-methods",
-    "href": "docs/writing/research.html#research-methods",
-    "title": "Research",
-    "section": "Research methods",
-    "text": "Research methods\n\n\n\nMethod\nCriteria and reporting guideline\n\n\n\n\nLiterature review\nParé et al. (2015), Paré et al. (2024), Page et al. (2021), Templier & Paré (2018), Okoli (2015), PRISMA1\n\n\nTheory development\nGregor (2006)\n\n\nDesign science\nHevner et al. (2004), Prat et al. (2015), Peffers et al. (2007), Journal of Open Source Software (n.d.)\n\n\nMachine learning\nHeil et al. (2021), Kapoor et al. (2023), Stevens et al. (2020), Walsh et al. (2021)\n\n\nExperiments\nFrank et al. (2024)\n\n\nQualitative surveys and interviews\nO’Brien et al. (2014), Tong et al. (2007)",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Research"
-    ]
-  },
-  {
-    "objectID": "docs/writing/research.html#support-for-statistical-analyses-baces",
-    "href": "docs/writing/research.html#support-for-statistical-analyses-baces",
-    "title": "Research",
-    "section": "Support for statistical analyses (BACES)",
-    "text": "Support for statistical analyses (BACES)\nFor students conducting research for their thesis, support from the Bamberger Centrum für Empirische Studien (BACES) is available. BACES provides free statistical consultation for students working on seminar papers, thesis projects, and for university members involved in publications. This service is particularly useful for students needing assistance with statistical analysis and data interpretation.\nThe BACES team, which consists of professors, researchers, and student assistants, offers:\n\nFree methodological consultation for students and university members on their research projects (seminar and thesis papers, publications).\nTraining sessions on various statistical topics.\nImmediate support on urgent statistical issues every Wednesday between 10 and 11 AM.\n\nFor further details on their services and team, you can visit the BACES website or directly reach out for statistical consultation via the BACES consultation page.\nPlease note that the consultations are provided with the consent of thesis advisors. We highly encourage students to take advantage of this valuable resource during their research phase.",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Research"
-    ]
-  },
-  {
-    "objectID": "docs/writing/research.html#footnotes",
-    "href": "docs/writing/research.html#footnotes",
-    "title": "Research",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nhttps://estech.shinyapps.io/prisma_flowdiagram/↩︎",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Research"
-    ]
-  },
-  {
-    "objectID": "docs/feedback.html",
-    "href": "docs/feedback.html",
-    "title": "Feedback",
-    "section": "",
-    "text": "NoteYour Feedback Matters: Help Us Improve!\n\n\n\nWe kindly invite you to participate in the upcoming course evaluation. Your feedback is voluntary and anonymous. There is no risk of disadvantage or negative consequences for you, regardless of the feedback you provide. So please feel free to be open and honest in your responses. Your participation helps us improve the quality of our courses (♻️), and we highly value your opinions.\nThank you for your time and honest feedback!\n\n\nFeedback is important for students and for us as thesis advisors. As a student, you may write another thesis or seminar paper. To develop your skills, our goal is to explain the grading transparently and to help you understand which parts of your work could be improved and which ones are adequate or excellent. For us, feedback sessions are essential to improve how we advise students who write a thesis, and they can be helpful for new candidates.\nWe actively encourage students to participate in feedback sessions. In the process, we also ask students whether they want to provide feedback, whether we can publish it, and if so, whether it should be published anonymously.\nProvide feedback\n\n\nMeine Abschlussarbeit am Lehrstuhl Digital Work war eine durchweg positive Erfahrung. Schon zu Beginn gab es mehrere spannende Themen zur Auswahl, sodass ich ein Thema finden konnte, das mich wirklich interessiert. Die flexible Terminbuchung über Calendly war für mich ein riesiger Pluspunkt. Ich konnte unkompliziert Termine vereinbaren und habe immer schnell Antworten auf meine Fragen bekommen. Jede Frage wurde ernst genommen und ausführlich beantwortet. Der gesamte Betreuungsprozess war klar strukturiert, was mir enorm geholfen hat. Alle wichtigen Informationen zu den einzelnen Schritten, den Anforderungen und den Bewertungskriterien waren transparent auf der Webseite des Lehrstuhls dargestellt. Dadurch wusste ich immer genau, worauf es ankommt und was als Nächstes zu tun ist. Besonders hilfreich war auch, dass Prof. Dr. Wagner mir gezielt passende wissenschaftliche Literatur zugeschickt hat. Das hat nicht nur mein Schreiben erleichtert, sondern auch mein Verständnis für das Thema vertieft. Insgesamt war die Betreuung durch Prof. Dr. Wagner hervorragend. Die klare Struktur, die schnelle und hilfreiche Kommunikation sowie die wertvollen inhaltlichen Impulse haben meine Arbeit enorm bereichert. Ich kann den Lehrstuhl Digital Work uneingeschränkt empfehlen und würde jederzeit wieder eine Arbeit dort schreiben! Bewertung: 5/5\n\nIch kann das Verfassen einer Abschlussarbeit am Lehrstuhl Digital Work bei Prof. Wagner vollstens empfehlen. Mein Thema war sehr spannend und an das Projekt, das ich im vorherigen Semester an dem Lehrstul belegt hatte, angeknüpft. Dank der bereitgestellten Startliteratur und einer kurzen Einführung im Rahmen eines Kick-off-Meetings durch Prof. Wagner fiel mir der Einstieg in das Thema leicht. Der Arbeitsprozess und hilfreiche Tipps zu den einzelnen Schritten sowie die Evaluationskriterien wurden klar geschildert und waren online verfügbar. Besonders geschätzt habe ich das häufige und konstruktive Feedback von Prof. Wagner. Das Buchen von Zeitslots über Calendly machte die Terminfindung unkompliziert – Prof. Wagner war immer zuverlässig erreichbar und hat sich viel Zeit für meine Fragen genommen. Zudem hatte Prof. Wagner einen Review-Prozess mit drei anderen Studierenden mit ähnlichen Themen organisiert, durch welchen ich zusätzlich wertvolles Feedback erhalten konnte. Insgesamt war die Betreuung hervorragend.\nBewertung: 5/5\n\nDie Betreuung meiner Bachelorarbeit durch Herrn Prof. Wagner war durchweg positiv. Die Arbeit konnte vollständig remote verfasst werden, wobei regelmäßige und hilfreiche Online-Meetings den Austausch ermöglichten. Die Themenfindung verlief relativ unkompliziert, da bereits einige offene Themen zur Auswahl standen. In einem kurzen Bewerbungsgespräch und dem anschließenden Kick-off-Meeting erhielt ich wertvolle Einblicke sowie erste Literaturhinweise zum Thema, sowie der Methodik, die den Einstieg erleichterten. Fragen und Feedback konnten unkompliziert über Calendly-Termine geklärt werden. Dabei wurde auf Probleme schnell und kompetent eingegangen, und eigene Ideen konnten eingebracht und diskutiert werden. Die Bewertungskriterien waren transparent und wurden auch im finalen Feedback-Gespräch nachvollziehbar angewendet und erklärt.\nFazit: Ich kann die Betreuung bei Herrn Prof. Wagner uneingeschränkt weiterempfehlen.\nBewertung: 5/5\n\nMeine Abschlussarbeit am Lehrstuhl von Herrn Wagner zu schreiben war sehr angenehm. Termine für Feedbackgespräche können per Online-Tool ganz einfach ausgemacht werden, Herr Wagner ist auch sehr oft verfügbar, selbst kurzfristige Terminabsagen waren kein Problem. Die vielen Feedbackgespräche haben mir die Gelegenheit gegeben, viele (auch mal weniger sinnvolle) Fragen zu stellen, die Herr Wagner immer sehr freundlich und respektvoll beantwortete - die Kommunikation fand generell komplett auf Augenhöhe statt. Dieses Feedback war in der anfänglichen, schwierigen Phase besonders wertvoll, in der noch Fokus und Methodik der Arbeit festgelegt werden mussten. Herr Wagner hatte außerdem immer eine Menge hilfreicher und relevanter Paper zur Hand, die mir sehr geholfen haben. Die Bewertung meiner Arbeit war fair, transparent und nachvollziehbar und wurde mir von Herrn Wagner im abschließenden Gespräch ausführlich erklärt. Alles in allem kann ich jeder und jedem nur wärmstens empfehlen, Abschlussarbeiten bei Herrn Wagner zu schreiben.\nBewertung: 5/5\n\nDie Betreuung meiner Bachelorarbeit durch Professor Wagner war von Anfang an ausgezeichnet. Er zeigte sich unterstützend und offen bei der Themenfindung und meinem Interessensgebiet, was mir den Einstieg in die Arbeit erleichterte.\nBesonders hilfreich waren die regelmäßigen Feedback-Gespräche, die sowohl am Anfang beim Brainstorming für mögliche Vorgehensweisen als auch während des gesamten Prozesses stattfanden. Professor Wagner nahm sich immer die Zeit, meine Vorschläge anzuhören, und gab konstruktives Feedback, sei es zur Umsetzbarkeit meiner Ideen oder zu Punkten, die ich weiter vertiefen sollte.\nAuch die von ihm bereitgestellten Unterlagen zur Methodik waren äußerst nützlich und halfen mir, die Arbeit fundiert und strukturiert aufzubauen. Zudem empfahl er mir bei Bedarf relevante wissenschaftliche Papers, die meinen Forschungsprozess bereicherten.\nIm Großen und Ganzen fand ich die Betreuung durch Professor Wagner sehr gut. Ich hätte nicht gedacht, dass ich so viel Freude am Erstellungsprozess meiner Bachelorarbeit haben würde, aber genau das war der Fall. Deshalb kann ich es jedem nur empfehlen, die Seminar- oder Abschlussarbeit bei ihm zu schreiben.\nBewertung: 5/5\n\nDas Verfassen meiner Bachelorarbeit am Lehrstuhl Digital Work war sehr angenehm. Prof. Wagner hat mich von Anfang an, vom Prozess der Themenfindung bis hin zum tatsächlichen Schreiben der Arbeit, aktiv unterstützt und gut beraten. Betreuungstermine zu vereinbaren, war mithilfe des Tools Calendly sehr einfach und transparent. Durch das Tool wusste man immer, wann Prof. Wagner für Termine verfügbar war, und konnte so die eigenen Termine zeitlich gut vorausplanen, ohne wie üblich durch einen langwierigen E-Mail-Verkehr einen gemeinsamen Termin mit dem Professor finden zu müssen. Hervorzuheben ist auch, dass Herr Wagner in dringenden Fällen Termine angeboten hat, selbst wenn keine mehr in Calendly verfügbar waren. Zu den Terminen war Herr Wagner immer bestens mit dem aktuellen Stand der Arbeit vertraut und konnte hilfreiche Tipps und Anregungen geben (z. B. Papers, die für die Arbeit nützlich sein könnten). Auf meine Fragen wurde sehr verständlich und genau eingegangen, sodass ich immer genau wusste, was als Nächstes zu tun ist. Insgesamt konnte ich durch die Bachelorarbeit mein Wissen im Bereich generativer KI vertiefen und hatte auch Spaß am Erstellungsprozess der Arbeit (was ich vorher nicht für möglich gehalten hätte). Ich kann es somit jedem nur empfehlen, die Seminar- oder Abschlussarbeit bei Prof. Wagner zu schreiben.\nBewertung: 5/5\n\nDas Schreiben meiner Bachelorarbeit bei Prof. Wagner hat mir insgesamt sehr gut gefallen. Ich hatte im Semester davor schon das Digital Work Projekt belegt und mich dann für eine Bachelorarbeit im Bereich des colrev Projekts interessiert. Obwohl ich wenig Ahnung hatte, worüber genau ich eigentlich schreiben wollte konnte Prof. Wagner mich schnell für mein Thema begeistern. Besonders hilfreich fand ich die Erreichbarkeit und die angenehme Atmosphäre bei der Betreuung. Über ein bereitgestelltes Tool konnte man ganz einfach online Termine ausmachen ohne dabei direkt ewig viele Emails zur Terminfindung hin und herschicken zu müssen. Generell konnte ich mich mit allen meinen (sicherlich auch manchmal unnötigen oder weniger schlauen) Fragen an Prof. Wagner wenden und wurde immer wertschätzend und geduldig behandelt, das ist sicherlich nicht selbstverständlich. Ein anderer Aspekt der mir gut gefallen hat war der praktische Teil meiner Arbeit. Durch den Programmierteil hatte man immer wieder neue Herausforderungen und eine willkommene Abwechslung vom reinen Literatur lesen und wiedergeben. Besonders freut mich, dass mein erarbeitetes Tool einen tatsächlichen Nutzen hat und in der Lehre weiterverwendet werden soll! Das hilft auf jeden Fall beim Schreiben der Arbeit motiviert zu bleiben. Insgesamt kann ich es uneingeschränkt weiterempfehlen beim Lehrstuhl Digital Work und Herrn Prof. Wagner eine Bachelorarbeit zu schreiben. Ich hätte es mir nicht besser vorstellen können.\nBewertung: 5/5\n\nEs war eine äußerst bereichernde Erfahrung, meine Bachelorarbeit am Lehrstuhl Digital Work unter der fachkundigen Anleitung von Prof. Dr. Wagner zu verfassen. Herr Wagner begleitete die gesamte Entwicklung meines Projekts und stand stets zur Verfügung, um wertvolle Ratschläge und Optimierungsvorschläge zu geben. Sein Engagement und seine Bereitschaft, bei der Weiterentwicklung meiner Arbeit zu unterstützen, haben meine Forschung und mein Verständnis des Themas wesentlich verbessert.\nBesonders hilfreich war die umfangreiche Literatur, die sowohl aufsteigende als auch relevante Literatur umfasste, die mir seit Beginn meiner Arbeit zur Verfügung gestellt wurde. Diese umfassende Quellenbasis hat es mir ermöglicht, mein Thema gründlich zu vertiefen und einen fundierten theoretischen Hintergrund für meine Untersuchung zu schaffen.\nInsgesamt war es eine Freude, meine Abschlussarbeit am Lehrstuhl Digital Work zu verfassen. Die Unterstützung und die Ressourcen, die mir zur Verfügung gestellt wurden, haben meine akademische Erfahrung bereichert und meine Fähigkeiten weiterentwickelt. Ich bin dankbar für die Gelegenheit, unter der Anleitung von Prof. Dr. Wagner zu arbeiten und freue mich darauf, das Gelernte in meiner zukünftigen akademischen und beruflichen Laufbahn anzuwenden.\nBewertung: 4.9/5\n\nDas Schreiben meiner Bachelorarbeit bei Prof. Dr. Wagner am Digital Work Lehrstuhl war insgesamt wirklich super. Gleich zu Beginn konnte ich zwischen verschiedenen Themen auswählen und mir ein für mich spannendes aussuchen. Was mir dann am besten gefallen hat war, dass mir sowohl bei der weiteren Entwicklung des Themas als auch während des Schreibprozesses viel Freiheit gelassen wurde in welche Richtung ich die Bachelorarbeit inhaltlich lenken möchte bzw. auch aktiv von Prof. Dr. Wagner dabei unterstützt und ermutig wurde. Gleichzeitig habe ich bei Fragen oder Unklarheiten schnell entweder per Mail oder per Termin Feedback bekommen können und auch immer wieder interessanten Input (z.B. aufschlussreiche Paper) von Prof. Dr. Wagner erhalten. Für mich persönlich war es auch wichtig, dass ich viel lernen konnte (vor allem über Machine Learning), die Möglichkeit hatte praktisch zu programmieren und auch das Gefühl hatte, dass meine Arbeit und Ergebnisse nicht nur für die Schublade sind, sondern wirklich einen Nutzen haben. Deswegen habe ich alles im allen nichts auszusetzen und kann Prof. Dr. Wagner und den Digital Work Lehrstuhl allen bedenkenlos weiterempfehlen, die bei super Betreuung und spannenden Thematiken viel lernen und mitnehmen möchten.\nBewertung: 5/5\n\nThe supervision of my bachelor’s thesis by Prof. Wagner at the Chair of Digital Work was overall very positive. Particularly helpful were the clear structure of the process, the transparent grading criteria, and the regular feedback sessions. Questions were always taken seriously and answered in detail, which gave me a lot of confidence during the work process. The constructive feedback not only improved the quality of my work but also significantly deepened my understanding of academic work. Overall, I felt very well supported and professionally supervised throughout the entire duration.\nRating: 5/5\n\nMeine Erfahrung mit meiner Bachelorarbeit am Lehrstuhl Digital Work war sehr positiv. Zunächst basierte das Thema der Arbeit auf dem Projekt, das ich im vorherigen Semester abgeschlossen hatte. Dadurch fiel mir der Einstieg deutlich leichter und der anfängliche Aufwand, mich in das relevante Themenfeld einzuarbeiten, wurde reduziert.\nProf. Dr. Wagner hat mich von Beginn an sehr unterstützt und mir eine große Menge an relevanten wissenschaftlichen Ressourcen zur Verfügung gestellt. Darüber hinaus war der gesamte Forschungsprozess außergewöhnlich transparent und klar strukturiert: Auf der Webseite des Lehrstuhls wurden die einzelnen Schritte der Abschlussarbeit übersichtlich beschrieben, praxisnahe Hinweise gegeben sowie erwartete Ziele und Kriterien klar benannt. Alle Informationen waren jederzeit online abrufbar. Das hat mir sehr geholfen, den roten Faden zu behalten und die nächsten Schritte selbstbewusst zu planen.\nEin weiterer großer Vorteil war die unkomplizierte Terminvereinbarung über Calendly. Es gab nahezu wöchentlich verfügbare Zeitfenster, sodass ich zeitnah Antworten auf Fragen erhalten konnte. Diese zuverlässige Kommunikationsmöglichkeit und der schnelle, effiziente Austausch waren für meinen Fortschritt entscheidend.\nInsgesamt bin ich Prof. Dr. Wagner sehr dankbar für die Betreuung meiner Bachelorarbeit. Es war das erste Mal, dass ich ein Forschungsprojekt in dieser Größenordnung eigenständig durchgeführt habe. Dabei konnte ich wertvolle wissenschaftliche Kompetenzen aufbauen, insbesondere im wissenschaftlichen Schreiben sowie in der Planung und Umsetzung von Experimenten. Diese Erfahrung wird mir für meinen weiteren akademischen und beruflichen Weg sehr helfen und hat mein Verständnis sowie mein Interesse im Bereich Data Analytics deutlich erweitert.\nBewertung: 5/5",
-    "crumbs": [
-      "Home",
-      "Outcomes",
-      "Student Feedback"
-    ]
-  },
-  {
-    "objectID": "docs/admission_mail.html",
-    "href": "docs/admission_mail.html",
-    "title": "Admission e-mail",
-    "section": "",
-    "text": "To: wiai.pruefungen@uni-bamberg.de\nSubject: Bachelorarbeit Anmeldung\n\nSehr geehrte Damen und Herren,\n\nhiermit stelle ich einen Antrag zur Anmeldung meiner Bachelorarbeit.\n\nAktuelle Anschrift:\n...\n\nAnschrift nach Abschluss des Studiums:\n...\n\nMatrikelnummer: XXXX\n\nStudiengang: Bachelor Wirtschaftsinformatik\n\nE-Mail-Adresse: ...\n\nBetreuer: Herr Prof. Dr. Gerit Wagner\nLehrstuhl: Digital Work\n\nMit freundlichen Grüßen\n\n..."
-  },
-  {
-    "objectID": "docs/criteria.html",
-    "href": "docs/criteria.html",
-    "title": "Criteria for evaluation",
-    "section": "",
-    "text": "Bachelor’s and Master’s theses are evaluated according to the same criteria. Once the formal requirements are met, the main criteria related to the process, the contribution, and the discussion are used to grade a thesis.\nA changelog is available for this document.",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Criteria"
-    ]
-  },
-  {
-    "objectID": "docs/criteria.html#formal-requirements",
-    "href": "docs/criteria.html#formal-requirements",
-    "title": "Criteria for evaluation",
-    "section": "Formal requirements",
-    "text": "Formal requirements\n\nA Bachelor’s thesis should cover 30-50 pages (roughly 8,000 - 16,000 words), while a Master’s thesis should cover 40-70 pages (roughly 12,000 - 28,000 words). Design-oriented, analytical, and quantitative theses are typically shorter than qualitative and literature-based ones. For a Master’s thesis, a presentation is required, and a more substantial contribution is expected in line with the higher number of ECTS credits earned.\nWritten in proper academic English, with a clear structure (paragraphs) and line of argument.\nFollows citation practices, using APA format, and refers primarily to peer-reviewed academic papers.\nIncludes a title page, table of contents, abstract, common sections (e.g., IMRAD), a reference section, and appendices if applicable (a list of figures or tables is not required).\nMakes appropriate use of tables and figures, citing each table or figure in the text.\nProvides clear definitions for key terms.",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Criteria"
-    ]
-  },
-  {
-    "objectID": "docs/criteria.html#main-criteria",
-    "href": "docs/criteria.html#main-criteria",
-    "title": "Criteria for evaluation",
-    "section": "Main criteria",
-    "text": "Main criteria\nThe process is evaluated according to the following criteria:\n\nSystematicity in managing time, resources, and challenges. Start early to have enough time for each task, ensure that resources such as labs, equipment, participants, partners, or thesis advisors are available at the right time, and reduce potential risks by anticipating them and identifying potential alternatives.\nProactiveness in developing the topic (research question, theory, method, etc.) and incorporating feedback. To receive feedback, you can share (parts of) the thesis with us. We encourage you to challenge our feedback and suggest better alternatives.\nProficiency in leveraging prior research, i.e., identifying relevant papers, achieving an appropriate understanding, assessing contributions critically, and organizing prior work in a persuasive way to clarify how the thesis builds on prior work and how it goes beyond prior work.\n\nThe contribution is evaluated based on several dimensions (based on Leidner, 2020):\n\nExplicitness and significance of research objective or question: Explain how your work builds on prior research, identify related contributions, and clarify the research gap you address. Readers should understand why your research promises interesting insights and who would benefit from it. The editorial of Lange & Pfarrer (2017) provides useful suggestions to accomplish this.\nUniqueness in framing prior research: In summarizing prior research, it is essential to organize existing contributions from the perspective of your work. Prior research, in itself, does not follow a predefined order. It is your responsibility to make sense of the literature and to adopt an organizing frame that helps readers understand how prior research relates to your contribution.\nSystematicity of method: Evaluation criteria and reporting guidelines depend on the method applied. A selection is provided below. In addition to reporting the methodological steps, data and code should be made available with the thesis according to standards of reproducible research. Corresponding methods papers can be found here, and requirements should be discussed with the thesis advisor.\nOriginality of theory: Applies if your contribution involves a theoretical contribution, e.g., in the form of propositions, constructs, or models. Clarify how it differs from related theory and explain why it offers a plausible and more compelling perspective or explanation.\nInterpretation and novelty of findings: The findings should be interpreted appropriately, using a neutral tone, and avoiding overstating or understating their significance. Clearly distinguish findings that confirm prior research or common expectations. Effectively communicate the findings that are novel, interesting, or counterintuitive.\n\nRecommended criteria and reporting guidelines for selected research methods (the equator network provides a comprehensive overview). Additional guidelines can be provided upon request.\n\nThe contribution should be discussed with reference to\n\nThe (methodological) limitations\nThe implications for future research (research gaps)\nThe implications for practice (Ågerfalk & Karlsson, 2020).\n\n\n\n\n\n\n\nNoteNote on student ownership and feedback\n\n\n\nStudents are expected to critically engage with feedback provided by thesis advisors while accomplishing the contribution on their own. Especially for top grades (1.0–1.7), simply implementing suggestions is not sufficient. Instead, students are expected to maintain ownership of their work by applying independent judgment and, where appropriate, going beyond or critically reflecting on feedback from thesis advisors.",
-    "crumbs": [
-      "Home",
-      "Writing",
-      "Criteria"
-    ]
+    "text": "Thesis Advisor: Prof. Dr. Gerit Wagner\nSummary: In this topic area, we investigate how AI can support knowledge synthesis across academic and professional contexts. The focus is on improving transparency, rigor, traceability, and sensemaking in AI-assisted synthesis processes. Topics may include the design and evaluation of prompts for structured synthesis, classification of AI use in knowledge work outputs, benchmarking AI-supported synthesis workflows, and the development of infrastructures that make AI contributions auditable and reusable. This area explicitly includes literature reviews as well as knowledge synthesis in digital gardens, second-brain systems, and other personal or organizational knowledge repositories. The overarching aim is to understand and shape how AI supports the production, integration, and validation of knowledge.\nMethods: Literature reviews, design science research, or case studies.\n\nReferences:\n\n\nClark J, Barton B, Albarqouni L, et al. Generative artificial intelligence use in evidence synthesis: A systematic review. Research Synthesis Methods. 2025;16(4):601-619. doi:10.1017/rsm.2025.16\n\n\nWagner, G., Lukyanenko, R., & Paré, G. (2022). Artificial intelligence and the conduct of literature reviews. Journal of Information Technology, 37(2), 209-226."
   }
 ]

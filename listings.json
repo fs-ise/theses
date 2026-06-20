@@ -2,7 +2,9 @@
   {
     "listing": "/docs/topics.html",
     "items": [
-      "/docs/topics/search-query-erorr-prevalence.html"
+      "/docs/topics/ai-supported-knowledge-synthesis.html",
+      "/docs/topics/search-query-erorr-prevalence.html",
+      "/docs/topics/open-agentic-boundary-spanning-work.html"
     ]
   }
 ]
