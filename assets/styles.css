@@ -60,3 +60,83 @@ p {
   text-indent: -2em; /* This should match the left margin */
   text-align: justify; /* Justify the text */
 }
+
+.feedback-list {
+  display: grid;
+  gap: 1.4rem;
+  margin-top: 2rem;
+}
+
+.feedback-card {
+  --feedback-color: #0d6efd;
+  position: relative;
+  padding: 1.4rem 1.5rem 1.2rem 2rem;
+  border: 1px solid #dee2e6;
+  border-left: 6px solid var(--feedback-color);
+  border-radius: 0.8rem;
+  background: #f8fbff;
+  box-shadow: 0 0.2rem 0.7rem rgb(0 0 0 / 6%);
+}
+
+.feedback-card:nth-child(4n + 2) {
+  --feedback-color: #198754;
+  background: #f7fcf9;
+}
+
+.feedback-card:nth-child(4n + 3) {
+  --feedback-color: #6f42c1;
+  background: #faf8fd;
+}
+
+.feedback-card:nth-child(4n + 4) {
+  --feedback-color: #d97706;
+  background: #fffaf2;
+}
+
+.feedback-card::before {
+  content: "“";
+  position: absolute;
+  top: 0.35rem;
+  left: 0.65rem;
+  color: var(--feedback-color);
+  font-family: Georgia, serif;
+  font-size: 2.8rem;
+  line-height: 1;
+  opacity: 0.35;
+}
+
+.feedback-card p {
+  text-align: left;
+}
+
+.feedback-rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+  color: #b46900;
+  font-size: 1.05rem;
+  letter-spacing: 0.05em;
+}
+
+.feedback-rating span {
+  color: var(--bs-body-color);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: normal;
+}
+
+.feedback-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 1rem;
+}
+
+.feedback-tags span {
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  background: rgb(0 0 0 / 5%);
+  font-size: 0.78rem;
+  font-weight: 500;
+}
