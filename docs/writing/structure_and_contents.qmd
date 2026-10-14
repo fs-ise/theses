@@ -6,8 +6,6 @@ parent: Writing guide
 nav_order: 1
 ---
 
-# Structure and contents
-
 ::: objective
 - Abstract
 - Introduction
