@@ -80,8 +80,7 @@ Relevant background literature can be found in journals such as those listed in
 - the [VHB Jourqual Ranking](https://www.vhbonline.org/verband/wissenschaftliche-kommissionen/wirtschaftsinformatik/vhb-rating-2024-wirtschaftsinformatik){target=_blank}
 - or conferences such as [ICIS](http://aisel.aisnet.org/icis/){target=_blank} and [ECIS](https://aisel.aisnet.org/ecis){target=_blank}.
 
-Papers can be accessed through the [Bamberger Katalog](https://katalog.ub.uni-bamberg.de/vufind/){target=_blank}, a search on [ResearchGate](https://www.researchgate.net){target=_blank}, a search on Google Scholar, or by contacting the authors.
-For using the Bamberger Katalog, ResearchGate, and some of the Google Scholar papers, you need to be connected to the University of Bamberg VPN.
+Papers can be found through the [Frankfurt School Library](https://www.frankfurt-school.de/en/research-and-faculty/library-and-databases){target=_blank}, [ResearchGate](https://www.researchgate.net){target=_blank}, Google Scholar, or by contacting the authors.
 
 Guidelines on searching the literature are provided by Webster and Watson (2002).
 
@@ -122,7 +121,8 @@ A well-crafted conclusion answers the research question stated in the Introducti
 **Acknowledgments and declarations**
 
 In the acknowledgment section, you may refer to the [guideline for the use of digital tools](../digital_tools.html) for further information.
-Additionally, students are advised to consult the [ethics](https://www.uni-bamberg.de/gremien/senat-kommissionen/kommissionen/ethikrat/){target=_blank} page for relevant guidance (although formal ethics approvals cannot be issued for a thesis).
+Before collecting data, consider ethical requirements, informed consent, privacy, and data protection.
+**[Placeholder: Add current Frankfurt School research-ethics guidance and clarify whether thesis studies require formal approval.]**
 
 **Appendices**
 
@@ -148,6 +148,5 @@ The digital appendix (repository) can also include the written thesis. It is not
 **Declaration**
 
 ::: callout-note
-Do not forget that the last page of your thesis has to be the statutory declaration ("Eidestattliche Erklärung") of the examination office.
-This declaration is printed on your topic confirmation.
+**[Placeholder: Link the official Frankfurt School thesis declaration and state its required wording and placement.]**
 :::

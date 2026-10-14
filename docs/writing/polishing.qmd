@@ -21,7 +21,6 @@ Before submitting your thesis, we encourage students to go through the pre-submi
 - The writing style should be objective and neutral, particularly in the related work, methodology, and results sections.
   Clearly indicate when you go beyond the data and develop your own interpretation (e.g., in the form of propositions).
 - References: all papers cited in the text are in the reference section, and all papers in the reference section are cited in the text.
-- The declaration at the end is identical to the declaration shared by the examination office.
 
 <!-- Note: this list is not complete. Please feel free to suggest additional items. -->
 
