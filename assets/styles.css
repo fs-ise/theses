@@ -2,6 +2,14 @@ h1, h2, h3 {
   font-weight: 600;
 }
 
+.quarto-title-block .title {
+  text-align: center;
+}
+
+.badge-group p {
+  text-align: center;
+}
+
 p {
   text-align: justify;
 }
