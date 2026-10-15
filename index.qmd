@@ -34,16 +34,16 @@ title: "Bachelor's and Master's Theses"
   }
 </style>
 
-<br>
-
 <!-- ![Degree Program](https://img.shields.io/badge/Degree%20Program-WI%20|%20ISM%20|%20ISSS%20|%20CitH%20|%20Management%20etc.-blue)<br> -->
 
+::: {.text-center .badge-group}
 ![Level](https://img.shields.io/badge/Level-Bachelor%20|%20Master-blue)
 ![Offered by: Information Systems Education, Frankfurt School](https://img.shields.io/badge/Offered%20by-%20Information%20Systems%20Education%20(Frankfurt--School)-blue)
 ![Language](https://img.shields.io/badge/Language-English-blue)<br>
 [![Evaluations](https://img.shields.io/badge/Rating-★★★★★%20(4.99%20/%205)-yellow)](docs/feedback.html)
 ![Completion](https://img.shields.io/badge/Theses%20supervised-31-green)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
+:::
 
 Welcome!
 This page provides an overview and resources for writing a thesis in the area of Information Systems.
