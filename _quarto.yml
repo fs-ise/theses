@@ -18,8 +18,10 @@ website:
 
   sidebar:
     search: true
+    collapse-level: 0
     contents:
       - section: "Getting started"
+        href: index.qmd
         contents:
           - text: Open topics
             href: docs/topics.qmd
@@ -29,6 +31,7 @@ website:
             href: docs/criteria.qmd
 
       - section: "Writing"
+        href: docs/writing_section.qmd
         contents:
           - text: Overview
             href: docs/writing_section.qmd
@@ -45,6 +48,7 @@ website:
           - text: Polishing
             href: docs/writing/polishing.qmd
       - section: "Outcomes"
+        href: docs/outcomes.qmd
         contents:
           - text: Completed theses
             href: docs/completed.qmd

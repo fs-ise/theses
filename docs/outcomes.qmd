@@ -1,0 +1,9 @@
+---
+title: Outcomes
+---
+
+Explore the outcomes of our thesis supervision:
+
+- [Completed theses](completed.html): Browse theses completed by our students.
+- [Hall of Fame](hall_of_fame.html): Celebrate student awards, publications, and software.
+- [Student Feedback](feedback.html): Read students' experiences and feedback about thesis supervision.
