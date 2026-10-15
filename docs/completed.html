@@ -75,17 +75,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>
-div.callout-resource.callout {
-  border-left-color: #0d6efd;
-}
-div.callout-resource.callout-style-default > .callout-header {
-  background-color: rgba(13, 110, 253, 0.13);
-}
-div.callout-resource .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-resource.callout-style-default .callout-icon::before, div.callout-resource.callout-titled .callout-icon::before {
-  content: '🔗';
-  background-image: none;
-}
 div.callout-objective.callout {
   border-left-color: #0d6efd;
 }
@@ -95,6 +84,17 @@ div.callout-objective.callout-style-default > .callout-header {
 div.callout-objective .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-objective.callout-style-default .callout-icon::before, div.callout-objective.callout-titled .callout-icon::before {
   content: '🎯';
+  background-image: none;
+}
+div.callout-resource.callout {
+  border-left-color: #0d6efd;
+}
+div.callout-resource.callout-style-default > .callout-header {
+  background-color: rgba(13, 110, 253, 0.13);
+}
+div.callout-resource .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-resource.callout-style-default .callout-icon::before, div.callout-resource.callout-titled .callout-icon::before {
+  content: '🔗';
   background-image: none;
 }
 </style>
@@ -121,7 +121,7 @@ div.callout-objective.callout-style-default .callout-icon::before, div.callout-o
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link active" href="../index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -143,7 +143,7 @@ div.callout-objective.callout-style-default .callout-icon::before, div.callout-o
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../docs/completed.html">Outcomes</a></li><li class="breadcrumb-item"><a href="../docs/completed.html">Completed theses</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../docs/outcomes.html">Outcomes</a></li><li class="breadcrumb-item"><a href="../docs/completed.html">Completed theses</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -165,7 +165,7 @@ div.callout-objective.callout-style-default .callout-icon::before, div.callout-o
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+            <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Getting started</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -194,7 +194,7 @@ div.callout-objective.callout-style-default .callout-icon::before, div.callout-o
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+            <a href="../docs/writing_section.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Writing</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -247,7 +247,7 @@ div.callout-objective.callout-style-default .callout-icon::before, div.callout-o
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+            <a href="../docs/outcomes.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Outcomes</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -285,7 +285,7 @@ div.callout-objective.callout-style-default .callout-icon::before, div.callout-o
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../docs/completed.html">Outcomes</a></li><li class="breadcrumb-item"><a href="../docs/completed.html">Completed theses</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../docs/outcomes.html">Outcomes</a></li><li class="breadcrumb-item"><a href="../docs/completed.html">Completed theses</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Completed theses</h1>
 </div>
@@ -305,12 +305,12 @@ div.callout-objective.callout-style-default .callout-icon::before, div.callout-o
 
 
 <ul>
-<li>033 <strong>Mingxin Jiang</strong>: The Performance of Duplicate Identification Algorithms on Low-quality Datasets: Error Analysis and Optimization (Bachelor’s thesis)</li>
-<li>032 <strong>Ammar Al Balkhi</strong>: Designing a GitHub-Native Delegation Bot for Collaborative Workflows: A Design Science Study (Bachelor’s thesis)</li>
+<li>033 <strong>Mingxin Jiang</strong>: The performance of duplicate identification algorithms on low-quality datasets: error analysis and optimization (Bachelor’s thesis)</li>
+<li>032 <strong>Ammar Al Balkhi</strong>: Designing a GitHub-native delegation bot for collaborative workflows: a design science study (Bachelor’s thesis)</li>
 <li>031 <strong>Muhammad Uzair Janjua</strong>: Factors influencing career decisions of young IT professionals in the digital ag: A survey study (Master’s thesis)</li>
 <li>030 <strong>Julia Isabel Seibold</strong>: awesome: An analysis of popular knowledge curations on GitHub (Bachelor’s thesis)</li>
 <li>029 <strong>Daniela Albaner</strong>: How cobots are conquering the manufacturing industry: An analysis of management decisions on the use of cobots in the context of Industry 5.0 (Master’s thesis)</li>
-<li>028 <strong>Jessica Klarmann</strong>: Skill Signal Portfolios of IT Freelancers on Online Labor Markets: A Clustering Analysis of Hard and Soft Skills (Bachelor’s thesis)</li>
+<li>028 <strong>Jessica Klarmann</strong>: Skill signal portfolios of IT freelancers on online labor markets: a clustering analysis of hard and soft skills (Bachelor’s thesis)</li>
 <li>027 <strong>Peter Eckhardt</strong>: Advances in literature searches: Evaluation, analysis, and improvement of Web of Science queries (Bachelor’s thesis)</li>
 <li>026 <strong>Karl Schnickmann</strong>: Validating and Parsing Academic Search Queries: A Design Science Approach (Bachelor’s thesis)</li>
 <li>025 <strong>Anna Geßler</strong>: Design of an Emulator for API-based Academic Literature Searches (Bachelor’s thesis)</li>
@@ -321,23 +321,23 @@ div.callout-objective.callout-style-default .callout-icon::before, div.callout-o
 <li>020 <strong>Laureen Thurner</strong>: Understanding the process of organizing participatory knowledge resources: An exploratory study in the context of academic lab handbooks (Bachelor’s thesis)</li>
 <li>019 <strong>Robert Theis</strong>: Analyzing the yield of literature search queries: An open source design science approach (Bachelor’s thesis)</li>
 <li>018 <strong>Aaron Hißting</strong>: Generative artificial intelligence and archetype prompts in software development: A scoping review (Bachelor’s thesis)</li>
-<li>017 <strong>Witalij Kindsvater</strong>: The Impact of Remote Work on Individual Productivity: A Literature Review of Pre-, Peri-, and Post-Pandemic Research (Bachelor’s thesis)</li>
+<li>017 <strong>Witalij Kindsvater</strong>: The impact of remote work on individual productivity: a literature review of pre-, peri-, and post-pandemic research (Bachelor’s thesis)</li>
 <li>014 <strong>Philipp Thomas Raab</strong>: The effects of generative artificial intelligence on software development tasks: A qualitative systematic review (Bachelor’s thesis)</li>
 <li>013 <strong>Moritz van den Hövel</strong>: The state of artificial intelligence in personal information management – A scoping review (Bachelor’s thesis)</li>
 <li>012 <strong>Luca Ossendorf</strong>: Design of a machine-learning classifier for research papers: Identifying literature reviews (Bachelor’s thesis)</li>
 <li>011 <strong>Ivan Shevlyakov</strong>: Techno-stressors in work and non-work contexts: A structured literature review (Bachelor’s thesis)</li>
-<li>010 <strong>Thi Thanh Thao Tran</strong>: Synthesizing the Integration of HR Analytics Across the Employee Life Cycle: A Scoping Review of Stage-Specific Organizational Applications (Master’s thesis)</li>
+<li>010 <strong>Thi Thanh Thao Tran</strong>: Synthesizing the integration of HR analytics across the employee life cycle: a scoping review of stage-specific organizational applications (Master’s thesis)</li>
 <li>009 <strong>Katharina Maria Ernst</strong>: Towards more efficient literature searches: Design of an open source query translator (Bachelor’s thesis, <a href="https://github.com/CoLRev-Environment/search-query" target="_blank">link</a>)</li>
 <li>008 <strong>Hisham Merdan</strong>: Towards more effective backward searches: A novel machine-learning-based approach (Bachlelor’s thesis)</li>
 <li>007 <strong>Nizar Salem</strong>: Design and evaluation of machine learning classifiers to support backward citation searches (Bachelor’s thesis)</li>
 <li>006 <strong>Albert Borchardt</strong>: Automated literature pre-screening in systematic reviews: Design and evaluation of machine learning classifiers (Bachelor’s thesis)</li>
 <li>004 <strong>Do Thuy Duong Nguyen</strong>: Societal impact of telecommuting: A review of prior works (Master’s thesis)</li>
 <li>003 <strong>Antonia Pausch</strong>: Remote work and mental health: A qualitative systematic review (Bachelor’s thesis)</li>
-<li>002 <strong>Salim Kahn</strong>: Artificial Intelligence and Changes in Associated Skill Requirements Across Industry Sectors (Bachelor’s thesis)</li>
-<li>001 <strong>Marina Herold</strong>: The Transformation of Organizational Culture in the Age of Remote Work: A Literature Review (Bachelor’s thesis)</li>
+<li>002 <strong>Salim Kahn</strong>: Artificial intelligence and changes in associated skill requirements across industry sectors (Bachelor’s thesis)</li>
+<li>001 <strong>Marina Herold</strong>: The transformation of organizational culture in the age of remote work: a literature review (Bachelor’s thesis)</li>
 <li><strong>Philip Empl</strong>: Addressing the Inefficiency of Searching Backward: A Novel Tool to Support Authors of Literature Reviews (Bachelor’s thesis)</li>
-<li><strong>Richard Schuster</strong>: How Do We Build on Information Systems Design Science Research? Steps Towards Cumulative Knowledge Development (Bachelor’s thesis)</li>
-<li><strong>Julian Prester</strong>: Uncovering the Epistemological Impact of IS Literature Reviews: A Natural Language Processing Based Approach (Master’s thesis)</li>
+<li><strong>Richard Schuster</strong>: How do we build on information systems design science research? Steps towards cumulative knowledge development (Bachelor’s thesis)</li>
+<li><strong>Julian Prester</strong>: Uncovering the epistemological impact of IS literature reviews: a natural language processing based approach (Master’s thesis)</li>
 </ul>
 
 
