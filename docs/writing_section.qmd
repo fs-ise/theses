@@ -36,6 +36,8 @@ Guidance on the preparation phase of thesis writing is offered in this section.
 It outlines key steps and strategies to help students build a strong foundation for their work.
 Practical advice and recommendations are included to ensure clarity, consistency, and professionalism throughout the writing process.
 
+Review the [evaluation criteria](criteria.html) before getting started with the writing process.
+
   - Getting started
   - Five golden rules
   - Structuring your thesis

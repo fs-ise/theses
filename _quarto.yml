@@ -25,6 +25,8 @@ website:
             href: docs/topics.qmd
           - text: Exposé
             href: docs/expose.qmd
+          - text: Criteria
+            href: docs/criteria.qmd
 
       - section: "Writing"
         contents:
@@ -42,9 +44,6 @@ website:
             href: docs/writing/feedback.qmd
           - text: Polishing
             href: docs/writing/polishing.qmd
-          - text: Criteria
-            href: docs/criteria.qmd
-
       - section: "Outcomes"
         contents:
           - text: Completed theses
