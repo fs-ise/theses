@@ -23,7 +23,7 @@ To start your thesis on the right track, ensure the following setup steps are co
 
 - Use the [Quarto](https://github.com/new?template_name=thesis-template&template_owner=fs-ise){target=_blank} or [Word](https://github.com/fs-ise/theses/raw/refs/heads/main/assets/template.docx){target=_blank} template
 - The [analysis templates section](https://fs-ise.github.io/handbook/research/analysis_templates.html){target=_blank}
-- Set up a reference manager (like Zotero)
+- Set up a reference manager (e.g., Zotero; see the [reference manager guidance](../digital_tools.qmd#reference-managers))
 - Create a schedule and work plan
 - Read the [evaluation criteria](../criteria.html)
 

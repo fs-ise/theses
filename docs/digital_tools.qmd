@@ -3,18 +3,26 @@ title: "Digital tools"
 ---
 
 The integration of digital tools, including large language models (LLMs) like ChatGPT, grammar checkers, and reference managers, is increasingly common in academic research and writing.
-To uphold intellectual honesty and academic ethics, students should transparently acknowledge the use of these tools in their theses.
+To uphold intellectual honesty and academic ethics, students should transparently acknowledge the use of digital tools when appropriate, following the guidance below and their institution’s policies.
 
 ::: callout-note
-To acknowledge the use of digital tools, include a section titled **Digital tools used** after the conclusion of your thesis.
+When applicable, include a section titled **Digital tools used** after the conclusion of your thesis.
 :::
+
+## Reference managers
+
+A reference manager helps you collect and organize sources, insert citations while writing, and create a reference list. **Zotero** is a free, open-source option that works with common word processors. See the [Zotero Quick Start Guide](https://www.zotero.org/support/quick_start_guide) for installation and setup instructions.
+
+A simple workflow is to install Zotero and its browser connector, save sources as you find them, organize them into collections, and use the [word-processor integration](https://www.zotero.org/support/word_processor_integration) to insert citations and generate a bibliography. Check imported details such as author names, titles, dates, and page numbers against the original source, and verify that the final citations and reference list follow the required style.
+
+[JabRef](https://www.jabref.org/) is another open-source option, particularly suited to BibTeX and LaTeX workflows. Choose a tool that fits your writing setup, and keep a separate backup of your library and any attached files.
 
 Usage and acknowledgement
 
 **1. Transparent disclosure**
  - Mention all digital tools utilized, such as grammar checkers and LLMs like ChatGPT. Specify the type of assistance each tool provides.
  - For LLMs/ChatGPT, detail the specific nature of their assistance (e.g., idea generation, language suggestions).
- - If you write a standalone review, you can mention the use of particular reference managers or Excel in the methods section.
+ - Routine use of a reference manager to organize sources and format citations does not need to be cited or separately acknowledged. For a standalone literature review, report the reference manager and its role in the methods section.
  - You do not have to acknowledge basic tools like Microsoft Word.
  - It is not necessary to acknowledge the use of basic spell checkers (in Word, or Grammarly/DeepL).
 
