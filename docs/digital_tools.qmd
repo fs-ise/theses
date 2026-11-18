@@ -11,11 +11,11 @@ When applicable, include a section titled **Digital tools used** after the concl
 
 ## Reference managers
 
-A reference manager helps you collect and organize sources, insert citations while writing, and create a reference list. **Zotero** is a free, open-source option that works with common word processors. See the [Zotero Quick Start Guide](https://www.zotero.org/support/quick_start_guide) for installation and setup instructions.
+A reference manager helps you collect and organize sources, insert citations while writing, and create a reference list. **Zotero** is a free, open-source option that works with common word processors. See the [Zotero Quick Start Guide](https://www.zotero.org/support/quick_start_guide){target=_blank} for installation and setup instructions.
 
-A simple workflow is to install Zotero and its browser connector, save sources as you find them, organize them into collections, and use the [word-processor integration](https://www.zotero.org/support/word_processor_integration) to insert citations and generate a bibliography. Check imported details such as author names, titles, dates, and page numbers against the original source, and verify that the final citations and reference list follow the required style.
+A simple workflow is to install Zotero and its browser connector, save sources as you find them, organize them into collections, and use the [word-processor integration](https://www.zotero.org/support/word_processor_integration){target=_blank} to insert citations and generate a bibliography. Check imported details such as author names, titles, dates, and page numbers against the original source, and verify that the final citations and reference list follow the required style.
 
-[JabRef](https://www.jabref.org/) is another open-source option, particularly suited to BibTeX and LaTeX workflows. Choose a tool that fits your writing setup, and keep a separate backup of your library and any attached files.
+[JabRef](https://www.jabref.org/){target=_blank} is another open-source option, particularly suited to BibTeX and LaTeX workflows. Choose a tool that fits your writing setup, and keep a separate backup of your library and any attached files.
 
 Usage and acknowledgement
 
